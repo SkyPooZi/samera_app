@@ -1,7 +1,10 @@
-import 'package:circle_nav_bar/circle_nav_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
+import 'package:samera_app/core/styles/typography/text_styles.dart';
+
 import '../bloc/navbar_cubit.dart';
+import 'home_screen.dart';
 
 class NavbarScreen extends StatefulWidget {
   final int? index;
@@ -14,7 +17,11 @@ class NavbarScreen extends StatefulWidget {
 
 class _NavbarScreenState extends State<NavbarScreen> {
   final List<Widget> pages = [
-
+    const HomeScreen(),
+    const Scaffold(body: Center(child: Text("Explore"))),
+    const Scaffold(body: Center(child: Text("Trip Planner"))),
+    const Scaffold(body: Center(child: Text("Quest"))),
+    const Scaffold(body: Center(child: Text("Account"))),
   ];
 
   @override
@@ -32,61 +39,82 @@ class _NavbarScreenState extends State<NavbarScreen> {
     return BlocBuilder<NavbarCubit, NavbarState>(
       builder: (context, state) {
         return Scaffold(
-          body: pages[state.tabIndex],
-          bottomNavigationBar: CircleNavBar(
-            activeIcons: [
-              Icon(
-                Icons.home_outlined,
-                color: Theme.of(context).colorScheme.primary,
+          extendBody: true, // Biar scroll view home bisa sampai ke bawah navbar
+          body: IndexedStack(index: state.tabIndex, children: pages),
+          bottomNavigationBar: Container(
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(32),
+                topRight: Radius.circular(32),
               ),
-              Icon(
-                Icons.add_box_outlined,
-                color: Theme.of(context).colorScheme.primary,
-              ),
-              Icon(
-                Icons.list_alt_outlined,
-                color: Theme.of(context).colorScheme.primary,
-              ),
-            ],
-            inactiveIcons: [
-              Icon(
-                Icons.home_outlined,
-                color: Theme.of(context).colorScheme.secondary,
-              ),
-              Icon(
-                Icons.add_box_outlined,
-                color: Theme.of(context).colorScheme.secondary,
-              ),
-              Icon(
-                Icons.list_alt_outlined,
-                color: Theme.of(context).colorScheme.secondary,
-              ),
-            ],
-            levels: [
-
-            ],
-            activeLevelsStyle: Theme.of(context).textTheme.bodySmall,
-            inactiveLevelsStyle:
-                Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Theme.of(context).colorScheme.secondary,
-                    ),
-            color: Theme.of(context).cardColor,
-            circleColor: Theme.of(context).cardColor,
-            tabCurve: Curves.decelerate,
-            iconCurve: Easing.linear,
-            tabDurationMillSec: 500,
-            iconDurationMillSec: 100,
-            activeIndex: state.tabIndex,
-            onTap: (index) {
-              context.read<NavbarCubit>().loadNavbar(index);
-            },
-            cornerRadius: const BorderRadius.only(
-              topLeft: Radius.circular(24),
-              topRight: Radius.circular(24),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withValues(alpha: 0.05),
+                  blurRadius: 10,
+                  offset: const Offset(0, -4),
+                ),
+              ],
             ),
-            shadowColor: Theme.of(context).shadowColor,
-            circleShadowColor: Theme.of(context).shadowColor,
-            elevation: 10,
+            child: ClipRRect(
+              borderRadius: const BorderRadius.only(
+                topLeft: Radius.circular(32),
+                topRight: Radius.circular(32),
+              ),
+              child: BottomNavigationBar(
+                currentIndex: state.tabIndex,
+                onTap: (index) {
+                  context.read<NavbarCubit>().loadNavbar(index);
+                },
+                backgroundColor: Colors.white,
+                type: BottomNavigationBarType.fixed,
+                selectedItemColor: ColorsResources.colorsBlack,
+                unselectedItemColor: ColorsResources.colorsGrey,
+                selectedLabelStyle: tsLabelLargeSemiBold(
+                  ColorsResources.colorsBlack,
+                ),
+                unselectedLabelStyle: tsLabelLargeMedium(
+                  ColorsResources.colorsGrey,
+                ),
+                items: const [
+                  BottomNavigationBarItem(
+                    icon: Padding(
+                      padding: EdgeInsets.only(bottom: 4.0, top: 14.0),
+                      child: Icon(Icons.home, color: Colors.blue),
+                    ),
+                    label: 'Home',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Padding(
+                      padding: EdgeInsets.only(bottom: 4.0),
+                      child: Icon(Icons.explore, color: Colors.orange),
+                    ),
+                    label: 'Explore',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Padding(
+                      padding: EdgeInsets.only(bottom: 4.0),
+                      child: Icon(Icons.route, color: Colors.redAccent),
+                    ),
+                    label: 'Trip Planner',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Padding(
+                      padding: EdgeInsets.only(bottom: 4.0),
+                      child: Icon(Icons.card_giftcard, color: Colors.amber),
+                    ),
+                    label: 'Quest',
+                  ),
+                  BottomNavigationBarItem(
+                    icon: Padding(
+                      padding: EdgeInsets.only(bottom: 4.0),
+                      child: Icon(Icons.person, color: Colors.purple),
+                    ),
+                    label: 'Account',
+                  ),
+                ],
+              ),
+            ),
           ),
         );
       },

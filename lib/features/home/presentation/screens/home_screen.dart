@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:samera_app/core/styles/colors/colors.dart';
 import 'package:samera_app/core/styles/icons/icons.dart';
-import 'package:samera_app/core/styles/images/images.dart';
-
 import '../../../../common/common_section_title.dart';
 import '../../../../common/common_destination_card.dart';
-import '../widgets/home/home_profile_header.dart';
-import '../widgets/home/home_hero_banner.dart';
-import '../widgets/home/home_adventure_menu.dart';
-import '../widgets/home/home_daily_quest_banner.dart';
+import '../widgets/home_profile_header.dart';
+import '../widgets/home_hero_banner.dart';
+import '../widgets/home_adventure_menu.dart';
+import '../widgets/home_daily_quest_banner.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../../../../../core/styles/typography/text_styles.dart';
-import '../../../../../../core/styles/colors/colors.dart';
-import '../../../../../../core/styles/images/images.dart';
+import '../../../../core/styles/typography/text_styles.dart';
+import '../../../../core/styles/colors/colors.dart';
 
 class HomeDailyQuestBanner extends StatelessWidget {
   final String title;

@@ -4,7 +4,7 @@ import '../features/auth/presentation/screens/login/login_screen.dart';
 import '../features/auth/presentation/screens/register/register_screen.dart';
 import '../features/auth/presentation/screens/splash/splash_screen.dart';
 import '../features/navigation/presentation/screens/navbar_screen.dart';
-import '../features/navigation/presentation/screens/home_screen.dart';
+import '../features/home/presentation/screens/home_screen.dart';
 
 class Routes {
   static const String splash = 'splash';

@@ -4,7 +4,7 @@ import 'package:samera_app/core/styles/colors/colors.dart';
 import 'package:samera_app/core/styles/typography/text_styles.dart';
 
 import '../bloc/navbar_cubit.dart';
-import 'home_screen.dart';
+import '../../../home/presentation/screens/home_screen.dart';
 
 class NavbarScreen extends StatefulWidget {
   final int? index;

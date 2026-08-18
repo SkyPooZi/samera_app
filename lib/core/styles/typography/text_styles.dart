@@ -543,3 +543,548 @@ TextStyle tsLabelSmallBold(Color color) {
     fontSize: figmaFontSize(6),
   );
 }
+
+
+// ==========================================
+// ROBOTO SLAB TYPOGRAPHY
+// ==========================================
+
+TextStyle tsRobotoDisplayLargeRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(34),
+  );
+}
+
+TextStyle tsRobotoDisplayLargeMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(34),
+  );
+}
+
+TextStyle tsRobotoDisplayLargeSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(34),
+  );
+}
+
+TextStyle tsRobotoDisplayLargeBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(34),
+  );
+}
+
+TextStyle tsRobotoDisplayMediumRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(32),
+  );
+}
+
+TextStyle tsRobotoDisplayMediumMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(32),
+  );
+}
+
+TextStyle tsRobotoDisplayMediumSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(32),
+  );
+}
+
+TextStyle tsRobotoDisplayMediumBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(32),
+  );
+}
+
+TextStyle tsRobotoDisplaySmallRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(30),
+  );
+}
+
+TextStyle tsRobotoDisplaySmallMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(30),
+  );
+}
+
+TextStyle tsRobotoDisplaySmallSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(30),
+  );
+}
+
+TextStyle tsRobotoDisplaySmallBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(30),
+  );
+}
+
+TextStyle tsRobotoHeadlineLargeRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(28),
+  );
+}
+
+TextStyle tsRobotoHeadlineLargeMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(28),
+  );
+}
+
+TextStyle tsRobotoHeadlineLargeSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(28),
+  );
+}
+
+TextStyle tsRobotoHeadlineLargeBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(28),
+  );
+}
+
+TextStyle tsRobotoHeadlineMediumRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(26),
+  );
+}
+
+TextStyle tsRobotoHeadlineMediumMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(26),
+  );
+}
+
+TextStyle tsRobotoHeadlineMediumSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(26),
+  );
+}
+
+TextStyle tsRobotoHeadlineMediumBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(26),
+  );
+}
+
+TextStyle tsRobotoHeadlineSmallRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(24),
+  );
+}
+
+TextStyle tsRobotoHeadlineSmallMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(24),
+  );
+}
+
+TextStyle tsRobotoHeadlineSmallSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(24),
+  );
+}
+
+TextStyle tsRobotoHeadlineSmallBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(24),
+  );
+}
+
+TextStyle tsRobotoTitleLargeRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(22),
+  );
+}
+
+TextStyle tsRobotoTitleLargeMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(22),
+  );
+}
+
+TextStyle tsRobotoTitleLargeSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(22),
+  );
+}
+
+TextStyle tsRobotoTitleLargeBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(22),
+  );
+}
+
+TextStyle tsRobotoTitleMediumRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(20),
+  );
+}
+
+TextStyle tsRobotoTitleMediumMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(20),
+  );
+}
+
+TextStyle tsRobotoTitleMediumSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(20),
+  );
+}
+
+TextStyle tsRobotoTitleMediumBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(20),
+  );
+}
+
+TextStyle tsRobotoTitleSmallRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(18),
+  );
+}
+
+TextStyle tsRobotoTitleSmallMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(18),
+  );
+}
+
+TextStyle tsRobotoTitleSmallSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(18),
+  );
+}
+
+TextStyle tsRobotoTitleSmallBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(18),
+  );
+}
+
+TextStyle tsRobotoBodyLargeRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(16),
+  );
+}
+
+TextStyle tsRobotoBodyLargeMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(16),
+  );
+}
+
+TextStyle tsRobotoBodyLargeSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(16),
+  );
+}
+
+TextStyle tsRobotoBodyLargeBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(16),
+  );
+}
+
+TextStyle tsRobotoBodyMediumRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(14),
+  );
+}
+
+TextStyle tsRobotoBodyMediumMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(14),
+  );
+}
+
+TextStyle tsRobotoBodyMediumSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(14),
+  );
+}
+
+TextStyle tsRobotoBodyMediumBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(14),
+  );
+}
+
+TextStyle tsRobotoBodySmallRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(12),
+  );
+}
+
+TextStyle tsRobotoBodySmallMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(12),
+  );
+}
+
+TextStyle tsRobotoBodySmallSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(12),
+  );
+}
+
+TextStyle tsRobotoBodySmallBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(12),
+  );
+}
+
+TextStyle tsRobotoLabelLargeRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(10),
+  );
+}
+
+TextStyle tsRobotoLabelLargeMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(10),
+  );
+}
+
+TextStyle tsRobotoLabelLargeSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(10),
+  );
+}
+
+TextStyle tsRobotoLabelLargeBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(10),
+  );
+}
+
+TextStyle tsRobotoLabelMediumRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(8),
+  );
+}
+
+TextStyle tsRobotoLabelMediumMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(8),
+  );
+}
+
+TextStyle tsRobotoLabelMediumSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(8),
+  );
+}
+
+TextStyle tsRobotoLabelMediumBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(8),
+  );
+}
+
+TextStyle tsRobotoLabelSmallRegular(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w400,
+    fontSize: figmaFontSize(6),
+  );
+}
+
+TextStyle tsRobotoLabelSmallMedium(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w500,
+    fontSize: figmaFontSize(6),
+  );
+}
+
+TextStyle tsRobotoLabelSmallSemiBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w600,
+    fontSize: figmaFontSize(6),
+  );
+}
+
+TextStyle tsRobotoLabelSmallBold(Color color) {
+  return TextStyle(
+    fontFamily: 'RobotoSlab',
+    color: color,
+    fontWeight: FontWeight.w700,
+    fontSize: figmaFontSize(6),
+  );
+}

@@ -91,6 +91,13 @@ flutter:
         - asset: assets/fonts/Poppins-Light.ttf
         - asset: assets/fonts/Poppins-ExtraLight.ttf
         - asset: assets/fonts/Poppins-Thin.ttf
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Medium.ttf
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-SemiBold.ttf
+        - asset: assets/fonts/RobotoSlab/RobotoSlab-Bold.ttf
+          
   assets:
     - assets/animations/
     - assets/images/

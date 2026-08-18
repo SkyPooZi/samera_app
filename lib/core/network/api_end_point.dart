@@ -1,5 +1,5 @@
 class ApiEndPoint {
-  static const String baseUrl = 'https://story-api.dicoding.dev/v1';
+  static const String baseUrl = '';
 
   static const String baseUrlRegister = '$baseUrl/register';
   static const String baseUrlLogin = '$baseUrl/login';

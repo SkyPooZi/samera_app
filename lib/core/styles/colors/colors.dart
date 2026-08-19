@@ -7,6 +7,8 @@ class ColorsResources {
   static const Color colorsRed = Color.fromARGB(255, 179, 43, 9);
   static const Color colorsBlue = Color.fromARGB(255, 24, 26, 28);
   static const Color colorsGrey = Color.fromARGB(255, 158, 158, 158);
+  static const Color colorsPrimary = Color.fromARGB(255, 254, 129, 60);
+  static const Color colorsPrimaryLight = Color(0xFFFEF2E8);
   static const Color colorsPastelGreen = Color.fromARGB(255, 194, 253, 206);
   static const Color colorsPastelPeach = Color.fromARGB(255, 249, 211, 167);
   static const Color colorsOranye = Color.fromARGB(255, 253, 195, 49);

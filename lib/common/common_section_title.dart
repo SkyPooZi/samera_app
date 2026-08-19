@@ -15,7 +15,7 @@ class CommonSectionTitle extends StatelessWidget {
         alignment: Alignment.centerLeft,
         child: Text(
           title,
-          style: tsTitleSmallSemiBold(ColorsResources.colorsBlack),
+          style: tsBodyLargeSemiBold(ColorsResources.colorsBlack),
         ),
       ),
     );

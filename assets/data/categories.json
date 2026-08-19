@@ -1,0 +1,37 @@
+[
+  {
+    "id": "destination",
+    "name": "Destinasi",
+    "icon": "location_on",
+    "description": "Wisata alam, pantai, pegunungan, dan panorama.",
+    "color": "#E8F3FF"
+  },
+  {
+    "id": "heritage",
+    "name": "Heritage",
+    "icon": "account_balance",
+    "description": "Candi, bangunan, situs, dan peninggalan sejarah.",
+    "color": "#FFF1DC"
+  },
+  {
+    "id": "cuisine",
+    "name": "Cuisine",
+    "icon": "restaurant",
+    "description": "Kuliner khas dan pengalaman menikmati makanan lokal.",
+    "color": "#EAF8DD"
+  },
+  {
+    "id": "culture",
+    "name": "Culture",
+    "icon": "theater_comedy",
+    "description": "Seni, tradisi, museum, dan warisan budaya.",
+    "color": "#EEE3FF"
+  },
+  {
+    "id": "local_experience",
+    "name": "Local Experience",
+    "icon": "shopping_bag",
+    "description": "Aktivitas dan pengalaman khas masyarakat lokal.",
+    "color": "#FFE5EC"
+  }
+]

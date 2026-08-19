@@ -62,7 +62,7 @@ class HomeAdventureMenuCard extends StatelessWidget {
                           Text(
                             title,
                             style: tsBodyLargeSemiBold(
-                              ColorsResources.colorsBlack,
+                              ColorsResources.colorsPrimary,
                             ),
                           ),
                           const SizedBox(height: 4),
@@ -89,9 +89,9 @@ class HomeAdventureMenuCard extends StatelessWidget {
                         ],
                       ),
                       child: const Icon(
-                        Icons.arrow_forward,
+                        Icons.arrow_forward_rounded,
                         size: 16,
-                        color: ColorsResources.colorsBlack,
+                        color: ColorsResources.colorsPrimary,
                       ),
                     ),
                   ],

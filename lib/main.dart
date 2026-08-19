@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:samera_app/features/navigation/presentation/screens/navbar_screen.dart';
+import 'package:samera_app/features/auth/presentation/screens/splash/splash_screen.dart';
 import 'config/bloc_observer.dart';
 import 'config/bloc_provider.dart';
 import 'config/router.dart';
@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
     final router = AppRouter().router;
     return MultiBlocProvider(
       providers: AppProviders().providers,
-      child: const MaterialApp(
+      child: MaterialApp.router(
         debugShowCheckedModeBanner: false,
-        home: NavbarScreen(),
+        routerConfig: router,
       ),
       // child: BlocBuilder<SettingCubit, SettingState>(
       //   builder: (context, state) {

@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:go_router/go_router.dart';
 import '../../../../../config/router.dart';
 import '../../../../../core/styles/icons/icons.dart';
-import '../../bloc/splash/splash_cubit.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -13,58 +12,99 @@ class SplashScreen extends StatefulWidget {
   State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _scaleAnimation;
+  late Animation<double> _opacityAnimation;
+  late Animation<double> _rotationAnimation;
+
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      context.read<SplashCubit>().checkLogin();
-    });
+    
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 2000),
+    );
+
+    _scaleAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.7, curve: Curves.elasticOut),
+      ),
+    );
+
+    _opacityAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.4, curve: Curves.easeIn),
+      ),
+    );
+
+    _rotationAnimation = Tween<double>(begin: -0.15, end: 0.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: const Interval(0.0, 0.7, curve: Curves.elasticOut),
+      ),
+    );
+
+    _controller.forward();
+    _checkLogin();
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  Future<void> _checkLogin() async {
+    await Future.delayed(const Duration(milliseconds: 2000));
+    
+    if (mounted) {
+      await _controller.reverse();
+    }
+
+    final prefs = await SharedPreferences.getInstance();
+    final isLogin = prefs.getBool('isLogin') ?? false;
+    if (mounted) {
+      if (isLogin) {
+        context.goNamed(Routes.navbar);
+      } else {
+        context.goNamed(Routes.login);
+      }
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    return BlocListener<SplashCubit, SplashState>(
-      listener: (context, state) async {
-        await Future.delayed(const Duration(milliseconds: 1500));
-        if (!mounted) return;
-        if (context.mounted) {
-          context.pushReplacementNamed(
-            state.isLogin ? Routes.navbar : Routes.login,
-          );
-        }
-      },
-      child: Scaffold(
-        body: Center(
-          child: Container(
-            width: double.infinity,
-            decoration: BoxDecoration(
-              color: Theme.of(context).cardTheme.color,
-            ),
-            child: BlocBuilder<SplashCubit, SplashState>(
-              builder: (context, state) {
-                return AnimatedOpacity(
-                  opacity: state.opacity,
-                  duration: const Duration(milliseconds: 1000),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      SvgPicture.asset(
-                        IconsThemes.iconsApp,
-                        width: 100,
-                        height: 100,
-                      ),
-                      SizedBox(height: 10),
-                      Text(
-                        "Story App",
-                        style: Theme.of(context).textTheme.titleMedium,
-                      ),
-                    ],
+    final size = MediaQuery.of(context).size;
+
+    return Scaffold(
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: BoxDecoration(
+          color: Theme.of(context).cardTheme.color,
+        ),
+        child: Center(
+          child: AnimatedBuilder(
+            animation: _controller,
+            builder: (context, child) {
+              return Transform.rotate(
+                angle: _rotationAnimation.value,
+                child: Transform.scale(
+                  scale: _scaleAnimation.value,
+                  child: Opacity(
+                    opacity: _opacityAnimation.value,
+                    child: child,
                   ),
-                );
-              },
+                ),
+              );
+            },
+            child: SvgPicture.asset(
+              IconsThemes.iconSameraLogo,
+              width: size.width * 0.65,
             ),
           ),
         ),

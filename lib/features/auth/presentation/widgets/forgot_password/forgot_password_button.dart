@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class ForgotPasswordButton extends StatelessWidget {
   final String text;
@@ -59,7 +60,7 @@ class ForgotPasswordButton extends StatelessWidget {
                     ),
                     child: const Icon(
                       Icons.send,
-                      color: Color(0xFFF97316),
+                      color: ColorsResources.colorsPrimary,
                       size: 14,
                     ),
                   )

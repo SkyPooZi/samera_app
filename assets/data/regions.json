@@ -1,0 +1,210 @@
+[
+  {
+    "id": "semarang",
+    "name": "Semarang",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/semarang.webp",
+    "tagline": "Kota Pelabuhan & Kuliner",
+    "description": "Semarang adalah kota pesisir yang kaya akan sejarah, arsitektur, kuliner khas, dan perpaduan budaya Jawa dengan pengaruh berbagai bangsa.",
+    "stats": {
+      "destinations": 95,
+      "heritage": 30,
+      "cuisine": 65,
+      "experiences": 40
+    },
+    "sortOrder": 1
+  },
+  {
+    "id": "kudus",
+    "name": "Kudus",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/kudus.webp",
+    "tagline": "Kota Kretek & Warisan Budaya",
+    "description": "Kudus dikenal dengan warisan budaya, bangunan bersejarah, kuliner khas, serta tradisi masyarakat yang masih hidup hingga sekarang.",
+    "stats": {
+      "destinations": 55,
+      "heritage": 25,
+      "cuisine": 45,
+      "experiences": 30
+    },
+    "sortOrder": 2
+  },
+  {
+    "id": "magelang",
+    "name": "Magelang",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/magelang.webp",
+    "tagline": "Pesona Sejarah & Pegunungan",
+    "description": "Magelang menawarkan perpaduan peninggalan sejarah, panorama pegunungan, desa wisata, serta kekayaan budaya yang menarik untuk dijelajahi.",
+    "stats": {
+      "destinations": 85,
+      "heritage": 35,
+      "cuisine": 50,
+      "experiences": 35
+    },
+    "sortOrder": 3
+  },
+  {
+    "id": "solo",
+    "name": "Solo",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/solo.webp",
+    "tagline": "Kota Budaya & Tradisi Jawa",
+    "description": "Solo merupakan salah satu pusat budaya Jawa yang terkenal dengan keraton, batik, kesenian, kuliner, dan suasana kota yang kental dengan tradisi.",
+    "stats": {
+      "destinations": 80,
+      "heritage": 30,
+      "cuisine": 70,
+      "experiences": 45
+    },
+    "sortOrder": 4
+  },
+  {
+    "id": "jepara",
+    "name": "Jepara",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/jepara.webp",
+    "tagline": "Pesona Pesisir & Karimunjawa",
+    "description": "Jepara memiliki pesona wisata pesisir, kepulauan Karimunjawa, kerajinan ukir, serta berbagai kuliner khas yang menjadi identitas daerah.",
+    "stats": {
+      "destinations": 70,
+      "heritage": 20,
+      "cuisine": 40,
+      "experiences": 35
+    },
+    "sortOrder": 5
+  },
+  {
+    "id": "wonosobo",
+    "name": "Wonosobo",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/wonosobo.webp",
+    "tagline": "Negeri di Atas Awan",
+    "description": "Wonosobo menawarkan udara sejuk, panorama pegunungan, dataran tinggi Dieng, telaga, kawah, dan kehidupan pedesaan yang khas.",
+    "stats": {
+      "destinations": 65,
+      "heritage": 15,
+      "cuisine": 35,
+      "experiences": 30
+    },
+    "sortOrder": 6
+  },
+  {
+    "id": "klaten",
+    "name": "Klaten",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/klaten.webp",
+    "tagline": "Mata Air & Warisan Sejarah",
+    "description": "Klaten memiliki perpaduan wisata mata air, peninggalan sejarah, suasana pedesaan, dan kuliner tradisional yang menarik untuk dijelajahi.",
+    "stats": {
+      "destinations": 50,
+      "heritage": 20,
+      "cuisine": 35,
+      "experiences": 25
+    },
+    "sortOrder": 7
+  },
+  {
+    "id": "pati",
+    "name": "Pati",
+    "province": "Jawa Tengah",
+    "provinceId": "jawa_tengah",
+    "image": "assets/images/regions/pati.webp",
+    "tagline": "Pesona Pesisir & Kuliner Tradisional",
+    "description": "Pati menawarkan wisata alam, pesisir, sejarah, serta kuliner tradisional yang menjadi bagian dari kehidupan masyarakat Jawa Tengah.",
+    "stats": {
+      "destinations": 45,
+      "heritage": 15,
+      "cuisine": 35,
+      "experiences": 25
+    },
+    "sortOrder": 8
+  },
+  {
+    "id": "yogyakarta",
+    "name": "Yogyakarta",
+    "province": "DI Yogyakarta",
+    "provinceId": "yogyakarta",
+    "image": "assets/images/regions/yogyakarta.webp",
+    "tagline": "Kota Budaya & Pelajar",
+    "description": "Yogyakarta adalah jantung budaya Jawa yang kaya akan sejarah, seni, kuliner, kreativitas, dan keramahan penduduknya.",
+    "stats": {
+      "destinations": 120,
+      "heritage": 35,
+      "cuisine": 80,
+      "experiences": 50
+    },
+    "sortOrder": 9
+  },
+  {
+    "id": "sleman",
+    "name": "Sleman",
+    "province": "DI Yogyakarta",
+    "provinceId": "yogyakarta",
+    "image": "assets/images/regions/sleman.webp",
+    "tagline": "Pesona Merapi & Candi",
+    "description": "Sleman menawarkan panorama Gunung Merapi, peninggalan candi, desa wisata, serta berbagai aktivitas alam dan budaya.",
+    "stats": {
+      "destinations": 90,
+      "heritage": 30,
+      "cuisine": 55,
+      "experiences": 45
+    },
+    "sortOrder": 10
+  },
+  {
+    "id": "bantul",
+    "name": "Bantul",
+    "province": "DI Yogyakarta",
+    "provinceId": "yogyakarta",
+    "image": "assets/images/regions/bantul.webp",
+    "tagline": "Pantai, Seni & Desa Wisata",
+    "description": "Bantul menghadirkan pantai selatan, sentra kerajinan, desa wisata, kuliner tradisional, dan berbagai pengalaman budaya masyarakat lokal.",
+    "stats": {
+      "destinations": 75,
+      "heritage": 20,
+      "cuisine": 50,
+      "experiences": 45
+    },
+    "sortOrder": 11
+  },
+  {
+    "id": "gunungkidul",
+    "name": "Gunungkidul",
+    "province": "DI Yogyakarta",
+    "provinceId": "yogyakarta",
+    "image": "assets/images/regions/gunungkidul.webp",
+    "tagline": "Surga Pantai & Karst",
+    "description": "Gunungkidul terkenal dengan deretan pantai, kawasan karst, gua, perbukitan, dan lanskap alam yang menjadi daya tarik utama Yogyakarta.",
+    "stats": {
+      "destinations": 110,
+      "heritage": 15,
+      "cuisine": 40,
+      "experiences": 45
+    },
+    "sortOrder": 12
+  },
+  {
+    "id": "kulon_progo",
+    "name": "Kulon Progo",
+    "province": "DI Yogyakarta",
+    "provinceId": "yogyakarta",
+    "image": "assets/images/regions/kulon_progo.webp",
+    "tagline": "Perbukitan & Alam yang Menenangkan",
+    "description": "Kulon Progo menawarkan perbukitan hijau, waduk, pantai, desa wisata, serta suasana alam yang cocok untuk menikmati perjalanan dengan lebih santai.",
+    "stats": {
+      "destinations": 65,
+      "heritage": 15,
+      "cuisine": 35,
+      "experiences": 35
+    },
+    "sortOrder": 13
+  }
+]

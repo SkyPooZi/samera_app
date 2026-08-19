@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import '../../../../../../core/styles/icons/icons.dart';
 
 class ForgotPasswordCardContainer extends StatelessWidget {
   final Widget child;
@@ -46,7 +47,7 @@ class ForgotPasswordCardContainer extends StatelessWidget {
               ),
               child: Center(
                 child: SvgPicture.asset(
-                  'assets/icons/mail-asset.svg',
+                  IconsThemes.iconMail,
                   width: 32,
                   height: 32,
                 ),

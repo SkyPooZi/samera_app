@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class ForgotPasswordInfoBox extends StatelessWidget {
   final String text;
@@ -17,14 +18,14 @@ class ForgotPasswordInfoBox extends StatelessWidget {
         children: [
           const Icon(
             Icons.check_circle,
-            color: Color(0xFFF97316),
+            color: ColorsResources.colorsPrimary,
             size: 24,
           ),
           const SizedBox(width: 12),
           Expanded(
             child: Text(
               text,
-              style: tsLabelLargeMedium(const Color(0xFFF97316)),
+              style: tsLabelLargeMedium(ColorsResources.colorsPrimary),
             ),
           ),
         ],

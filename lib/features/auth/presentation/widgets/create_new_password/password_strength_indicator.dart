@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class PasswordStrengthIndicator extends StatelessWidget {
   final int strength; // 0 to 6
@@ -15,7 +16,7 @@ class PasswordStrengthIndicator extends StatelessWidget {
     
     if (clampedStrength >= 4) {
       strengthText = "Kuat";
-      strengthColor = const Color(0xFFF97316);
+      strengthColor = ColorsResources.colorsPrimary;
     } else if (clampedStrength >= 2) {
       strengthText = "Sedang";
       strengthColor = Colors.orange;
@@ -30,7 +31,7 @@ class PasswordStrengthIndicator extends StatelessWidget {
               height: 4,
               margin: const EdgeInsets.only(right: 4),
               decoration: BoxDecoration(
-                color: isActive ? const Color(0xFFF97316) : Colors.grey.shade300,
+                color: isActive ? ColorsResources.colorsPrimary : Colors.grey.shade300,
                 borderRadius: BorderRadius.circular(2),
               ),
             ),

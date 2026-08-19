@@ -5,6 +5,8 @@ import '../../widgets/create_new_password/create_new_password_card.dart';
 import '../../widgets/create_new_password/create_new_password_text_field.dart';
 import '../../widgets/create_new_password/password_requirement_box.dart';
 import '../../widgets/create_new_password/password_strength_indicator.dart';
+import 'package:go_router/go_router.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class CreateNewPasswordScreen extends StatefulWidget {
   const CreateNewPasswordScreen({super.key});
@@ -67,7 +69,7 @@ class _CreateNewPasswordScreenState extends State<CreateNewPasswordScreen> {
             ),
             child: IconButton(
               icon: const Icon(Icons.chevron_left, color: Colors.black87),
-              onPressed: () => Navigator.pop(context),
+              onPressed: () => context.pop(),
             ),
           ),
         ),
@@ -110,7 +112,7 @@ class _CreateNewPasswordScreenState extends State<CreateNewPasswordScreen> {
                       text: "Konfirmasi",
                       textStyle: tsBodyMediumSemiBold(Colors.white),
                       isValid: isValid,
-                      validColor: const Color(0xFFF97316),
+                      validColor: ColorsResources.colorsPrimary,
                       invalidColor: Colors.grey.shade400,
                       onPressed: () {
                         // Handle password reset

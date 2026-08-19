@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class PasswordRequirementBox extends StatelessWidget {
   final String password;
@@ -45,7 +46,7 @@ class PasswordRequirementBox extends StatelessWidget {
       children: [
         Icon(
           Icons.check_circle,
-          color: isMet ? const Color(0xFFF97316) : Colors.grey.shade400,
+          color: isMet ? ColorsResources.colorsPrimary : Colors.grey.shade400,
           size: 16,
         ),
         const SizedBox(width: 8),

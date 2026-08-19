@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class ForgotPasswordTextField extends StatelessWidget {
   final String label;
@@ -37,7 +38,7 @@ class ForgotPasswordTextField extends StatelessWidget {
             ),
             child: Icon(
               icon,
-              color: const Color(0xFFF97316),
+              color: ColorsResources.colorsPrimary,
               size: size.width * 0.045,
             ),
           ),

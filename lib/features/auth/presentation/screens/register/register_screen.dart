@@ -4,10 +4,14 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../../core/helper/snackbar.dart';
 import '../../../../../core/helper/validate_helper.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
+import '../../../../../core/styles/images/images.dart';
+import '../../../../../core/styles/icons/icons.dart';
 import '../../widgets/login/auth_button.dart';
 import '../../widgets/login/auth_card_container.dart';
 import '../../widgets/login/auth_social_button.dart';
 import '../../widgets/login/auth_text_field.dart';
+import 'package:go_router/go_router.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});
@@ -38,7 +42,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/bg-login-asset.jpg'),
+            image: AssetImage(ImagesThemes.imgBgLogin),
             fit: BoxFit.cover,
           ),
         ),
@@ -55,8 +59,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         padding: EdgeInsets.only(top: size.height * 0.03),
                         child: Text(
                           "Samera",
-                          style: tsDisplayMediumSemiBold(const Color(0xFF293822))
-                              .copyWith(fontFamily: 'RobotoSlab'),
+                          style: tsRobotoDisplayMediumSemiBold(const Color(0xFF293822)),
                         ),
                       ),
                       Padding(
@@ -64,13 +67,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         child: RichText(
                           text: TextSpan(
                             text: "Your Journey, Our Guide ",
-                            style: tsBodyMediumSemiBold(const Color(0xFF293822))
-                                .copyWith(fontFamily: 'RobotoSlab'),
+                            style: tsRobotoBodyMediumSemiBold(const Color(0xFF293822)),
                             children: [
                               TextSpan(
                                 text: "\u2665\uFE0E",
-                                style: tsBodyMediumSemiBold(const Color(0xFF293822))
-                                    .copyWith(fontFamily: 'RobotoSlab'),
+                                style: tsRobotoBodyMediumSemiBold(const Color(0xFF293822)),
                               ),
                             ],
                           ),
@@ -163,7 +164,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                         text: "Sign Up",
                                         isLoading: _isLoading,
                                         isValid: isValid,
-                                        validColor: const Color(0xFFF97316),
+                                        validColor: ColorsResources.colorsPrimary,
                                         invalidColor: Colors.grey.shade400,
                                         textStyle: tsBodyMediumSemiBold(
                                           Colors.white,
@@ -187,7 +188,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                               context,
                                               "Berhasil mendaftar",
                                             );
-                                            Navigator.pop(context);
+                                            context.pop();
                                           }
                                         },
                                       );
@@ -232,7 +233,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                     children: [
                                       Expanded(
                                         child: AuthSocialButton(
-                                          svgAsset: 'assets/icons/google-asset.svg',
+                                          svgAsset: IconsThemes.iconGoogle,
                                           text: "Google",
                                           textStyle: tsLabelLargeBold(
                                             Colors.black87,
@@ -268,11 +269,11 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                         ),
                                       ),
                                       GestureDetector(
-                                        onTap: () => Navigator.pop(context),
+                                        onTap: () => context.pop(),
                                         child: Text(
                                           "Login",
                                           style: tsBodySmallBold(
-                                            const Color(0xFFF97316),
+                                            ColorsResources.colorsPrimary,
                                           ),
                                         ),
                                       ),

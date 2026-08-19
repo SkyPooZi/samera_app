@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class InboxVerificationButton extends StatelessWidget {
   final String text;
@@ -59,7 +60,7 @@ class InboxVerificationButton extends StatelessWidget {
                     ),
                     child: const Icon(
                       Icons.arrow_forward_rounded,
-                      color: Color(0xFFF97316),
+                      color: ColorsResources.colorsPrimary,
                       size: 14,
                     ),
                   )

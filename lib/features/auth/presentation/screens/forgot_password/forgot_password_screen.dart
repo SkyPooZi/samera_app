@@ -3,11 +3,15 @@ import 'package:flutter/material.dart';
 import '../../../../../core/helper/validate_helper.dart';
 
 import '../../../../../core/styles/typography/text_styles.dart';
+import '../../../../../core/styles/images/images.dart';
 import '../../widgets/forgot_password/forgot_password_button.dart';
 import '../../widgets/forgot_password/forgot_password_card.dart';
 import '../../widgets/forgot_password/forgot_password_info_box.dart';
 import '../../widgets/forgot_password/forgot_password_text_field.dart';
+import 'package:go_router/go_router.dart';
+import '../../../../../config/router.dart';
 import '../inbox_verification_code/inbox_verification_screen.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class ForgotPasswordScreen extends StatefulWidget {
   const ForgotPasswordScreen({super.key});
@@ -33,7 +37,7 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/bg-login-asset.jpg'),
+            image: AssetImage(ImagesThemes.imgBgLogin),
             fit: BoxFit.cover,
           ),
         ),
@@ -55,9 +59,9 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                         ),
                         child: Text(
                           "Forgot\nPassword?",
-                          style: tsDisplayMediumSemiBold(
+                          style: tsRobotoDisplayMediumSemiBold(
                             const Color(0xFF1E8276),
-                          ).copyWith(fontFamily: 'RobotoSlab', height: 1.1),
+                          ).copyWith(height: 1.1),
                         ),
                       ),
                       Padding(
@@ -139,16 +143,12 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                                       text: "Kirim Kode",
                                       textStyle: tsBodyMediumSemiBold(Colors.white),
                                       isValid: isValid,
-                                      validColor: const Color(0xFFF97316),
+                                      validColor: ColorsResources.colorsPrimary,
                                       invalidColor: Colors.grey.shade400,
                                       onPressed: () {
-                                        Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                            builder: (context) => InboxVerificationScreen(
-                                              email: emailController.text,
-                                            ),
-                                          ),
+                                        context.pushNamed(
+                                          Routes.inboxVerification,
+                                          extra: emailController.text,
                                         );
                                       },
                                     );
@@ -170,11 +170,11 @@ class _ForgotPasswordScreenState extends State<ForgotPasswordScreen> {
                                       ),
                                     ),
                                     GestureDetector(
-                                      onTap: () => Navigator.pop(context),
+                                      onTap: () => context.pop(),
                                       child: Text(
                                         "Login",
                                         style: tsBodySmallBold(
-                                          const Color(0xFFF97316),
+                                          ColorsResources.colorsPrimary,
                                         ),
                                       ),
                                     ),

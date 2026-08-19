@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../../../core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class AuthTextField extends StatefulWidget {
   final String label;
@@ -47,7 +48,7 @@ class _AuthTextFieldState extends State<AuthTextField> {
             ),
             child: Icon(
               widget.icon,
-              color: const Color(0xFFF97316), // Hardcoded icon color
+              color: ColorsResources.colorsPrimary, // Hardcoded icon color
               size: size.width * 0.045,
             ),
           ),

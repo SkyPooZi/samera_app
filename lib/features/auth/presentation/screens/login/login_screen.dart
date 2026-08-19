@@ -4,13 +4,18 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../../../core/helper/snackbar.dart';
 import '../../../../../core/helper/validate_helper.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
-import '../../../../navigation/presentation/screens/navbar_screen.dart';
+import '../../../../../core/styles/images/images.dart';
+import '../../../../../core/styles/icons/icons.dart';
+import '../../../../home/presentation/screens/home_screen.dart';
 import '../../widgets/login/auth_button.dart';
 import '../../widgets/login/auth_card_container.dart';
 import '../../widgets/login/auth_social_button.dart';
 import '../../widgets/login/auth_text_field.dart';
+import 'package:go_router/go_router.dart';
+import '../../../../../config/router.dart';
 import '../forgot_password/forgot_password_screen.dart';
 import '../register/register_screen.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -40,7 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/images/bg-login-asset.jpg'),
+            image: AssetImage(ImagesThemes.imgBgLogin),
             fit: BoxFit.cover,
           ),
         ),
@@ -57,9 +62,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         padding: EdgeInsets.only(top: size.height * 0.03),
                         child: Text(
                           "Samera",
-                          style: tsDisplayMediumSemiBold(
+                          style: tsRobotoDisplayMediumSemiBold(
                             const Color(0xFF293822),
-                          ).copyWith(fontFamily: 'RobotoSlab'),
+                          ),
                         ),
                       ),
                       Padding(
@@ -67,14 +72,13 @@ class _LoginScreenState extends State<LoginScreen> {
                         child: RichText(
                           text: TextSpan(
                             text: "Your Journey, Our Guide ",
-                            style: tsBodyMediumSemiBold(const Color(0xFF293822))
-                                .copyWith(fontFamily: 'RobotoSlab'),
+                            style: tsRobotoBodyMediumSemiBold(const Color(0xFF293822)),
                             children: [
                               TextSpan(
                                 text: "\u2665\uFE0E",
-                                style: tsBodyMediumSemiBold(
+                                style: tsRobotoBodyMediumSemiBold(
                                   const Color(0xFF293822),
-                                ).copyWith(fontFamily: 'RobotoSlab'),
+                                ),
                               ),
                             ],
                           ),
@@ -148,17 +152,12 @@ class _LoginScreenState extends State<LoginScreen> {
                                     alignment: Alignment.centerRight,
                                     child: GestureDetector(
                                       onTap: () {
-                                        Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                            builder: (context) => const ForgotPasswordScreen(),
-                                          ),
-                                        );
+                                        context.pushNamed(Routes.forgotPassword);
                                       },
                                       child: Text(
                                         "Forgot Password?",
                                         style: tsLabelLargeSemiBold(
-                                          const Color(0xFFF97316),
+                                          ColorsResources.colorsPrimary,
                                         ),
                                       ),
                                     ),
@@ -188,7 +187,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                         text: "Login",
                                         isLoading: _isLoading,
                                         isValid: isValid,
-                                        validColor: const Color(0xFFF97316),
+                                        validColor: ColorsResources.colorsPrimary,
                                         invalidColor: Colors.grey.shade400,
                                         textStyle: tsBodyMediumSemiBold(
                                           Colors.white,
@@ -225,12 +224,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                                 context,
                                                 "Berhasil masuk",
                                               );
-                                              Navigator.pushReplacement(
-                                                context,
-                                                MaterialPageRoute(
-                                                  builder: (context) => const NavbarScreen(index: 0),
-                                                ),
-                                              );
+                                              context.goNamed(Routes.navbar);
                                             }
                                           }
                                         },
@@ -277,7 +271,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                       Expanded(
                                         child: AuthSocialButton(
                                           svgAsset:
-                                              'assets/icons/google-asset.svg',
+                                              IconsThemes.iconGoogle,
                                           text: "Google",
                                           textStyle: tsLabelLargeBold(
                                             Colors.black87,
@@ -313,17 +307,11 @@ class _LoginScreenState extends State<LoginScreen> {
                                         ),
                                       ),
                                       GestureDetector(
-                                        onTap: () => Navigator.push(
-                                          context,
-                                          MaterialPageRoute(
-                                            builder: (context) =>
-                                                const RegisterScreen(),
-                                          ),
-                                        ),
+                                        onTap: () => context.pushNamed(Routes.register),
                                         child: Text(
                                           "Sign Up",
                                           style: tsBodySmallBold(
-                                            const Color(0xFFF97316),
+                                            ColorsResources.colorsPrimary,
                                           ),
                                         ),
                                       ),

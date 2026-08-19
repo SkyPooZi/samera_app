@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../../core/styles/typography/text_styles.dart';
 import '../../../../core/styles/colors/colors.dart';
+import '../../../../core/styles/images/images.dart';
 
 class HomeDailyQuestBanner extends StatelessWidget {
   final String title;
@@ -29,9 +30,10 @@ class HomeDailyQuestBanner extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        margin: const EdgeInsets.symmetric(horizontal: 24.0),
+        margin: const EdgeInsets.symmetric(horizontal: 28.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20.0),
+          border: Border.all(color: ColorsResources.colorsPrimary, width: 2.0),
           boxShadow: [
             BoxShadow(
               color: Colors.black.withValues(alpha: 0.08),
@@ -41,14 +43,17 @@ class HomeDailyQuestBanner extends StatelessWidget {
           ],
         ),
         child: ClipRRect(
-          borderRadius: BorderRadius.circular(20.0),
+          borderRadius: BorderRadius.circular(18.0),
           child: Stack(
             children: [
               Positioned.fill(
-                child: CustomPaint(painter: _WavyBackgroundPainter()),
+                child: Image.asset(
+                  ImagesThemes.imgBgDailyQuest,
+                  fit: BoxFit.cover,
+                ),
               ),
               Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.symmetric(vertical: 28.0, horizontal: 20.0),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -56,16 +61,11 @@ class HomeDailyQuestBanner extends StatelessWidget {
                       children: [
                         const Icon(
                           Icons.track_changes,
-                          size: 16,
-                          color: Colors.orange,
+                          size: 20,
+                          color: Colors.white,
                         ),
-                        const SizedBox(width: 4),
-                        Text(
-                          title,
-                          style: tsBodySmallSemiBold(
-                            ColorsResources.colorsBlack,
-                          ),
-                        ),
+                        const SizedBox(width: 8),
+                        Text(title, style: tsBodySmallSemiBold(Colors.white)),
                       ],
                     ),
                     const SizedBox(height: 12),
@@ -78,7 +78,7 @@ class HomeDailyQuestBanner extends StatelessWidget {
                             shape: BoxShape.circle,
                             color: Colors.white,
                             border: Border.all(
-                              color: ColorsResources.colorsOranye,
+                              color: ColorsResources.colorsPrimary,
                               width: 2.0,
                             ),
                           ),
@@ -105,62 +105,45 @@ class HomeDailyQuestBanner extends StatelessWidget {
                             children: [
                               Text(
                                 description,
-                                style: tsBodySmallBold(
-                                  ColorsResources.colorsBlack,
-                                ),
+                                style: tsBodyMediumSemiBold(Colors.white)
+                                    .copyWith(
+                                      shadows: [
+                                        Shadow(
+                                          color: Colors.black.withValues(
+                                            alpha: 0.6,
+                                          ),
+                                          offset: const Offset(1, 1),
+                                          blurRadius: 3.0,
+                                        ),
+                                      ],
+                                    ),
                               ),
                               const SizedBox(height: 8),
                               Row(
                                 children: [
                                   Text(
                                     '$currentProgress / $totalProgress',
-                                    style: tsLabelLargeSemiBold(Colors.orange),
+                                    style: tsBodySmallSemiBold(Colors.white),
                                   ),
                                   const SizedBox(width: 4),
                                   Text(
                                     progressLabel,
-                                    style: tsLabelLargeMedium(
-                                      ColorsResources.colorsGrey,
-                                    ),
+                                    style: tsBodySmallSemiBold(Colors.white70),
                                   ),
                                 ],
                               ),
                               const SizedBox(height: 4),
                               LinearProgressIndicator(
                                 value: currentProgress / totalProgress,
-                                backgroundColor: Colors.white,
-                                color: Colors.orange,
+                                backgroundColor: Colors.white.withValues(
+                                  alpha: 0.5,
+                                ),
+                                color: ColorsResources.colorsPrimary,
                                 borderRadius: BorderRadius.circular(4),
                                 minHeight: 6,
                               ),
                             ],
                           ),
-                        ),
-                        const SizedBox(width: 8),
-                        Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-
-                            Container(
-                              padding: const EdgeInsets.all(8.0),
-                              decoration: BoxDecoration(
-                                color: Colors.white,
-                                shape: BoxShape.circle,
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.black.withValues(alpha: 0.1),
-                                    blurRadius: 4,
-                                    offset: const Offset(0, 2),
-                                  ),
-                                ],
-                              ),
-                              child: const Icon(
-                                Icons.arrow_forward,
-                                size: 16,
-                                color: ColorsResources.colorsBlack,
-                              ),
-                            ),
-                          ],
                         ),
                       ],
                     ),
@@ -173,78 +156,4 @@ class HomeDailyQuestBanner extends StatelessWidget {
       ),
     );
   }
-}
-
-class _WavyBackgroundPainter extends CustomPainter {
-  @override
-  void paint(Canvas canvas, Size size) {
-    // Base: Top right corner is visible
-    canvas.drawRect(
-      Rect.fromLTWH(0, 0, size.width, size.height),
-      Paint()..color = const Color(0xFFEFC385),
-    );
-
-    // Layer 1: Very light, starts high on left, dips to right
-    final path1 = Path();
-    path1.moveTo(0, size.height * 0.05); // almost at top left
-    path1.quadraticBezierTo(
-      size.width * 0.25,
-      -size.height * 0.05,
-      size.width * 0.5,
-      size.height * 0.15,
-    );
-    path1.quadraticBezierTo(
-      size.width * 0.75,
-      size.height * 0.3,
-      size.width,
-      size.height * 0.15,
-    );
-    path1.lineTo(size.width, size.height);
-    path1.lineTo(0, size.height);
-    path1.close();
-    canvas.drawPath(path1, Paint()..color = const Color(0xFFF9D8AA));
-
-    // Layer 2: Medium, starts mid-high on left, swoops down
-    final path2 = Path();
-    path2.moveTo(0, size.height * 0.3);
-    path2.quadraticBezierTo(
-      size.width * 0.3,
-      size.height * 0.1,
-      size.width * 0.6,
-      size.height * 0.35,
-    );
-    path2.quadraticBezierTo(
-      size.width * 0.8,
-      size.height * 0.5,
-      size.width,
-      size.height * 0.3,
-    );
-    path2.lineTo(size.width, size.height);
-    path2.lineTo(0, size.height);
-    path2.close();
-    canvas.drawPath(path2, Paint()..color = const Color(0xFFF3D1A3));
-
-    // Layer 3: Bottom block, starts lower on left, smooth curve
-    final path3 = Path();
-    path3.moveTo(0, size.height * 0.55);
-    path3.quadraticBezierTo(
-      size.width * 0.4,
-      size.height * 0.4,
-      size.width * 0.7,
-      size.height * 0.55,
-    );
-    path3.quadraticBezierTo(
-      size.width * 0.9,
-      size.height * 0.6,
-      size.width,
-      size.height * 0.45,
-    );
-    path3.lineTo(size.width, size.height);
-    path3.lineTo(0, size.height);
-    path3.close();
-    canvas.drawPath(path3, Paint()..color = const Color(0xFFFEEDD5));
-  }
-
-  @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }

@@ -10,6 +10,11 @@ import '../features/auth/presentation/bloc/login/login_bloc.dart';
 import '../features/auth/presentation/bloc/register/register_bloc.dart';
 import '../features/auth/presentation/bloc/splash/splash_cubit.dart';
 import '../features/navigation/presentation/bloc/navbar_cubit.dart';
+import '../features/home/data/datasources/local/home_local_data_source.dart';
+import '../features/home/data/repositories/home_repository_impl.dart';
+import '../features/home/domain/usecases/get_recommendations.dart';
+import '../features/home/presentation/bloc/home_bloc.dart';
+import '../features/home/presentation/bloc/home_event.dart';
 
 class AppProviders {
   final providers = [
@@ -60,6 +65,16 @@ class AppProviders {
             authRepository: authRepository,
           ),
         );
+      },
+    ),
+    BlocProvider<HomeBloc>(
+      create: (context) {
+        final repository = HomeRepositoryImpl(
+          localDataSource: HomeLocalDataSourceImpl(),
+        );
+        return HomeBloc(
+          getRecommendations: GetRecommendations(repository),
+        )..add(LoadRecommendations());
       },
     ),
   ];

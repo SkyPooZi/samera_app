@@ -54,10 +54,17 @@ class CommonDestinationCard extends StatelessWidget {
                 alignment: Alignment.topRight,
                 child: GestureDetector(
                   onTap: onFavoriteTap,
-                  child: Icon(
-                    Icons.favorite_border,
-                    color: Colors.white,
-                    size: size.width * 0.05, // Ukuran icon responsif
+                  child: Container(
+                    padding: const EdgeInsets.all(6.0),
+                    decoration: const BoxDecoration(
+                      color: ColorsResources.colorsPrimary,
+                      shape: BoxShape.circle,
+                    ),
+                    child: Icon(
+                      Icons.favorite_border,
+                      color: Colors.white,
+                      size: size.width * 0.04,
+                    ),
                   ),
                 ),
               ),
@@ -66,53 +73,13 @@ class CommonDestinationCard extends StatelessWidget {
                 children: [
                   Text(
                     title,
-                    style: tsBodyMediumSemiBold(ColorsResources.colorsWhite),
+                    style: tsBodyLargeSemiBold(ColorsResources.colorsWhite),
                   ),
-                  SizedBox(height: size.height * 0.005),
-                  Row(
-                    children: [
-                      Icon(
-                        Icons.location_on,
-                        color: Colors.white,
-                        size: size.width * 0.03, // Ukuran icon responsif
-                      ),
-                      const SizedBox(width: 2),
-                      Expanded(
-                        child: Text(
-                          location,
-                          style: tsLabelMediumSemiBold(
-                            ColorsResources.colorsWhite,
-                          ),
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ),
-                      Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 6.0,
-                          vertical: 2.0,
-                        ),
-                        decoration: BoxDecoration(
-                          color: ColorsResources.colorsBlackLight,
-                          borderRadius: BorderRadius.circular(25.0),
-                        ),
-                        child: Row(
-                          children: [
-                            Icon(
-                              Icons.star,
-                              color: Colors.amber,
-                              size: size.width * 0.03, // Ukuran icon responsif
-                            ),
-                            const SizedBox(width: 2),
-                            Text(
-                              rating.toString(),
-                              style: tsLabelMediumSemiBold(
-                                ColorsResources.colorsWhite,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ],
+                  SizedBox(height: size.height * 0.002),
+                  Text(
+                    location,
+                    style: tsLabelLargeMedium(ColorsResources.colorsWhite),
+                    overflow: TextOverflow.ellipsis,
                   ),
                 ],
               ),

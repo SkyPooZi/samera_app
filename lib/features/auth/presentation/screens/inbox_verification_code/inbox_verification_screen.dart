@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
+import '../../../../../core/styles/images/images.dart';
 import '../../widgets/inbox_verification_code/inbox_otp_input.dart';
 import '../../widgets/inbox_verification_code/inbox_verification_button.dart';
 import '../../widgets/inbox_verification_code/inbox_verification_card.dart';
+import 'package:go_router/go_router.dart';
+import '../../../../../config/router.dart';
 import '../create_new_password/create_new_password_screen.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class InboxVerificationScreen extends StatefulWidget {
   final String email;
@@ -44,7 +48,7 @@ class _InboxVerificationScreenState extends State<InboxVerificationScreen> {
             ),
             child: IconButton(
               icon: const Icon(Icons.chevron_left, color: Colors.black87),
-              onPressed: () => Navigator.pop(context),
+              onPressed: () => context.pop(),
             ),
           ),
         ),
@@ -61,7 +65,7 @@ class _InboxVerificationScreenState extends State<InboxVerificationScreen> {
               SizedBox(
                 height: size.height * 0.2, // increased slightly to give the image more room
                 child: Image.asset(
-                  'assets/images/bg-mail-asset.png',
+                  ImagesThemes.imgMail,
                   fit: BoxFit.contain,
                 ),
               ),
@@ -79,7 +83,7 @@ class _InboxVerificationScreenState extends State<InboxVerificationScreen> {
                   children: [
                     TextSpan(
                       text: widget.email,
-                      style: tsLabelLargeSemiBold(const Color(0xFFF97316)),
+                      style: tsLabelLargeSemiBold(ColorsResources.colorsPrimary),
                     ),
                   ],
                 ),
@@ -115,7 +119,7 @@ class _InboxVerificationScreenState extends State<InboxVerificationScreen> {
                         children: [
                           TextSpan(
                             text: "00.45",
-                            style: tsBodySmallBold(const Color(0xFFF97316)),
+                            style: tsBodySmallBold(ColorsResources.colorsPrimary),
                           ),
                         ],
                       ),
@@ -125,15 +129,10 @@ class _InboxVerificationScreenState extends State<InboxVerificationScreen> {
                       text: "Kirim Kode",
                       textStyle: tsBodyMediumSemiBold(Colors.white),
                       isValid: _isCodeComplete,
-                      validColor: const Color(0xFFF97316),
+                      validColor: ColorsResources.colorsPrimary,
                       invalidColor: Colors.grey.shade400,
                       onPressed: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                            builder: (context) => const CreateNewPasswordScreen(),
-                          ),
-                        );
+                        context.pushNamed(Routes.createNewPassword);
                       },
                     ),
                     SizedBox(height: size.height * 0.03),
@@ -150,7 +149,7 @@ class _InboxVerificationScreenState extends State<InboxVerificationScreen> {
                           },
                           child: Text(
                             "Kirim Ulang Kode",
-                            style: tsBodySmallBold(const Color(0xFFF97316)),
+                            style: tsBodySmallBold(ColorsResources.colorsPrimary),
                           ),
                         ),
                       ],

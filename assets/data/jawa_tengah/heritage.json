@@ -1,0 +1,236 @@
+[
+  {
+    "id": "jateng_heritage_001",
+    "name": "Candi Borobudur",
+    "location": "Magelang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Candi Buddha monumental dengan stupa dan relief.",
+    "description": "Salah satu warisan budaya paling penting di Jawa Tengah.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Magelang, Jawa Tengah",
+    "highlights": [
+      "Stupa",
+      "Relief",
+      "Sunrise",
+      "Warisan budaya"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4_dCgtX4eIgxlTshtBELU3tv-9rGdJBHlGmVARExwA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDLeD2ZIT_vWrorckB0uzNw0gaFER5WMeY0JH-XzLirQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeHaUeejXSEqkIrrIqViw7ghA9DIQwsgc6hbuZ4IA_Vg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwM0J9KZvznB_naFB6OCzd2S8gAkbPfnPyEZd2udcODA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ep-VsVmNofenqRTuzrl5DBRDxI5I12Ymd6NbDf5HqQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/jawa_tengah/Candi Borobudur 360.jpg",
+      "label": "360° Tour"
+    },
+    "isRecommended": true
+  },
+  {
+    "id": "jateng_heritage_002",
+    "name": "Lawang Sewu",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Bangunan bersejarah dengan arsitektur kolonial khas Semarang.",
+    "description": "Bangunan ikonik yang menjadi salah satu landmark sejarah Kota Semarang.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Arsitektur kolonial",
+      "Sejarah",
+      "Museum"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdk7ZSTcF_FxUQPWoPsfu3lun8Ibqdfx7IJ0IcsNmF-g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR34VcNIXrrsRQZt_NIZd3TKyj3_-_J_yNlQ0ZNh7g-GQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEGvWYOE6awS9X7038iCINYwtWZF6b6ANY-1GptBEpVw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82Wegt6XVWx7ZtguPmrQ0sHvPiGUCNGgDnkbeo4Ffsw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCSManIybXeE2keXLCSCjYX3Vbt6Mc_D6KJDCLKqSGow&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": true
+  },
+  {
+    "id": "jateng_heritage_003",
+    "name": "Candi Gedong Songo",
+    "location": "Bandungan, Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks candi Hindu di lereng Gunung Ungaran.",
+    "description": "Candi dengan suasana sejuk dan panorama perbukitan.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Bandungan, Semarang, Jawa Tengah",
+    "highlights": [
+      "Candi",
+      "Pegunungan",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_heritage_004",
+    "name": "Candi Sukuh",
+    "location": "Karanganyar, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Candi unik di lereng Lawu dengan bentuk arsitektur yang khas.",
+    "description": "Kompleks candi Hindu di kawasan pegunungan dengan relief dan arsitektur unik.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Karanganyar, Jawa Tengah",
+    "highlights": [
+      "Candi",
+      "Gunung Lawu",
+      "Relief"
+    ],
+    "image": "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_heritage_005",
+    "name": "Candi Cetho",
+    "location": "Karanganyar, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks candi bertingkat dengan panorama perkebunan di lereng Lawu.",
+    "description": "Situs candi di kawasan tinggi dengan suasana berkabut dan panorama perkebunan.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Karanganyar, Jawa Tengah",
+    "highlights": [
+      "Candi",
+      "Perkebunan",
+      "Kabut",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_heritage_006",
+    "name": "Masjid Agung Demak",
+    "location": "Demak, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Masjid bersejarah yang berkaitan erat dengan perkembangan Islam di Jawa.",
+    "description": "Masjid bersejarah dengan arsitektur tradisional dan nilai sejarah penyebaran Islam di Jawa.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Demak, Jawa Tengah",
+    "highlights": [
+      "Masjid",
+      "Sejarah Islam",
+      "Arsitektur Jawa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_heritage_007",
+    "name": "Museum Sangiran",
+    "location": "Sragen, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Situs dan museum penting untuk mempelajari manusia purba.",
+    "description": "Kawasan Sangiran menampilkan fosil, rekonstruksi, dan informasi evolusi manusia.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Sragen, Jawa Tengah",
+    "highlights": [
+      "Fosil",
+      "Manusia purba",
+      "Museum",
+      "Edukasi"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUOOiYgI1hBKxFkjNc8l6A1x67MElW9im8KbiVJuHIfw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xuW1y56nSFtH-vZjVlvWBxO-rEbW7JoDcxABza_0TA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjXJmHSgbOhIhZrXo1LvPjnGmGC-c3EeHJ6OjgwgEh7A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxE6OAVuOcSFTyjMEWgG-fdd2TuVO62lAN5KeuVn7quw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDd2Q40n79aguCF4fGboVJJjdROTn-jcAX5PFLKOPQQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  }
+]

@@ -1,0 +1,13 @@
+import '../entities/destination_entity.dart';
+import '../repositories/home_repository.dart';
+
+class GetRecommendations {
+  final HomeRepository repository;
+
+  GetRecommendations(this.repository);
+
+  Future<List<DestinationEntity>> call() async {
+    final recs = await repository.getRecommendations();
+    return recs.take(6).toList();
+  }
+}

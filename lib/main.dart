@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/date_symbol_data_local.dart';
+import 'package:samera_app/features/auth/presentation/screens/splash/splash_screen.dart';
 import 'config/bloc_observer.dart';
 import 'config/bloc_provider.dart';
 import 'config/router.dart';
-import 'core/styles/themes/theme.dart';
+// import 'core/styles/themes/theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +23,10 @@ class MyApp extends StatelessWidget {
     final router = AppRouter().router;
     return MultiBlocProvider(
       providers: AppProviders().providers,
-      child: MyHomePage(title: "title"),
+      child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
+        routerConfig: router,
+      ),
       // child: BlocBuilder<SettingCubit, SettingState>(
       //   builder: (context, state) {
       //     return MaterialApp.router(

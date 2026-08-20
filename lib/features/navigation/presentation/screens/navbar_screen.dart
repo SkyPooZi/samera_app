@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:samera_app/core/styles/colors/colors.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:samera_app/core/styles/icons/icons.dart';
 import 'package:samera_app/core/styles/typography/text_styles.dart';
-import 'package:samera_app/core/styles/images/images.dart';
 
 import '../bloc/navbar_cubit.dart';
 import '../../../home/presentation/screens/home_screen.dart';
+import '../../../explore/presentation/screens/explore/explore_screen.dart';
 
 class NavbarScreen extends StatefulWidget {
   final int? index;
@@ -21,7 +20,7 @@ class NavbarScreen extends StatefulWidget {
 class _NavbarScreenState extends State<NavbarScreen> {
   final List<Widget> pages = [
     const HomeScreen(),
-    const Scaffold(body: Center(child: Text("Explore"))),
+    const ExploreScreen(),
     const Scaffold(body: Center(child: Text("Trip Planner"))),
     const Scaffold(body: Center(child: Text("Quest"))),
     const Scaffold(body: Center(child: Text("Account"))),

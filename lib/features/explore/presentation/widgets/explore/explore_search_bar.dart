@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:samera_app/core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class ExploreSearchBar extends StatelessWidget {
   final String hintText;
@@ -19,14 +20,16 @@ class ExploreSearchBar extends StatelessWidget {
       children: [
         Expanded(
           child: Container(
-            padding: EdgeInsets.symmetric(
-                horizontal: width * 0.02, vertical: width * 0.03),
+            padding: const EdgeInsets.symmetric(
+              horizontal: 16.0,
+              vertical: 12.0,
+            ),
             decoration: BoxDecoration(
               color: Colors.white,
-              borderRadius: BorderRadius.circular(30),
+              borderRadius: BorderRadius.circular(16.0),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.05),
+                  color: Colors.black.withValues(alpha: 0.05),
                   blurRadius: 10,
                   offset: const Offset(0, 4),
                 ),
@@ -34,41 +37,46 @@ class ExploreSearchBar extends StatelessWidget {
             ),
             child: Row(
               children: [
-                Icon(Icons.search, color: Colors.grey[500]!),
-                SizedBox(width: width * 0.02),
+                Icon(Icons.search, color: Colors.grey[500]!, size: 24),
+                const SizedBox(width: 12),
                 Expanded(
                   child: TextField(
                     decoration: InputDecoration(
                       hintText: hintText,
-                      hintStyle: tsBodySmallRegular(Colors.grey[600]!),
+                      hintStyle: tsBodyMediumRegular(Colors.grey[500]!),
                       border: InputBorder.none,
                       isDense: true,
                       contentPadding: EdgeInsets.zero,
                     ),
-                    style: tsBodySmallRegular(Colors.black),
+                    style: tsBodyMediumRegular(Colors.black),
                   ),
                 ),
               ],
             ),
           ),
         ),
-        SizedBox(width: width * 0.03),
+        const SizedBox(width: 12),
         GestureDetector(
           onTap: onFilterTap,
           child: Container(
-            padding: EdgeInsets.all(width * 0.035),
+            width: 48,
+            height: 48,
             decoration: BoxDecoration(
-              color: Colors.white,
-              shape: BoxShape.circle,
+              color: ColorsResources.colorsPrimary,
+              borderRadius: BorderRadius.circular(16.0),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.05),
+                  color: Colors.black.withValues(alpha: 0.05),
                   blurRadius: 10,
                   offset: const Offset(0, 4),
                 ),
               ],
             ),
-            child: Icon(Icons.tune, color: Colors.grey[600]!, size: 20),
+            child: const Icon(
+              Icons.tune,
+              color: Colors.white,
+              size: 24,
+            ),
           ),
         ),
       ],

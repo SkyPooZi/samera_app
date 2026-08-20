@@ -6,12 +6,14 @@ class CategoryItemData {
   final String label;
   final Color bgColor;
   final Color iconColor;
+  final VoidCallback onTap;
 
   CategoryItemData({
     required this.icon,
     required this.label,
     required this.bgColor,
     required this.iconColor,
+    required this.onTap,
   });
 }
 
@@ -32,7 +34,7 @@ class ExploreCategoriesSection extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(title, style: tsBodyLargeMedium(Colors.black87)),
+        Text(title, style: tsBodyMediumSemiBold(Colors.black87)),
         SizedBox(height: size.height * 0.02),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -49,32 +51,36 @@ class ExploreCategoriesSection extends StatelessWidget {
     final itemWidth = screenWidth * 0.14;
 
     return Expanded(
-      child: Column(
-        children: [
-          Container(
-            width: itemWidth,
-            height: itemWidth,
-            decoration: BoxDecoration(
-              color: category.bgColor,
-              borderRadius: BorderRadius.circular(screenWidth * 0.05),
-              border: Border.all(
-                color: category.iconColor.withOpacity(0.2),
-                width: 1.5,
+      child: GestureDetector(
+        onTap: category.onTap,
+        behavior: HitTestBehavior.opaque,
+        child: Column(
+          children: [
+            Container(
+              width: itemWidth,
+              height: itemWidth,
+              decoration: BoxDecoration(
+                color: category.bgColor,
+                borderRadius: BorderRadius.circular(screenWidth * 0.05),
+                border: Border.all(
+                  color: category.iconColor.withOpacity(0.2),
+                  width: 1.5,
+                ),
+              ),
+              child: Icon(
+                category.icon,
+                color: category.iconColor,
+                size: itemWidth * 0.5,
               ),
             ),
-            child: Icon(
-              category.icon,
-              color: category.iconColor,
-              size: itemWidth * 0.5,
+            SizedBox(height: screenWidth * 0.02),
+            Text(
+              category.label,
+              textAlign: TextAlign.center,
+              style: tsLabelLargeMedium(Colors.black87).copyWith(height: 1.2),
             ),
-          ),
-          SizedBox(height: screenWidth * 0.02),
-          Text(
-            category.label,
-            textAlign: TextAlign.center,
-            style: tsLabelLargeMedium(Colors.black87).copyWith(height: 1.2),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

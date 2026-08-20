@@ -7,6 +7,7 @@ class GetRecommendations {
   GetRecommendations(this.repository);
 
   Future<List<DestinationEntity>> call() async {
-    return await repository.getRecommendations();
+    final recs = await repository.getRecommendations();
+    return recs.take(6).toList();
   }
 }

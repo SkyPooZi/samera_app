@@ -1,0 +1,240 @@
+[
+  {
+    "id": "jogja_destination_001",
+    "name": "Wisata Lava Merapi dan Batu Alien",
+    "location": "Cangkringan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Menikmati lanskap Merapi, aliran lava, dan panorama alam dari kawasan lereng gunung.",
+    "description": "Kawasan wisata di lereng Merapi yang menawarkan panorama Gunung Merapi dan bentang alam vulkanik. Cocok untuk jeep tour dan menikmati pemandangan.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Cangkringan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Gunung Merapi",
+      "Batu Alien",
+      "Jeep Tour",
+      "Panorama vulkanik"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Wisata Lava Merapi dan Batu Alien 360.jpg",
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_destination_002",
+    "name": "Hutan Pinus Pengger",
+    "location": "Dlingo, Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Hutan pinus dengan suasana sejuk, gardu pandang, dan panorama Yogyakarta dari ketinggian.",
+    "description": "Hutan wisata di perbukitan Dlingo yang populer untuk menikmati suasana hutan dan panorama kota terutama sore hingga malam.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Dlingo, Bantul, DI Yogyakarta",
+    "highlights": [
+      "Hutan pinus",
+      "City view",
+      "Sunset",
+      "Spot foto"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Hutan Pinus Pengger 360.jpg",
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_destination_003",
+    "name": "Pantai Parangtritis",
+    "location": "Kretek, Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Pantai ikonik Yogyakarta dengan hamparan pasir luas dan panorama matahari terbenam.",
+    "description": "Pantai selatan yang cocok untuk menikmati suasana pesisir, bermain pasir, berjalan-jalan, dan menyaksikan sunset.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kretek, Bantul, DI Yogyakarta",
+    "highlights": [
+      "Pantai",
+      "Sunset",
+      "ATV",
+      "Kuliner pantai"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": true
+  },
+  {
+    "id": "jogja_destination_004",
+    "name": "Kalibiru",
+    "location": "Kokap, Kulon Progo, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Perbukitan hijau dengan gardu pandang yang menghadap Waduk Sermo.",
+    "description": "Kawasan wisata alam di perbukitan Kulon Progo dengan udara sejuk dan pemandangan Waduk Sermo.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Kokap, Kulon Progo, DI Yogyakarta",
+    "highlights": [
+      "Waduk Sermo",
+      "Gardu pandang",
+      "Perbukitan",
+      "Sunrise"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_destination_005",
+    "name": "Goa Jomblang",
+    "location": "Semanu, Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Goa vertikal dengan pengalaman menyusuri hutan purba dan fenomena cahaya dari dalam goa.",
+    "description": "Goa vertikal di Gunungkidul yang terkenal dengan pengalaman caving dan cahaya alami yang masuk dari lubang goa.",
+    "ticketPrice": 500000,
+    "ticketPriceLabel": "Mulai Rp500.000 / orang",
+    "address": "Semanu, Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "Goa vertikal",
+      "Caving",
+      "Cahaya alami",
+      "Hutan purba"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Goa Jomblang 360.jpg",
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_destination_006",
+    "name": "Pantai Timang",
+    "location": "Tepus, Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Pantai berbatu dengan panorama laut selatan dan pengalaman gondola menuju pulau karang.",
+    "description": "Destinasi pesisir Gunungkidul yang terkenal dengan tebing karang, ombak besar, dan aktivitas gondola tradisional.",
+    "ticketPrice": 25000,
+    "ticketPriceLabel": "Mulai Rp25.000 / orang",
+    "address": "Tepus, Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "Gondola",
+      "Tebing karang",
+      "Laut selatan",
+      "Sunset"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_destination_007",
+    "name": "HeHa Sky View",
+    "location": "Patuk, Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.4,
+    "reviewCount": 1000,
+    "shortDescription": "Tempat menikmati panorama Kota Yogyakarta dari kawasan perbukitan.",
+    "description": "Destinasi dengan area makan dan spot foto yang menawarkan pemandangan kota dari ketinggian.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Patuk, Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "City view",
+      "Sunset",
+      "Kuliner",
+      "Spot foto"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  }
+]

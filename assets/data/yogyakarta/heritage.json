@@ -1,0 +1,239 @@
+[
+  {
+    "id": "jogja_heritage_002",
+    "name": "Candi Prambanan",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks candi Hindu monumental dengan bangunan utama yang menjulang.",
+    "description": "Kompleks candi Hindu yang terkenal dengan arsitektur tinggi dan relief kisah Ramayana.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Candi Siwa",
+      "Relief Ramayana",
+      "Sunset",
+      "Arsitektur"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": true
+  },
+  {
+    "id": "jogja_heritage_003",
+    "name": "Candi Ratu Boko",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks situs kuno di atas perbukitan dengan panorama luas dan gerbang ikonik.",
+    "description": "Situs arkeologi di kawasan perbukitan yang menawarkan bangunan gerbang, reruntuhan, dan panorama sunset.",
+    "ticketPrice": 40000,
+    "ticketPriceLabel": "Mulai Rp40.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Gerbang Ratu Boko",
+      "Sunset",
+      "Situs arkeologi",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Candi Ratu Boko 360.jpg",
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_heritage_004",
+    "name": "Tugu Yogyakarta",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Monumen ikonik Yogyakarta yang menjadi salah satu landmark pusat kota.",
+    "description": "Tugu merupakan salah satu simbol Kota Yogyakarta dan berada di kawasan yang ramai dengan aktivitas kota.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Landmark kota",
+      "Fotografi",
+      "Pusat kota"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Tugu Jogja 360.jpg",
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_heritage_005",
+    "name": "Taman Sari",
+    "location": "Kraton, Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks bekas taman kerajaan dengan lorong dan bangunan bersejarah yang unik.",
+    "description": "Kompleks peninggalan Keraton dengan kolam pemandian, lorong bawah tanah, dan Sumur Gumuling.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kraton, Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Sumur Gumuling",
+      "Kolam",
+      "Lorong",
+      "Arsitektur"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_heritage_006",
+    "name": "Kotagede",
+    "location": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan bersejarah yang menyimpan jejak Kerajaan Mataram Islam dan arsitektur tradisional.",
+    "description": "Kawasan tua Yogyakarta dengan makam raja, masjid, rumah tradisional, dan jejak sejarah Mataram.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Mataram Islam",
+      "Rumah tradisional",
+      "Masjid",
+      "Sejarah"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_heritage_007",
+    "name": "Candi Ijo",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Candi di perbukitan dengan panorama luas dan pemandangan matahari terbenam.",
+    "description": "Kompleks candi Hindu yang berada di lokasi tinggi sehingga pengunjung dapat menikmati panorama perbukitan.",
+    "ticketPrice": 5000,
+    "ticketPriceLabel": "Mulai Rp5.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Candi",
+      "Perbukitan",
+      "Sunset",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jogja_heritage_008",
+    "name": "Museum Benteng Vredeburg",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Heritage",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Benteng bersejarah di pusat Yogyakarta yang kini menjadi museum perjuangan.",
+    "description": "Museum di kawasan Malioboro yang menghadirkan sejarah perjuangan Indonesia melalui diorama dan koleksi.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Benteng",
+      "Museum",
+      "Sejarah",
+      "Malioboro"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  }
+]

@@ -68,7 +68,7 @@ class HomeHeroBanner extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    const Icon(Icons.location_on, color: Colors.white, size: 16),
+                    const Icon(Icons.location_on, color: ColorsResources.colorsPrimary, size: 16),
                     const SizedBox(width: 4),
                     Text(location, style: tsLabelLargeSemiBold(ColorsResources.colorsWhite)),
                   ],
@@ -83,7 +83,7 @@ class HomeHeroBanner extends StatelessWidget {
                       ),
                       TextSpan(
                         text: title2,
-                        style: tsRobotoHeadlineSmallBold(Colors.amber).copyWith(height: 1.2),
+                        style: tsRobotoHeadlineSmallBold(ColorsResources.colorsPrimary).copyWith(height: 1.2),
                       ),
                     ],
                   ),
@@ -99,15 +99,15 @@ class HomeHeroBanner extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                     decoration: BoxDecoration(
-                      color: Colors.white,
+                      color: ColorsResources.colorsPrimary,
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Text('Explore now', style: tsLabelLargeSemiBold(const Color(0xFF0D5D4A))),
+                        Text('Jelajahi Sekarang', style: tsLabelLargeSemiBold(Colors.white)),
                         const SizedBox(width: 4),
-                        const Icon(Icons.arrow_forward_ios, size: 12, color: Color(0xFF0D5D4A)),
+                        const Icon(Icons.arrow_forward_rounded, size: 16, color: Colors.white),
                       ],
                     ),
                   ),
@@ -145,13 +145,13 @@ class HomeHeroBanner extends StatelessWidget {
                           height: 28,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
-                            color: Colors.amber,
+                            color: ColorsResources.colorsPrimary,
                             border: Border.all(color: Colors.white, width: 2),
                           ),
                           alignment: Alignment.center,
                           child: Text(
                             '+12k',
-                            style: tsLabelSmallBold(Colors.black),
+                            style: tsLabelSmallBold(Colors.white),
                           ),
                         ),
                       ),

@@ -26,12 +26,12 @@ class HomeProfileHeader extends StatelessWidget {
             children: [
               Text(
                 'Hi, $name 👋',
-                style: tsTitleMediumMedium(ColorsResources.colorsBlack),
+                style: tsTitleMediumMedium(ColorsResources.colorsWhite),
               ),
               const SizedBox(height: 4),
               Text(
                 subtitle,
-                style: tsBodySmallMedium(ColorsResources.colorsGrey),
+                style: tsBodySmallMedium(ColorsResources.colorsWhite),
               ),
             ],
           ),

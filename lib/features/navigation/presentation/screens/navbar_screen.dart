@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:samera_app/core/styles/colors/colors.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:samera_app/core/styles/icons/icons.dart';
 import 'package:samera_app/core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/images/images.dart';
 
 import '../bloc/navbar_cubit.dart';
 import '../../../home/presentation/screens/home_screen.dart';
@@ -36,6 +39,7 @@ class _NavbarScreenState extends State<NavbarScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final double iconSize = 32.0; // Ukuran dasar (logical pixels) sudah responsive
     return BlocBuilder<NavbarCubit, NavbarState>(
       builder: (context, state) {
         return Scaffold(
@@ -76,39 +80,59 @@ class _NavbarScreenState extends State<NavbarScreen> {
                 unselectedLabelStyle: tsLabelLargeMedium(
                   ColorsResources.colorsGrey,
                 ),
-                items: const [
+                items: [
                   BottomNavigationBarItem(
                     icon: Padding(
-                      padding: EdgeInsets.only(bottom: 4.0, top: 14.0),
-                      child: Icon(Icons.home, color: Colors.blue),
+                      padding: const EdgeInsets.only(top: 4.0, bottom: 4.0),
+                      child: Image.asset(
+                        IconsThemes.iconHomeNavbar,
+                        width: iconSize,
+                        height: iconSize,
+                      ),
                     ),
                     label: 'Home',
                   ),
                   BottomNavigationBarItem(
                     icon: Padding(
-                      padding: EdgeInsets.only(bottom: 4.0),
-                      child: Icon(Icons.explore, color: Colors.orange),
+                      padding: const EdgeInsets.only(top: 4.0, bottom: 4.0),
+                      child: Image.asset(
+                        IconsThemes.iconCompassNavbar,
+                        width: iconSize,
+                        height: iconSize,
+                      ),
                     ),
                     label: 'Explore',
                   ),
                   BottomNavigationBarItem(
                     icon: Padding(
-                      padding: EdgeInsets.only(bottom: 4.0),
-                      child: Icon(Icons.route, color: Colors.redAccent),
+                      padding: const EdgeInsets.only(top: 4.0, bottom: 4.0),
+                      child: Image.asset(
+                        IconsThemes.iconTripPlannerNavbar,
+                        width: iconSize,
+                        height: iconSize,
+                      ),
                     ),
                     label: 'Trip Planner',
                   ),
                   BottomNavigationBarItem(
                     icon: Padding(
-                      padding: EdgeInsets.only(bottom: 4.0),
-                      child: Icon(Icons.card_giftcard, color: Colors.amber),
+                      padding: const EdgeInsets.only(top: 4.0, bottom: 4.0),
+                      child: Image.asset(
+                        IconsThemes.iconTreasureNavbar,
+                        width: iconSize,
+                        height: iconSize,
+                      ),
                     ),
                     label: 'Quest',
                   ),
                   BottomNavigationBarItem(
                     icon: Padding(
-                      padding: EdgeInsets.only(bottom: 4.0),
-                      child: Icon(Icons.person, color: Colors.purple),
+                      padding: EdgeInsets.only(top: 4.0, bottom: 4.0),
+                      child: Image.asset(
+                        IconsThemes.iconAccount,
+                        width: iconSize,
+                        height: iconSize,
+                      ),
                     ),
                     label: 'Account',
                   ),

@@ -1,0 +1,234 @@
+[
+  {
+    "id": "jateng_local_experience_001",
+    "name": "Kawasan Kota Lama Semarang",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Local Experience",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Menjelajahi kawasan kota lama dengan bangunan bersejarah dan ruang publik.",
+    "description": "Pengalaman berjalan kaki menikmati bangunan, kafe, galeri, dan suasana Kota Lama.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Walking tour",
+      "Arsitektur",
+      "Kafe",
+      "Fotografi"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYdHA5KeVYyXprt0drkTnsnqIMlQM7BsFVjDoI2H9eQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtCqmYlE2U_i8Hsvzdz1RqN7uxqbrF3tIA91_IAlIKDA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9wYvG1_jVcnbHJ7N8qvJ5cTB2mMuY8XY89J8giDtyiQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwBwrbb5MXLuaH8tccQczkNVe4z0Qe8LQjMGy6KRquCA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIbFX_kJ9ciA0xnHyfZBUARN2h9soO8KsZXdQghP8aBA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_local_experience_002",
+    "name": "Pasar Gede Solo",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Local Experience",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Berburu makanan dan produk lokal di pasar tradisional yang ramai.",
+    "description": "Pasar tradisional yang cocok untuk mengenal aktivitas perdagangan dan kuliner lokal.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Pasar",
+      "Kuliner",
+      "Produk lokal"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXAA8L4S3yAY-BHoIO3rLq-2VDzO3PP518-Sar4cIhlQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_local_experience_003",
+    "name": "Workshop Batik Solo",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Local Experience",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Mencoba proses membatik bersama pengrajin lokal.",
+    "description": "Aktivitas langsung mengenal teknik membatik dari membuat pola hingga pewarnaan.",
+    "ticketPrice": 75000,
+    "ticketPriceLabel": "Mulai Rp75.000 / orang",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Membatik",
+      "Workshop",
+      "Kriya"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvrFSiU1iFsnjp4vHhXZjpwHR8xf2pRAzgY4swGa_FFA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_local_experience_004",
+    "name": "Jeep Tour Merapi",
+    "location": "Boyolali, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Local Experience",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Menjelajahi kawasan Merapi dengan jeep dan menikmati lanskap vulkanik.",
+    "description": "Aktivitas petualangan untuk melihat kawasan lereng Merapi dari jalur wisata.",
+    "ticketPrice": 300000,
+    "ticketPriceLabel": "Mulai Rp300.000 / orang",
+    "address": "Boyolali, Jawa Tengah",
+    "highlights": [
+      "Jeep",
+      "Merapi",
+      "Petualangan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4r_uOc6j5KjWEkkh811_RGdDTHzBmdBFHBvEIgoQa-w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_local_experience_005",
+    "name": "Desa Wisata Borobudur",
+    "location": "Magelang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Local Experience",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Mengenal kehidupan desa di sekitar kawasan Borobudur melalui aktivitas lokal.",
+    "description": "Pengalaman desa dengan aktivitas kerajinan, pertanian, dan kehidupan masyarakat.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Magelang, Jawa Tengah",
+    "highlights": [
+      "Desa",
+      "Kerajinan",
+      "Pertanian"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7smbOoRzvhdmqyujvCCrq5GwUDdMA6Q58WhlEyIbodg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": true
+  },
+  {
+    "id": "jateng_local_experience_006",
+    "name": "Kampung Jamu Nguter",
+    "location": "Sukoharjo, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Local Experience",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Mengenal tradisi jamu dan produk herbal lokal.",
+    "description": "Pengalaman mengenal produksi dan budaya jamu yang berkembang di masyarakat.",
+    "ticketPrice": 25000,
+    "ticketPriceLabel": "Mulai Rp25.000 / orang",
+    "address": "Sukoharjo, Jawa Tengah",
+    "highlights": [
+      "Jamu",
+      "Herbal",
+      "Produk lokal"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rcbSK1cY6CCKTxsIFwY-s8nYmwDXdZgFnhKGcQb7cw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  },
+  {
+    "id": "jateng_local_experience_007",
+    "name": "Sentra Gerabah Bayat",
+    "location": "Klaten, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Local Experience",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Mencoba kerajinan gerabah dan berinteraksi dengan pengrajin lokal.",
+    "description": "Aktivitas kriya yang memperkenalkan proses pembuatan gerabah secara langsung.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Klaten, Jawa Tengah",
+    "highlights": [
+      "Gerabah",
+      "Workshop",
+      "Pengrajin"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu9swgmWxcNd4ogPRO9UELm5v95gMMclGtycPbpa-rew&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false
+  }
+]

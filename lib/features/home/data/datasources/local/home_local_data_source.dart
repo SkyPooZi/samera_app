@@ -77,6 +77,6 @@ class HomeLocalDataSourceImpl implements HomeLocalDataSource {
     print('[HomeLocalDataSource] Total items: ${allDestinations.length}');
     print('[HomeLocalDataSource] Recommended items: ${recommendations.length}');
     
-    return recommendations.take(6).toList();
+    return recommendations;
   }
 }

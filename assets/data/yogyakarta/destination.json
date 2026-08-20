@@ -31,7 +31,7 @@
       "asset": "assets/images/360/yogyakarta/Wisata Lava Merapi dan Batu Alien 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": true
   },
   {
     "id": "jogja_destination_002",
@@ -65,7 +65,7 @@
       "asset": "assets/images/360/yogyakarta/Hutan Pinus Pengger 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": true
   },
   {
     "id": "jogja_destination_003",

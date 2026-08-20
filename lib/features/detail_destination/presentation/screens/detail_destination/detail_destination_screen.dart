@@ -3,12 +3,12 @@ import 'package:samera_app/core/styles/colors/colors.dart';
 import 'package:samera_app/core/styles/typography/text_styles.dart';
 import 'package:samera_app/features/home/domain/entities/destination_entity.dart';
 
-import '../widgets/detail_header_image.dart';
-import '../widgets/detail_info_section.dart';
-import '../widgets/detail_media_row.dart';
-import '../widgets/detail_description_section.dart';
-import '../widgets/detail_quick_info_section.dart';
-import '../widgets/detail_action_bar.dart';
+import '../../widgets/detail_destination/detail_header_image.dart';
+import '../../widgets/detail_destination/detail_info_section.dart';
+import '../../widgets/detail_destination/detail_media_row.dart';
+import '../../widgets/detail_destination/detail_description_section.dart';
+import '../../widgets/detail_destination/detail_quick_info_section.dart';
+import '../../widgets/detail_destination/detail_action_bar.dart';
 
 class DetailDestinationScreen extends StatefulWidget {
   final DestinationEntity destination;

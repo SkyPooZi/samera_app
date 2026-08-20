@@ -103,6 +103,7 @@ flutter:
     - assets/animations/
     - assets/images/
     - assets/icons/
+    - assets/data/
     - assets/data/yogyakarta/
     - assets/data/jawa_tengah/
     - assets/images/360/yogyakarta/

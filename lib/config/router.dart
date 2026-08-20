@@ -10,9 +10,12 @@ import '../features/auth/presentation/screens/create_new_password/create_new_pas
 import '../features/navigation/presentation/screens/navbar_screen.dart';
 import '../features/home/presentation/screens/home_screen.dart';
 import '../features/home/domain/entities/destination_entity.dart';
-import '../features/detail_destination/presentation/screens/detail_destination_screen.dart';
-import '../features/detail_destination/presentation/screens/panorama_360_screen.dart';
-import '../features/detail_destination/presentation/screens/gallery_screen.dart';
+import '../features/detail_destination/presentation/screens/detail_destination/detail_destination_screen.dart';
+import '../features/detail_destination/presentation/screens/panorama_360/panorama_360_screen.dart';
+import '../features/detail_destination/presentation/screens/gallery/gallery_screen.dart';
+import '../features/explore/presentation/screens/category_destination/category_destination_screen.dart';
+import '../features/explore/presentation/screens/all_regions/all_regions_screen.dart';
+import '../features/explore/domain/entities/region_entity.dart';
 
 class Routes {
   static const String splash = 'splash';
@@ -29,6 +32,7 @@ class Routes {
   static const String detailDestination = 'detail_destination_screen';
   static const String panorama360 = 'panorama_360_screen';
   static const String gallery = 'gallery_screen';
+  static const String allRegions = 'all_regions';
 }
 
 CustomTransitionPage _buildSmoothTransitionPage({
@@ -181,6 +185,36 @@ class AppRouter {
             context: context,
             state: state,
             child: GalleryScreen(destination: destination),
+          );
+        },
+      ),
+      GoRoute(
+        name: 'category_destination_screen',
+        path: '/explore/category/:categoryId',
+        pageBuilder: (context, state) {
+          final categoryId = state.pathParameters['categoryId'] ?? '';
+          final extraMap = state.extra as Map<String, dynamic>? ?? {};
+          final title = extraMap['title'] as String? ?? 'Kategori';
+          
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: CategoryDestinationScreen(
+              categoryId: categoryId,
+              title: title,
+            ),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.allRegions,
+        path: '/explore/all-regions',
+        pageBuilder: (context, state) {
+          final regions = state.extra as List<RegionEntity>? ?? [];
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: AllRegionsScreen(regions: regions),
           );
         },
       ),

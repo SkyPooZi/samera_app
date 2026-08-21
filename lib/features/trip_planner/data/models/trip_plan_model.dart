@@ -20,21 +20,22 @@ class TripPlanModel extends TripPlanEntity {
 
   factory TripPlanModel.fromJson(Map<String, dynamic> json) {
     return TripPlanModel(
-      id: json['id'] as String,
-      city: json['city'] as String,
-      numberOfPeople: json['numberOfPeople'] as int,
-      budget: (json['budget'] as num).toDouble(),
-      transportation: json['transportation'] as String,
-      interests: List<String>.from(json['interests'] ?? []),
-      durationDays: json['durationDays'] as int,
-      items: (json['items'] as List)
-          .map((item) => ItineraryItemModel.fromJson(item as Map<String, dynamic>))
-          .toList(),
-      totalDestination: json['totalDestination'] as int,
-      estimatedBudget: (json['estimatedBudget'] as num).toDouble(),
+      id: json['id']?.toString() ?? '',
+      city: json['city']?.toString() ?? '',
+      numberOfPeople: json['numberOfPeople'] as int? ?? 1,
+      budget: (json['budget'] as num?)?.toDouble() ?? 0.0,
+      transportation: json['transportation']?.toString() ?? '',
+      interests: (json['interests'] as List<dynamic>?)?.map((e) => e.toString()).toList() ?? [],
+      durationDays: json['durationDays'] as int? ?? 1,
+      items: (json['items'] as List<dynamic>?)
+              ?.map((item) => ItineraryItemModel.fromJson(item as Map<String, dynamic>))
+              .toList() ??
+          [],
+      totalDestination: json['totalDestination'] as int? ?? 0,
+      estimatedBudget: (json['estimatedBudget'] as num?)?.toDouble() ?? 0.0,
       transportCost: (json['transportCost'] as num?)?.toDouble() ?? 0.0,
       destinationCost: (json['destinationCost'] as num?)?.toDouble() ?? 0.0,
-      remainingBudget: (json['remainingBudget'] as num).toDouble(),
+      remainingBudget: (json['remainingBudget'] as num?)?.toDouble() ?? 0.0,
     );
   }
 

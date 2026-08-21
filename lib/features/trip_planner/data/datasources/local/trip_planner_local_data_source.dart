@@ -1,6 +1,7 @@
 import 'package:samera_app/features/home/data/models/destination_model.dart';
 import 'package:samera_app/features/home/domain/entities/destination_entity.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/foundation.dart';
 import 'package:samera_app/features/trip_planner/data/models/trip_plan_model.dart';
 import 'dart:convert';
 
@@ -71,32 +72,77 @@ class TripPlannerLocalDataSourceImpl implements TripPlannerLocalDataSource {
 
   @override
   Future<void> saveTripPlan(TripPlanModel tripPlan) async {
+    final prefs = await SharedPreferences.getInstance();
     
-    final savedPlans = await getSavedTripPlans();
+    debugPrint('[TripPlanner] ===== SAVE START =====');
+    debugPrint('[TripPlanner] New Trip ID: ${tripPlan.id}');
+    
+    final existingPlans = await getSavedTripPlans();
+    
+    debugPrint('[TripPlanner] EXISTING PLAN COUNT: ${existingPlans.length}');
+    debugPrint('[TripPlanner] EXISTING PLAN IDS: ${existingPlans.map((p) => p.id).toList()}');
     
     // Hapus jika ID sudah ada (Replace/Update)
-    savedPlans.removeWhere((plan) => plan.id == tripPlan.id);
-    savedPlans.add(tripPlan);
+    existingPlans.removeWhere((plan) => plan.id == tripPlan.id);
     
-    final List<Map<String, dynamic>> jsonList = savedPlans.map((plan) => plan.toJson()).toList();
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setString(_savedTripPlansKey, jsonEncode(jsonList));
+    // Append
+    debugPrint('[TripPlanner] APPENDING: ${tripPlan.id}');
+    existingPlans.add(tripPlan);
     
+    debugPrint('[TripPlanner] PLAN COUNT AFTER APPEND: ${existingPlans.length}');
+    debugPrint('[TripPlanner] PLAN IDS AFTER APPEND: ${existingPlans.map((p) => p.id).toList()}');
+    
+    final List<Map<String, dynamic>> jsonList = existingPlans.map((plan) => plan.toJson()).toList();
+    final jsonString = jsonEncode(jsonList);
+    
+    final success = await prefs.setString(_savedTripPlansKey, jsonString);
+    
+    debugPrint('[TripPlanner] SET STRING RESULT: $success');
+    debugPrint('[TripPlanner] ===== SAVE END =====');
   }
 
   @override
   Future<List<TripPlanModel>> getSavedTripPlans() async {
+    debugPrint('[TripPlanner] ===== LOAD SAVED PLANS =====');
     final prefs = await SharedPreferences.getInstance();
     final jsonString = prefs.getString(_savedTripPlansKey);
+    
     if (jsonString != null && jsonString.isNotEmpty) {
+      List<dynamic> jsonList;
       try {
-        final List<dynamic> jsonList = jsonDecode(jsonString);
-        final result = jsonList.map((json) => TripPlanModel.fromJson(json as Map<String, dynamic>)).toList();
-        return result;
-      } catch (e) {
-        return [];
+        jsonList = jsonDecode(jsonString);
+        debugPrint('[TripPlanner] Raw saved data contains ${jsonList.length} items');
+      } catch (e, stackTrace) {
+        debugPrint('[TripPlanner] STORAGE DECODE ERROR');
+        debugPrint('[TripPlanner] Error: $e');
+        debugPrint('[TripPlanner] StackTrace: $stackTrace');
+        throw Exception('Failed to decode saved trip plans: $e');
       }
+      
+      final List<TripPlanModel> result = [];
+      for (var i = 0; i < jsonList.length; i++) {
+        final json = jsonList[i];
+        try {
+          final plan = TripPlanModel.fromJson(json as Map<String, dynamic>);
+          // Filter legacy corrupt ID caused by literal string bug
+          if (plan.id == r"trip_${DateTime.now().millisecondsSinceEpoch}") {
+            debugPrint('[TripPlanner] Found corrupted legacy ID, skipping...');
+            continue;
+          }
+          result.add(plan);
+        } catch (e, stackTrace) {
+          debugPrint('[TripPlanner] STORAGE PARSE ERROR at index $i');
+          debugPrint('[TripPlanner] Raw data: $json');
+          debugPrint('[TripPlanner] Error: $e');
+          debugPrint('[TripPlanner] StackTrace: $stackTrace');
+          throw Exception('Failed to parse trip plan at index $i: $e');
+        }
+      }
+      debugPrint('[TripPlanner] Parsed saved plans count: ${result.length}');
+      return result;
     }
+    
+    debugPrint('[TripPlanner] No saved plans found (null or empty string).');
     return [];
   }
 
@@ -108,6 +154,5 @@ class TripPlannerLocalDataSourceImpl implements TripPlannerLocalDataSource {
     final List<Map<String, dynamic>> jsonList = savedPlans.map((plan) => plan.toJson()).toList();
     final prefs = await SharedPreferences.getInstance();
     await prefs.setString(_savedTripPlansKey, jsonEncode(jsonList));
-    
   }
 }

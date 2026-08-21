@@ -159,7 +159,7 @@ class _DetailDestinationScreenState extends State<DetailDestinationScreen> {
             top: 0,
             left: 0,
             right: 0,
-            child: DetailActionBar(progress: progress),
+            child: DetailActionBar(progress: progress, destinationId: widget.destination.id),
           ),
         ],
       ),

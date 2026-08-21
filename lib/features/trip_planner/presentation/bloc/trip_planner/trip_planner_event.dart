@@ -39,3 +39,9 @@ class ChangeSelectedDayEvent extends TripPlannerEvent {
 
   ChangeSelectedDayEvent(this.day);
 }
+
+class DeleteTripPlanEvent extends TripPlannerEvent {
+  final String tripPlanId;
+
+  DeleteTripPlanEvent(this.tripPlanId);
+}

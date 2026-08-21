@@ -175,6 +175,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                           });
                                           
                                           final prefs = await SharedPreferences.getInstance();
+                                          await prefs.setString('registered_username', nameController.text);
                                           await prefs.setString('registered_email', emailController.text);
                                           await prefs.setString('registered_password', passwordController.text);
                                           

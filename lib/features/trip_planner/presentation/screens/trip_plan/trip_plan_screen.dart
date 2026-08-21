@@ -12,8 +12,15 @@ import 'package:intl/intl.dart';
 import 'package:go_router/go_router.dart';
 import 'package:samera_app/core/utils/format_utils.dart';
 
+import 'package:samera_app/features/account/presentation/bloc/account/account_bloc.dart';
+import 'package:samera_app/features/account/presentation/bloc/account/account_event.dart';
+
+import 'package:samera_app/features/trip_planner/domain/entities/trip_plan_entity.dart';
+
 class TripPlanScreen extends StatelessWidget {
-  const TripPlanScreen({super.key});
+  final TripPlanEntity? viewPlan;
+
+  const TripPlanScreen({super.key, this.viewPlan});
 
   @override
   Widget build(BuildContext context) {
@@ -35,8 +42,11 @@ class TripPlanScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: BlocConsumer<TripPlannerBloc, TripPlannerState>(
+        listenWhen: (previous, current) => previous.status != current.status,
         listener: (context, state) {
           if (state.status == TripPlannerStatus.saved) {
+            context.read<AccountBloc>().add(LoadSavedTripPlans());
+            Navigator.pop(context);
             ScaffoldMessenger.of(context).showSnackBar(
               const SnackBar(
                 content: Text("Trip plan berhasil disimpan!"),
@@ -52,13 +62,27 @@ class TripPlanScreen extends StatelessWidget {
                 behavior: SnackBarBehavior.floating,
               ),
             );
+          } else if (state.status == TripPlannerStatus.deleted) {
+            context.read<AccountBloc>().add(LoadSavedTripPlans());
+            if (context.canPop()) {
+               context.pop();
+            } else {
+               context.go('/account/saved-trips');
+            }
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(
+                content: Text("Trip plan berhasil dihapus!"),
+                backgroundColor: Colors.green,
+                behavior: SnackBarBehavior.floating,
+              ),
+            );
           }
         },
         builder: (context, state) {
-          if (state.tripPlan == null) {
+          final plan = viewPlan ?? state.tripPlan;
+          if (plan == null) {
             return const Center(child: Text("Tidak ada rencana trip"));
           }
-          final plan = state.tripPlan!;
           
           final formatCurrency = NumberFormat.currency(locale: 'id_ID', symbol: 'Rp', decimalDigits: 0);
           final dayItems = plan.items.where((item) => item.day == state.selectedDay).toList();
@@ -166,75 +190,121 @@ class TripPlanScreen extends StatelessWidget {
                   SizedBox(height: width * 0.06),
                   Row(
                     children: [
-                      Expanded(
-                        child: SizedBox(
-                          height: 56,
-                          child: ElevatedButton(
-                            onPressed: state.status == TripPlannerStatus.saving ? null : () {
-                              context.read<TripPlannerBloc>().add(SaveTripPlanEvent(plan));
-                            },
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: const Color(0xFFFE813C),
-                              elevation: 0,
-                              shape: RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(16),
+                      if (viewPlan == null) ...[
+                        Expanded(
+                          child: SizedBox(
+                            height: 56,
+                            child: ElevatedButton(
+                              onPressed: state.status == TripPlannerStatus.saving ? null : () {
+                                context.read<TripPlannerBloc>().add(SaveTripPlanEvent(plan));
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: const Color(0xFFFE813C),
+                                elevation: 0,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(16),
+                                ),
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  const Icon(
+                                    Icons.bookmark_border,
+                                    color: Colors.white,
+                                  ),
+                                  SizedBox(width: width * 0.02),
+                                  Text(
+                                    'Simpan Trip Plan',
+                                    style: tsBodyLargeSemiBold(Colors.white),
+                                  ),
+                                  if (state.status == TripPlannerStatus.saving) ...[
+                                    SizedBox(width: width * 0.02),
+                                    const SizedBox(
+                                      width: 16,
+                                      height: 16,
+                                      child: CircularProgressIndicator(
+                                        color: Colors.white,
+                                        strokeWidth: 2,
+                                      ),
+                                    )
+                                  ],
+                                ],
                               ),
                             ),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                const Icon(
-                                  Icons.bookmark_border,
-                                  color: Colors.white,
-                                ),
-                                SizedBox(width: width * 0.02),
-                                Text(
-                                  'Save Trip Plan',
-                                  style: tsBodyLargeSemiBold(Colors.white),
-                                ),
-                                if (state.status == TripPlannerStatus.saving) ...[
-                                  SizedBox(width: width * 0.02),
-                                  const SizedBox(
-                                    width: 16,
-                                    height: 16,
-                                    child: CircularProgressIndicator(
-                                      color: Colors.white,
-                                      strokeWidth: 2,
+                          ),
+                        ),
+                        SizedBox(width: width * 0.04),
+                      ],
+                      if (viewPlan != null) ...[
+                        Expanded(
+                          child: SizedBox(
+                            height: 56,
+                            child: ElevatedButton(
+                              onPressed: state.status == TripPlannerStatus.deleting ? null : () {
+                                showDialog(
+                                  context: context,
+                                  builder: (dialogContext) => AlertDialog(
+                                    backgroundColor: Colors.white,
+                                    title: const Text('Hapus Trip Plan'),
+                                    content: const Text(
+                                      'Apakah anda yakin ingin menghapus trip plan ini?\n\n'
+                                      'Data tidak dapat dikembalikan.',
                                     ),
-                                  )
+                                    actions: [
+                                      TextButton(
+                                        onPressed: () => Navigator.pop(dialogContext),
+                                        child: Text('Batal', style: tsBodyMediumMedium(Colors.black87)),
+                                      ),
+                                      ElevatedButton(
+                                        onPressed: () {
+                                          Navigator.pop(dialogContext);
+                                          context.read<TripPlannerBloc>().add(DeleteTripPlanEvent(plan.id));
+                                        },
+                                        style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+                                        child: Text('Hapus', style: tsBodyMediumMedium(Colors.white)),
+                                      ),
+                                    ],
+                                  ),
+                                );
+                              },
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.red,
+                                elevation: 0,
+                                shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(16),
+                                ),
+                              ),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  const Icon(
+                                    Icons.delete_outline,
+                                    color: Colors.white,
+                                  ),
+                                  SizedBox(width: width * 0.02),
+                                  Text(
+                                    'Hapus Plan',
+                                    style: tsBodyLargeSemiBold(Colors.white),
+                                  ),
+                                  if (state.status == TripPlannerStatus.deleting) ...[
+                                    SizedBox(width: width * 0.02),
+                                    const SizedBox(
+                                      width: 16,
+                                      height: 16,
+                                      child: CircularProgressIndicator(
+                                        color: Colors.white,
+                                        strokeWidth: 2,
+                                      ),
+                                    )
+                                  ],
                                 ],
-                              ],
+                              ),
                             ),
                           ),
                         ),
-                      ),
-                      SizedBox(width: width * 0.04),
-                      Container(
-                        height: 56,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(16),
-                          border: Border.all(
-                            color: Colors.grey.withValues(alpha: 0.3),
-                          ),
-                        ),
-                        child: TextButton(
-                          style: TextButton.styleFrom(
-                            padding: const EdgeInsets.symmetric(horizontal: 20),
-                            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                          ),
-                          onPressed: () {
-                            showDialog(
-                              context: context,
-                              builder: (context) => TripBudgetDetailDialog(plan: plan),
-                            );
-                          },
-                          child: Text(
-                            'Detail',
-                            style: tsBodyMediumSemiBold(Colors.black87),
-                          ),
-                        ),
-                      ),
+                        SizedBox(width: width * 0.04),
+                      ],
+                      _buildDetailButton(context, plan),
                     ],
                   ),
                 ],
@@ -246,5 +316,34 @@ class TripPlanScreen extends StatelessWidget {
      },
     ),
    );
+  }
+
+  Widget _buildDetailButton(BuildContext context, TripPlanEntity plan) {
+    return Container(
+      height: 56,
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: Colors.grey.withValues(alpha: 0.3),
+        ),
+      ),
+      child: TextButton(
+        style: TextButton.styleFrom(
+          padding: const EdgeInsets.symmetric(horizontal: 20),
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        ),
+        onPressed: () {
+          showDialog(
+            context: context,
+            builder: (context) => TripBudgetDetailDialog(plan: plan),
+          );
+        },
+        child: Text(
+          'Detail',
+          style: tsBodyMediumSemiBold(Colors.black87),
+        ),
+      ),
+    );
   }
 }

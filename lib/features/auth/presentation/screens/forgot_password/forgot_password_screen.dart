@@ -10,7 +10,6 @@ import '../../widgets/forgot_password/forgot_password_info_box.dart';
 import '../../widgets/forgot_password/forgot_password_text_field.dart';
 import 'package:go_router/go_router.dart';
 import '../../../../../config/router.dart';
-import '../inbox_verification_code/inbox_verification_screen.dart';
 import 'package:samera_app/core/styles/colors/colors.dart';
 
 class ForgotPasswordScreen extends StatefulWidget {

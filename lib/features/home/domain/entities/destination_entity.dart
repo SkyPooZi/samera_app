@@ -22,6 +22,14 @@ class DestinationEntity {
   final Panorama360Entity? panorama360;
   final bool isFavorite;
   final bool isRecommended;
+  final int estimatedVisitDuration;
+  final int estimatedFoodCost;
+  final String recommendedTime;
+  final List<String> interests;
+  final String openingTime;
+  final String closingTime;
+  final double latitude;
+  final double longitude;
 
   const DestinationEntity({
     required this.id,
@@ -45,5 +53,13 @@ class DestinationEntity {
     this.panorama360,
     required this.isFavorite,
     required this.isRecommended,
+    required this.estimatedVisitDuration,
+    required this.estimatedFoodCost,
+    required this.recommendedTime,
+    required this.interests,
+    required this.openingTime,
+    required this.closingTime,
+    required this.latitude,
+    required this.longitude,
   });
 }

@@ -31,7 +31,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_destination_007",
@@ -65,7 +78,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_destination_002",
@@ -99,7 +125,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_destination_003",
@@ -133,7 +172,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_destination_004",
@@ -167,7 +219,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_destination_005",
@@ -201,7 +266,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_destination_006",
@@ -235,6 +313,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

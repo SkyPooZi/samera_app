@@ -63,7 +63,7 @@ class ExploreCategoriesSection extends StatelessWidget {
                 color: category.bgColor,
                 borderRadius: BorderRadius.circular(screenWidth * 0.05),
                 border: Border.all(
-                  color: category.iconColor.withOpacity(0.2),
+                  color: category.iconColor.withValues(alpha: 0.2),
                   width: 1.5,
                 ),
               ),

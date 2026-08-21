@@ -6,7 +6,6 @@ import '../../widgets/inbox_verification_code/inbox_verification_button.dart';
 import '../../widgets/inbox_verification_code/inbox_verification_card.dart';
 import 'package:go_router/go_router.dart';
 import '../../../../../config/router.dart';
-import '../create_new_password/create_new_password_screen.dart';
 import 'package:samera_app/core/styles/colors/colors.dart';
 
 class InboxVerificationScreen extends StatefulWidget {
@@ -40,7 +39,7 @@ class _InboxVerificationScreenState extends State<InboxVerificationScreen> {
               border: Border.all(color: Colors.grey.shade100),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.05),
+                  color: Colors.black.withValues(alpha: 0.05),
                   blurRadius: 10,
                   offset: const Offset(0, 4),
                 ),

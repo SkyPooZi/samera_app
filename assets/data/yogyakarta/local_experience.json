@@ -5,7 +5,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Kawasan pedestrian ikonik untuk berjalan kaki, belanja, kuliner, dan menikmati suasana kota.",
@@ -31,7 +31,20 @@
       "asset": "assets/images/360/yogyakarta/Jalan Malioboro 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "00:00",
+    "closingTime": "23:59",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_local_experience_002",
@@ -39,7 +52,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Pasar tradisional untuk berburu batik, jajanan, rempah, dan berbagai produk lokal.",
@@ -65,7 +78,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_local_experience_003",
@@ -73,7 +99,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Pengalaman belajar membuat motif batik bersama pengrajin lokal.",
@@ -99,7 +125,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_local_experience_004",
@@ -107,7 +146,7 @@
     "location": "Cangkringan, Sleman, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.8,
     "reviewCount": 1000,
     "shortDescription": "Menjelajahi kawasan Merapi menggunakan jeep sambil melihat lanskap vulkanik.",
@@ -133,7 +172,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_local_experience_005",
@@ -141,7 +193,7 @@
     "location": "Kretek, Bantul, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Hamparan gumuk pasir yang unik untuk sandboarding dan fotografi.",
@@ -166,7 +218,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Bantul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_local_experience_006",
@@ -174,7 +239,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Pengalaman berburu oleh-oleh seperti bakpia, batik, kerajinan, dan makanan tradisional.",
@@ -200,7 +265,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_local_experience_007",
@@ -208,7 +286,7 @@
     "location": "Bantul, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Mencoba membuat kerajinan gerabah bersama pengrajin lokal di Kasongan.",
@@ -234,6 +312,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Bantul",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

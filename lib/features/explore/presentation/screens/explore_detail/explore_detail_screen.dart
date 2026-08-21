@@ -77,7 +77,7 @@ class _ExploreDetailScreenState extends State<ExploreDetailScreen> {
                 Container(
                   width: double.infinity,
                   decoration: const BoxDecoration(
-                    color: Color(0xFF181C24),
+                    color: Colors.white,
                     borderRadius: BorderRadius.vertical(
                       top: Radius.circular(30),
                     ),
@@ -97,12 +97,12 @@ class _ExploreDetailScreenState extends State<ExploreDetailScreen> {
                           children: [
                             Text(
                               widget.title,
-                              style: tsHeadlineMediumSemiBold(Colors.white),
+                              style: tsHeadlineMediumSemiBold(ColorsResources.colorsPrimary),
                             ),
                             SizedBox(height: size.height * 0.005),
                             Text(
                               widget.subtitle,
-                              style: tsBodyMediumMedium(Colors.grey[300]!),
+                              style: tsBodyMediumMedium(Colors.grey[600]!),
                             ),
                             SizedBox(height: size.height * 0.03),
                             Row(
@@ -111,13 +111,13 @@ class _ExploreDetailScreenState extends State<ExploreDetailScreen> {
                                 ExploreDetailStatItem(
                                   icon: Icons.location_on,
                                   count: widget.destinationsCount,
-                                  label: 'Destination',
+                                  label: 'Destinasi',
                                 ),
                                 const ExploreDetailDivider(),
                                 ExploreDetailStatItem(
                                   icon: Icons.account_balance,
                                   count: widget.heritageCount,
-                                  label: 'Heritage',
+                                  label: 'Sejarah',
                                 ),
                                 const ExploreDetailDivider(),
                                 ExploreDetailStatItem(
@@ -136,7 +136,7 @@ class _ExploreDetailScreenState extends State<ExploreDetailScreen> {
                             SizedBox(height: size.height * 0.03),
                             Text(
                               widget.description,
-                              style: tsBodyMediumRegular(Colors.grey[300]!)
+                              style: tsBodyMediumRegular(Colors.black87)
                                   .copyWith(height: 1.5),
                             ),
                             SizedBox(height: size.height * 0.04),
@@ -148,14 +148,8 @@ class _ExploreDetailScreenState extends State<ExploreDetailScreen> {
                         constraints: BoxConstraints(
                           minHeight: size.height * 0.5,
                         ),
-                        decoration: const BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.vertical(
-                            top: Radius.circular(30),
-                          ),
-                        ),
                         padding: EdgeInsets.only(
-                          top: size.width * 0.06,
+                          top: size.width * 0.02,
                           bottom: size.width * 0.02,
                         ),
                         child: Column(
@@ -192,9 +186,10 @@ class _ExploreDetailScreenState extends State<ExploreDetailScreen> {
                                             recommendations[index];
                                         return Padding(
                                           padding: const EdgeInsets.only(
-                                            right: 16.0,
+                                            right: 12.0,
                                           ),
                                           child: CommonDestinationCard(
+                                            margin: EdgeInsets.zero,
                                             title: destination.name,
                                             location: destination.category,
                                             rating: destination.rating,

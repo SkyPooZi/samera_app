@@ -1,0 +1,1128 @@
+[
+  {
+    "id": "jateng_destination_001",
+    "name": "Karimunjawa",
+    "location": "Jepara, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Kepulauan tropis dengan laut jernih, pantai putih, dan pulau-pulau kecil.",
+    "description": "Kawasan kepulauan dengan aktivitas snorkeling, island hopping, wisata pantai, dan menikmati sunset.",
+    "ticketPrice": 5000,
+    "ticketPriceLabel": "Mulai Rp5.000 / orang",
+    "address": "Jepara, Jawa Tengah",
+    "highlights": [
+      "Snorkeling",
+      "Island hopping",
+      "Pantai",
+      "Sunset"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gy4lhEHfJ_5L0hmn0RdLkyNWuCUUKS8nyMRuuHs6Xw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG1Me0LcyLXzqh5kg__nk1FiO8Z8iVitCjDkprueeKVcNa6WNuORrl3Kiy&s=10",
+      "https://wisatakarimunjawa.co.id/wp-content/uploads/2024/10/Tour-Snorkeling-Karimunjawa-1024x654.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPnSPURYLy5SjcWl0A24_z5sZQbQka3wele9Uw9-_iRg&s=10",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd0hNZsOwUu7N-kku0DKi9MdAyUVI3Sq0gffrFoAUmRLa9lhQ2pCb0-2goeAO7VHR5wausQZWFubyWUZ21cmibdyW8HZsaahriGH2VCxQJvjcIBEpkBtNFHdjGyXDaAZSP-x90mPhZgsBPCAHW_Q6q_SYMVfnQDIRfIi4JKJie1oT13JPV3PETimG73tM/s1600/tvk1.JPG"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_destination_007",
+    "name": "Telaga Menjer",
+    "location": "Wonosobo, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Telaga pegunungan dengan suasana tenang dan panorama hijau.",
+    "description": "Telaga alami di kawasan pegunungan yang cocok untuk menikmati suasana alam.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Wonosobo, Jawa Tengah",
+    "highlights": [
+      "Telaga",
+      "Pegunungan",
+      "Perahu",
+      "Alam"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_heritage_001",
+    "name": "Candi Borobudur",
+    "location": "Magelang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Candi Buddha monumental dengan stupa dan relief.",
+    "description": "Salah satu warisan budaya paling penting di Jawa Tengah.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Magelang, Jawa Tengah",
+    "highlights": [
+      "Stupa",
+      "Relief",
+      "Sunrise",
+      "Warisan budaya"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4_dCgtX4eIgxlTshtBELU3tv-9rGdJBHlGmVARExwA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDLeD2ZIT_vWrorckB0uzNw0gaFER5WMeY0JH-XzLirQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeHaUeejXSEqkIrrIqViw7ghA9DIQwsgc6hbuZ4IA_Vg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwM0J9KZvznB_naFB6OCzd2S8gAkbPfnPyEZd2udcODA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ep-VsVmNofenqRTuzrl5DBRDxI5I12Ymd6NbDf5HqQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/jawa_tengah/Candi Borobudur 360.jpg",
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_heritage_002",
+    "name": "Lawang Sewu",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Bangunan bersejarah dengan arsitektur kolonial khas Semarang.",
+    "description": "Bangunan ikonik yang menjadi salah satu landmark sejarah Kota Semarang.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Arsitektur kolonial",
+      "Sejarah",
+      "Museum"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdk7ZSTcF_FxUQPWoPsfu3lun8Ibqdfx7IJ0IcsNmF-g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR34VcNIXrrsRQZt_NIZd3TKyj3_-_J_yNlQ0ZNh7g-GQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEGvWYOE6awS9X7038iCINYwtWZF6b6ANY-1GptBEpVw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ82Wegt6XVWx7ZtguPmrQ0sHvPiGUCNGgDnkbeo4Ffsw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCSManIybXeE2keXLCSCjYX3Vbt6Mc_D6KJDCLKqSGow&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_heritage_003",
+    "name": "Candi Gedong Songo",
+    "location": "Bandungan, Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks candi Hindu di lereng Gunung Ungaran.",
+    "description": "Candi dengan suasana sejuk dan panorama perbukitan.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Bandungan, Semarang, Jawa Tengah",
+    "highlights": [
+      "Candi",
+      "Pegunungan",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjFv11QB0j5900mcYoG8ytiuupNjKjZq2AY2NxAq7nWQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_heritage_004",
+    "name": "Candi Sukuh",
+    "location": "Karanganyar, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Candi unik di lereng Lawu dengan bentuk arsitektur yang khas.",
+    "description": "Kompleks candi Hindu di kawasan pegunungan dengan relief dan arsitektur unik.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Karanganyar, Jawa Tengah",
+    "highlights": [
+      "Candi",
+      "Gunung Lawu",
+      "Relief"
+    ],
+    "image": "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+    "gallery": [
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg",
+      "https://ik.imagekit.io/tvlk/blog/2024/08/shutterstock_2368306901.jpg"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_heritage_005",
+    "name": "Candi Cetho",
+    "location": "Karanganyar, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks candi bertingkat dengan panorama perkebunan di lereng Lawu.",
+    "description": "Situs candi di kawasan tinggi dengan suasana berkabut dan panorama perkebunan.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Karanganyar, Jawa Tengah",
+    "highlights": [
+      "Candi",
+      "Perkebunan",
+      "Kabut",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHK7b78MKNHm77N6qn6TNf3wSEdlLlV05x6c3VAhl7CxO0L1VZpccnXVI9&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_heritage_006",
+    "name": "Masjid Agung Demak",
+    "location": "Demak, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Masjid bersejarah yang berkaitan erat dengan perkembangan Islam di Jawa.",
+    "description": "Masjid bersejarah dengan arsitektur tradisional dan nilai sejarah penyebaran Islam di Jawa.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Demak, Jawa Tengah",
+    "highlights": [
+      "Masjid",
+      "Sejarah Islam",
+      "Arsitektur Jawa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ1pVJTd0u5ULXVEgIXx7fVRAm5Na8NIB5lHdCfMrOw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_heritage_007",
+    "name": "Museum Sangiran",
+    "location": "Sragen, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Situs dan museum penting untuk mempelajari manusia purba.",
+    "description": "Kawasan Sangiran menampilkan fosil, rekonstruksi, dan informasi evolusi manusia.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Sragen, Jawa Tengah",
+    "highlights": [
+      "Fosil",
+      "Manusia purba",
+      "Museum",
+      "Edukasi"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUOOiYgI1hBKxFkjNc8l6A1x67MElW9im8KbiVJuHIfw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xuW1y56nSFtH-vZjVlvWBxO-rEbW7JoDcxABza_0TA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjXJmHSgbOhIhZrXo1LvPjnGmGC-c3EeHJ6OjgwgEh7A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxE6OAVuOcSFTyjMEWgG-fdd2TuVO62lAN5KeuVn7quw&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIDd2Q40n79aguCF4fGboVJJjdROTn-jcAX5PFLKOPQQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_cuisine_001",
+    "name": "Lumpia Semarang",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Kuliner ikonik Semarang dengan isian rebung dan pilihan pelengkap.",
+    "description": "Lumpia menjadi salah satu kuliner dan oleh-oleh paling dikenal dari Semarang.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Rebung",
+      "Oleh-oleh"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuoF7IAe688oo9xP2xZK_FOirr5Cr4rFrXX7AGpfTs3g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQaXb1kuaiIk3bGN-eLTf-l4KIzWa8etPzBR-aG9amXg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCqe35n3gHDaVeU_L8zHw3s9FHpT6on2gAZlgIwoVEnQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgAN2PNKzpAdk_1j5SG1Y_2AjiW-9Nff7MO_uIhFZ4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2UQOk3qlEY2mLY9fCWuCvlXil_IJpr2OYOPnMUQfvZw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_cuisine_002",
+    "name": "Soto Kudus",
+    "location": "Kudus, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Soto khas Kudus dengan kuah gurih dan suwiran daging.",
+    "description": "Soto Kudus merupakan kuliner khas dengan penyajian dalam mangkuk kecil.",
+    "ticketPrice": 12000,
+    "ticketPriceLabel": "Mulai Rp12.000 / orang",
+    "address": "Kudus, Jawa Tengah",
+    "highlights": [
+      "Kuah gurih",
+      "Ayam",
+      "Kerbau"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52dCYLcDsdaQx-8a00HkzDwLLERYUsca82fkIEooalw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_cuisine_003",
+    "name": "Tahu Gimbal",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Tahu dengan gimbal udang, sayuran, dan saus kacang.",
+    "description": "Hidangan khas Semarang dengan perpaduan gurih dan manis.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Gimbal udang",
+      "Saus kacang"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvvIMN0ZMNP_eVA-Nk9Ep4vM9OU3lytRz00MJqqJizdQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_cuisine_004",
+    "name": "Nasi Gandul",
+    "location": "Pati, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Nasi dengan kuah gurih berbumbu dan potongan daging.",
+    "description": "Kuliner khas Pati yang cocok dinikmati sebagai makanan utama.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Pati, Jawa Tengah",
+    "highlights": [
+      "Daging",
+      "Kuah gurih"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdydznhpAf2NvUHEgKcUHgZX-w3Txx9KcwCUlH8RfEmg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_cuisine_005",
+    "name": "Garang Asem",
+    "location": "Kudus, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Olahan ayam berbumbu dengan rasa gurih dan segar.",
+    "description": "Ayam dimasak bersama bumbu dan belimbing wuluh lalu dibungkus daun pisang.",
+    "ticketPrice": 18000,
+    "ticketPriceLabel": "Mulai Rp18.000 / orang",
+    "address": "Kudus, Jawa Tengah",
+    "highlights": [
+      "Ayam",
+      "Belimbing wuluh"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGqS2ym_uLdHRhLlBkAWfKehxzpPXk3iG53ihZcIDxQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_cuisine_006",
+    "name": "Jenang Kudus",
+    "location": "Kudus, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Jajanan manis tradisional yang populer sebagai oleh-oleh.",
+    "description": "Jenang menjadi salah satu produk kuliner khas Kudus.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kudus, Jawa Tengah",
+    "highlights": [
+      "Oleh-oleh",
+      "Tradisional"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_cuisine_007",
+    "name": "Tahu Petis",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Tahu goreng dengan sambal petis khas Jawa.",
+    "description": "Camilan sederhana yang populer sebagai bagian dari kuliner Semarang.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Tahu",
+      "Petis",
+      "Camilan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl_XmH4L1DRGk-BVLGNvziKvwDYN_RmfaD61qlADEf0A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_culture_001",
+    "name": "Kampung Batik Laweyan",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan batik bersejarah dengan rumah tradisional dan sentra pengrajin.",
+    "description": "Pengunjung dapat mengenal sejarah batik dan aktivitas pengrajin di kawasan Laweyan.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Batik",
+      "Rumah tradisional",
+      "Kriya"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZhaotb3stOFlecznioQx12Kxg_Z78RamWkCnmlgKBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_culture_002",
+    "name": "Keraton Surakarta",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Pusat sejarah dan budaya Kasunanan Surakarta.",
+    "description": "Kompleks keraton yang menyimpan koleksi, tradisi, dan arsitektur budaya Jawa.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Keraton",
+      "Gamelan",
+      "Budaya Jawa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0BfX4xBgwW9-BZ60lju5JZiXNvy1xoR-rYqo-OkWGg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_culture_003",
+    "name": "Museum Kereta Api Ambarawa",
+    "location": "Ambarawa, Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Museum perkeretaapian dengan koleksi lokomotif dan sejarah kereta api.",
+    "description": "Museum yang menampilkan berbagai lokomotif tua dan sejarah transportasi kereta api.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Ambarawa, Semarang, Jawa Tengah",
+    "highlights": [
+      "Lokomotif",
+      "Sejarah",
+      "Kereta"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5f2OnfRLJ-2fmeIp1mV1irzwx2wK19X5VWrfbEoThw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_culture_004",
+    "name": "Desa Wisata Samiran",
+    "location": "Boyolali, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Desa wisata di lereng Merbabu dengan pengalaman kehidupan masyarakat pedesaan.",
+    "description": "Pengunjung dapat menikmati suasana desa, pertanian, dan panorama pegunungan.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Boyolali, Jawa Tengah",
+    "highlights": [
+      "Desa wisata",
+      "Pertanian",
+      "Merbabu"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpQhyLMD5V0XNYN3d3JDQF2qjvLz39gdUNc3CVkYTJg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_culture_005",
+    "name": "Wayang Orang Sriwedari",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Seni pertunjukan tradisional Jawa yang mengangkat cerita pewayangan.",
+    "description": "Pertunjukan wayang orang memadukan tari, dialog, musik, dan cerita tradisional.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Wayang orang",
+      "Tari",
+      "Gamelan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_culture_006",
+    "name": "Kampung Batik Kauman",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan batik tradisional di sekitar pusat budaya Kota Surakarta.",
+    "description": "Kampung yang dikenal dengan rumah batik dan aktivitas pengrajin lokal.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Batik",
+      "Pengrajin",
+      "Tradisi"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_culture_007",
+    "name": "Desa Wisata Kandri",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Desa wisata dengan aktivitas budaya, kerajinan, dan kehidupan masyarakat lokal.",
+    "description": "Kawasan desa wisata yang menawarkan pengalaman interaksi dengan masyarakat dan kegiatan budaya.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Desa wisata",
+      "Budaya",
+      "Kerajinan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_local_experience_001",
+    "name": "Kawasan Kota Lama Semarang",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Menjelajahi kawasan kota lama dengan bangunan bersejarah dan ruang publik.",
+    "description": "Pengalaman berjalan kaki menikmati bangunan, kafe, galeri, dan suasana Kota Lama.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Walking tour",
+      "Arsitektur",
+      "Kafe",
+      "Fotografi"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYdHA5KeVYyXprt0drkTnsnqIMlQM7BsFVjDoI2H9eQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtCqmYlE2U_i8Hsvzdz1RqN7uxqbrF3tIA91_IAlIKDA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9wYvG1_jVcnbHJ7N8qvJ5cTB2mMuY8XY89J8giDtyiQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwBwrbb5MXLuaH8tccQczkNVe4z0Qe8LQjMGy6KRquCA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIbFX_kJ9ciA0xnHyfZBUARN2h9soO8KsZXdQghP8aBA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_local_experience_002",
+    "name": "Pasar Gede Solo",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Berburu makanan dan produk lokal di pasar tradisional yang ramai.",
+    "description": "Pasar tradisional yang cocok untuk mengenal aktivitas perdagangan dan kuliner lokal.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Pasar",
+      "Kuliner",
+      "Produk lokal"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXAA8L4S3yAY-BHoIO3rLq-2VDzO3PP518-Sar4cIhlQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrOac-qYp9cPEK37gfwHpDhry-QUwoaZBin1SGnd23bQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_local_experience_003",
+    "name": "Workshop Batik Solo",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Mencoba proses membatik bersama pengrajin lokal.",
+    "description": "Aktivitas langsung mengenal teknik membatik dari membuat pola hingga pewarnaan.",
+    "ticketPrice": 75000,
+    "ticketPriceLabel": "Mulai Rp75.000 / orang",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Membatik",
+      "Workshop",
+      "Kriya"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvrFSiU1iFsnjp4vHhXZjpwHR8xf2pRAzgY4swGa_FFA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP6XzLBcOtuMnsyIxzeyZZXLnIFMz-8EeVqhAH4yQR-w&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_local_experience_004",
+    "name": "Jeep Tour Merapi",
+    "location": "Boyolali, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Menjelajahi kawasan Merapi dengan jeep dan menikmati lanskap vulkanik.",
+    "description": "Aktivitas petualangan untuk melihat kawasan lereng Merapi dari jalur wisata.",
+    "ticketPrice": 300000,
+    "ticketPriceLabel": "Mulai Rp300.000 / orang",
+    "address": "Boyolali, Jawa Tengah",
+    "highlights": [
+      "Jeep",
+      "Merapi",
+      "Petualangan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4r_uOc6j5KjWEkkh811_RGdDTHzBmdBFHBvEIgoQa-w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVCqKlR9HMN6DC5pbQ-iYz7N7F-BvNC4fWhUvzX2jt4A&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_local_experience_005",
+    "name": "Desa Wisata Borobudur",
+    "location": "Magelang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Mengenal kehidupan desa di sekitar kawasan Borobudur melalui aktivitas lokal.",
+    "description": "Pengalaman desa dengan aktivitas kerajinan, pertanian, dan kehidupan masyarakat.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Magelang, Jawa Tengah",
+    "highlights": [
+      "Desa",
+      "Kerajinan",
+      "Pertanian"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7smbOoRzvhdmqyujvCCrq5GwUDdMA6Q58WhlEyIbodg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzVdUD-ux9J3HBOud61Gc68Ld9vZL0sF2QXxgTL7pPvA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_local_experience_006",
+    "name": "Kampung Jamu Nguter",
+    "location": "Sukoharjo, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Mengenal tradisi jamu dan produk herbal lokal.",
+    "description": "Pengalaman mengenal produksi dan budaya jamu yang berkembang di masyarakat.",
+    "ticketPrice": 25000,
+    "ticketPriceLabel": "Mulai Rp25.000 / orang",
+    "address": "Sukoharjo, Jawa Tengah",
+    "highlights": [
+      "Jamu",
+      "Herbal",
+      "Produk lokal"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rcbSK1cY6CCKTxsIFwY-s8nYmwDXdZgFnhKGcQb7cw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUYgEH5O791rKNEtoJ-CGO8Z5eGl1_7AuQWLEcQryr7g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_local_experience_007",
+    "name": "Sentra Gerabah Bayat",
+    "location": "Klaten, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Mencoba kerajinan gerabah dan berinteraksi dengan pengrajin lokal.",
+    "description": "Aktivitas kriya yang memperkenalkan proses pembuatan gerabah secara langsung.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Klaten, Jawa Tengah",
+    "highlights": [
+      "Gerabah",
+      "Workshop",
+      "Pengrajin"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu9swgmWxcNd4ogPRO9UELm5v95gMMclGtycPbpa-rew&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPR1oRl4qypRtUeNDgSBj6K5Y53MiICVQh4X1GIUv6g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_destination_002",
+    "name": "Dieng Plateau",
+    "location": "Wonosobo, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Dataran tinggi sejuk dengan telaga, kawah, dan lanskap pegunungan.",
+    "description": "Kawasan pegunungan yang populer dengan Telaga Warna, Kawah Sikidang, dan panorama sunrise.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Wonosobo, Jawa Tengah",
+    "highlights": [
+      "Telaga Warna",
+      "Kawah",
+      "Sunrise",
+      "Pegunungan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnW2vVDPyjgd5SgAk6Yc0r37Bb7a5_kouMTPXjsm6yQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvV_5bOtU1jiP8v3Spv7oHpQzjAip3xmri6J3c0-Id4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2g3kHCH26vkWt6f4nqSobFSVg04E0iLkS3TPBdHGZhg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuOlvAH3CK_daWq7xuXX7jJCVjEXbF4JrHDSrfORYflQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSysf5si-8lEGDlz2YYoZiCU1a_mi5yI5HyedhG21PamA&s"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_destination_003",
+    "name": "Umbul Ponggok",
+    "location": "Klaten, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Mata air jernih untuk berenang dan menikmati aktivitas bawah air.",
+    "description": "Mata air alami yang terkenal dengan kejernihan air dan suasana pedesaan.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Klaten, Jawa Tengah",
+    "highlights": [
+      "Air jernih",
+      "Berenang",
+      "Underwater",
+      "Pedesaan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_destination_004",
+    "name": "Baturaden",
+    "location": "Banyumas, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan wisata kaki Gunung Slamet dengan udara sejuk dan panorama alam.",
+    "description": "Destinasi pegunungan dengan air terjun, pemandian, dan suasana hutan.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Banyumas, Jawa Tengah",
+    "highlights": [
+      "Gunung Slamet",
+      "Air terjun",
+      "Pemandian",
+      "Hutan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_destination_005",
+    "name": "Dataran Tinggi Ketep",
+    "location": "Magelang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Panorama Gunung Merapi dan Merbabu dari kawasan dataran tinggi.",
+    "description": "Kawasan gardu pandang yang cocok untuk menikmati panorama dua gunung dan udara pegunungan.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Magelang, Jawa Tengah",
+    "highlights": [
+      "Merapi",
+      "Merbabu",
+      "Panorama",
+      "Sunrise"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jateng_destination_006",
+    "name": "Pantai Menganti",
+    "location": "Kebumen, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Pantai dengan perbukitan hijau dan garis pantai yang indah.",
+    "description": "Pantai selatan Kebumen dengan perpaduan pasir, tebing, dan perbukitan hijau.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Kebumen, Jawa Tengah",
+    "highlights": [
+      "Pantai",
+      "Tebing",
+      "Bukit",
+      "Sunset"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  }
+]

@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "jogja_destination_001",
+    "name": "Wisata Lava Merapi dan Batu Alien",
+    "location": "Cangkringan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Menikmati lanskap Merapi, aliran lava, dan panorama alam dari kawasan lereng gunung.",
+    "description": "Kawasan wisata di lereng Merapi yang menawarkan panorama Gunung Merapi dan bentang alam vulkanik. Cocok untuk jeep tour dan menikmati pemandangan.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Cangkringan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Gunung Merapi",
+      "Batu Alien",
+      "Jeep Tour",
+      "Panorama vulkanik"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL6vW3L31ry_Y8zGIwmCcl3vDmvKT52GXwks5yiRwjA&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Wisata Lava Merapi dan Batu Alien 360.jpg",
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_destination_002",
+    "name": "Hutan Pinus Pengger",
+    "location": "Dlingo, Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Hutan pinus dengan suasana sejuk, gardu pandang, dan panorama Yogyakarta dari ketinggian.",
+    "description": "Hutan wisata di perbukitan Dlingo yang populer untuk menikmati suasana hutan dan panorama kota terutama sore hingga malam.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Dlingo, Bantul, DI Yogyakarta",
+    "highlights": [
+      "Hutan pinus",
+      "City view",
+      "Sunset",
+      "Spot foto"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN6fqxevXFGpasSXUv1ilYf629NQ0HQdeg2ohTbdj6Q&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Hutan Pinus Pengger 360.jpg",
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_destination_003",
+    "name": "Pantai Parangtritis",
+    "location": "Kretek, Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Pantai ikonik Yogyakarta dengan hamparan pasir luas dan panorama matahari terbenam.",
+    "description": "Pantai selatan yang cocok untuk menikmati suasana pesisir, bermain pasir, berjalan-jalan, dan menyaksikan sunset.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kretek, Bantul, DI Yogyakarta",
+    "highlights": [
+      "Pantai",
+      "Sunset",
+      "ATV",
+      "Kuliner pantai"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTv5Y2pRl8WHjLltI5KsEfnBF9KObm0rJfzufwoissw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_destination_004",
+    "name": "Kalibiru",
+    "location": "Kokap, Kulon Progo, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Perbukitan hijau dengan gardu pandang yang menghadap Waduk Sermo.",
+    "description": "Kawasan wisata alam di perbukitan Kulon Progo dengan udara sejuk dan pemandangan Waduk Sermo.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Kokap, Kulon Progo, DI Yogyakarta",
+    "highlights": [
+      "Waduk Sermo",
+      "Gardu pandang",
+      "Perbukitan",
+      "Sunrise"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9xXVfGHMtblHUSMYj61XVYiQaXnl5DC-3WC9GL3yYSA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_destination_005",
+    "name": "Goa Jomblang",
+    "location": "Semanu, Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Goa vertikal dengan pengalaman menyusuri hutan purba dan fenomena cahaya dari dalam goa.",
+    "description": "Goa vertikal di Gunungkidul yang terkenal dengan pengalaman caving dan cahaya alami yang masuk dari lubang goa.",
+    "ticketPrice": 500000,
+    "ticketPriceLabel": "Mulai Rp500.000 / orang",
+    "address": "Semanu, Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "Goa vertikal",
+      "Caving",
+      "Cahaya alami",
+      "Hutan purba"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWbmYtMVXZAN-LH_Qu2UA8bBv18cwyNVD4OjkHAkSiGw&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Goa Jomblang 360.jpg",
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_destination_006",
+    "name": "Pantai Timang",
+    "location": "Tepus, Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Pantai berbatu dengan panorama laut selatan dan pengalaman gondola menuju pulau karang.",
+    "description": "Destinasi pesisir Gunungkidul yang terkenal dengan tebing karang, ombak besar, dan aktivitas gondola tradisional.",
+    "ticketPrice": 25000,
+    "ticketPriceLabel": "Mulai Rp25.000 / orang",
+    "address": "Tepus, Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "Gondola",
+      "Tebing karang",
+      "Laut selatan",
+      "Sunset"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6SN-kLCkM68dWVYpQRdXuAsMPhrXRJROP99nexdniA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_destination_007",
+    "name": "HeHa Sky View",
+    "location": "Patuk, Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.4,
+    "reviewCount": 1000,
+    "shortDescription": "Tempat menikmati panorama Kota Yogyakarta dari kawasan perbukitan.",
+    "description": "Destinasi dengan area makan dan spot foto yang menawarkan pemandangan kota dari ketinggian.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Patuk, Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "City view",
+      "Sunset",
+      "Kuliner",
+      "Spot foto"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPPfRVvGD38b8KzUPEa-ENJoL2RdJHtciOgxlpriD1lQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_heritage_002",
+    "name": "Candi Prambanan",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks candi Hindu monumental dengan bangunan utama yang menjulang.",
+    "description": "Kompleks candi Hindu yang terkenal dengan arsitektur tinggi dan relief kisah Ramayana.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Candi Siwa",
+      "Relief Ramayana",
+      "Sunset",
+      "Arsitektur"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRRu7sOCjet40mc0agDoOBb2Tzev3JyIZ7LBTkX46LHg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_heritage_003",
+    "name": "Candi Ratu Boko",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks situs kuno di atas perbukitan dengan panorama luas dan gerbang ikonik.",
+    "description": "Situs arkeologi di kawasan perbukitan yang menawarkan bangunan gerbang, reruntuhan, dan panorama sunset.",
+    "ticketPrice": 40000,
+    "ticketPriceLabel": "Mulai Rp40.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Gerbang Ratu Boko",
+      "Sunset",
+      "Situs arkeologi",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHnBSrl-JzVi4A_-fpk9NyLDhEL82o11_AU2-0SdWBw&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Candi Ratu Boko 360.jpg",
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_heritage_004",
+    "name": "Tugu Yogyakarta",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Monumen ikonik Yogyakarta yang menjadi salah satu landmark pusat kota.",
+    "description": "Tugu merupakan salah satu simbol Kota Yogyakarta dan berada di kawasan yang ramai dengan aktivitas kota.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Landmark kota",
+      "Fotografi",
+      "Pusat kota"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOXyNaHx2f1rTrBlMXrNWvlJorUNrCd3WdRqe5beek6A&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Tugu Jogja 360.jpg",
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_heritage_005",
+    "name": "Taman Sari",
+    "location": "Kraton, Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kompleks bekas taman kerajaan dengan lorong dan bangunan bersejarah yang unik.",
+    "description": "Kompleks peninggalan Keraton dengan kolam pemandian, lorong bawah tanah, dan Sumur Gumuling.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kraton, Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Sumur Gumuling",
+      "Kolam",
+      "Lorong",
+      "Arsitektur"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzA6knd59jaGAjFp5VvYCG7tWVi5E1ZGbrlUskor1xQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_heritage_006",
+    "name": "Kotagede",
+    "location": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan bersejarah yang menyimpan jejak Kerajaan Mataram Islam dan arsitektur tradisional.",
+    "description": "Kawasan tua Yogyakarta dengan makam raja, masjid, rumah tradisional, dan jejak sejarah Mataram.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Mataram Islam",
+      "Rumah tradisional",
+      "Masjid",
+      "Sejarah"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYxNanTc_-dw4FPspz2w3gUGptmSKtGzzOUDEXIfibw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_heritage_007",
+    "name": "Candi Ijo",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Candi di perbukitan dengan panorama luas dan pemandangan matahari terbenam.",
+    "description": "Kompleks candi Hindu yang berada di lokasi tinggi sehingga pengunjung dapat menikmati panorama perbukitan.",
+    "ticketPrice": 5000,
+    "ticketPriceLabel": "Mulai Rp5.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Candi",
+      "Perbukitan",
+      "Sunset",
+      "Panorama"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXw4p5-up4hwepojq3djPzT_jVnb7RPWgY_E5J7P7Kg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_cuisine_001",
+    "name": "Gudeg",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Kuliner khas Yogyakarta berbahan nangka muda dengan cita rasa manis gurih.",
+    "description": "Gudeg biasanya disajikan bersama nasi, ayam, telur, tahu, dan sambal krecek.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Nangka muda",
+      "Sambal krecek",
+      "Ayam",
+      "Telur"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0UHBjGNkein2RYJ6cMRE_Ryx5iiQ93Xeh7kjglQVT_Q&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0UHBjGNkein2RYJ6cMRE_Ryx5iiQ93Xeh7kjglQVT_Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdF-nOS6wwkCYdPgtq9yKUjjjArkFvOXzv-uPAcC9Jmw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAK1Ev19eHfI04mAYq9sFbfE5p4-uCz9cPY7HR8WUJ8A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBsnCulBB2MohyBHCD05lfSLRTkj00AxB6N8-HgH4MRQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_cuisine_002",
+    "name": "Sate Klathak",
+    "location": "Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Sate kambing khas Yogyakarta yang dibakar menggunakan jeruji besi.",
+    "description": "Sate Klathak dikenal dengan bumbu sederhana sehingga rasa daging kambing tetap kuat.",
+    "ticketPrice": 25000,
+    "ticketPriceLabel": "Mulai Rp25.000 / orang",
+    "address": "Bantul, DI Yogyakarta",
+    "highlights": [
+      "Kambing",
+      "Jeruji besi",
+      "Kuliner Bantul"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY8rQT-l24VBdaHaNLYY-9EZAw7PYVVm8zDUC17UyZ7Q&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVj-8vHwBFI1DHk3ucxtQW6PV4cPKUPkUPzGzkrFCA1Q&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXTJDye6a0n6dFbdjRDYcG65STKK_xV6aZKON5oATqxw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSPn1UPM7PgaNjx43noa0wSJ6m7kimCplYN7PxXHXGhg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvW3m61aNx8aGaYe_gjIB7HO38xQ8dutWMkXhz-IENlA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_cuisine_003",
+    "name": "Bakmi Jawa",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Mi tradisional dengan bumbu Jawa yang populer sebagai kuliner malam.",
+    "description": "Bakmi Jawa dapat disajikan goreng atau godhog dengan ayam, telur, dan sayuran.",
+    "ticketPrice": 18000,
+    "ticketPriceLabel": "Mulai Rp18.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Mi Jawa",
+      "Ayam",
+      "Telur",
+      "Kuliner malam"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkiCj9Ovv03LnFiCCzmr52XICxpfqFfzU2j4s1niKT-A&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_-eOt1M2_dbttuYre9sf7AMPfAKDzubl50jh7a72XA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZnVyebTQ7zXLbCrfmQxa-RcHIVO6vXYA08V0Nx2NVIA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfzONEPhFh2tu9xxUH6xp2gAxnmn7p-NKR3Jzcf1ol7A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEN1Bfav1h9B4CBiHqbH5OPSLExgUU6eLavByG7vueZA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_cuisine_004",
+    "name": "Bakpia",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Oleh-oleh khas Yogyakarta berupa kue kecil dengan beragam isian.",
+    "description": "Bakpia tersedia dalam berbagai varian rasa dan cocok dibawa sebagai oleh-oleh.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Oleh-oleh",
+      "Beragam isian",
+      "Jajanan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCTMnm2-aDmXsRV5wI4Yxrk0PGQvZRhNrutZvAWUIfPQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2dn3Etx6-vC3tgWKLCqp3MTiLLHQ4S9_zdiTGEIAHow&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkIk0gwt0xcIIR20ddPdTzvR2CmFEWwn0K0gO8ywLjqQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9KvO5PF6hcWIM9BIEokVtxcimGD--uwmHkwuhKYd6Qw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlPZyLirEGN2rmwr5Uxm99JQGhJC9AvdSFNH873a13dg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_cuisine_005",
+    "name": "Oseng Mercon",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Kuliner pedas dengan potongan daging dan cabai melimpah.",
+    "description": "Oseng Mercon cocok untuk penggemar makanan pedas dan banyak ditemukan sebagai kuliner malam.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Pedas",
+      "Daging",
+      "Kuliner malam"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBHBp6Amv6HxC2om7HIG2j5_-td6ATLyL-noDAC-JVIA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVM958qmQlOskdaV1O6REtFS-ZQz5aPWHC2r4lb5ByHg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Qrt9nuvImREO_BfYBBAwlZtfkyGRfFC5Vjm835Hc1w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Qrt9nuvImREO_BfYBBAwlZtfkyGRfFC5Vjm835Hc1w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Qrt9nuvImREO_BfYBBAwlZtfkyGRfFC5Vjm835Hc1w&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_cuisine_006",
+    "name": "Kipo",
+    "location": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Jajanan tradisional kecil dengan kulit hijau dan isian kelapa manis.",
+    "description": "Kipo merupakan jajanan tradisional yang identik dengan kawasan Kotagede.",
+    "ticketPrice": 8000,
+    "ticketPriceLabel": "Mulai Rp8.000 / orang",
+    "address": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Kotagede",
+      "Kelapa",
+      "Jajanan tradisional"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF37zImwkoSLN36-hnjy7qdnRXVUYFg8CnYpFVIbJZZQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXx3I5x9vVbP8d9lTY2W-9aP-VRZ5gi_EbEzcn56BhBQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnMw5tPZ7xVS1u3XH_BLGdpdxhAfyE76XPrLGKzJwoYg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXx3I5x9vVbP8d9lTY2W-9aP-VRZ5gi_EbEzcn56BhBQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXx3I5x9vVbP8d9lTY2W-9aP-VRZ5gi_EbEzcn56BhBQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_cuisine_007",
+    "name": "Yangko",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Kue tradisional kenyal berbahan tepung ketan yang sering dijadikan oleh-oleh.",
+    "description": "Yangko memiliki tekstur kenyal dan tersedia dalam beberapa pilihan rasa.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Ketan",
+      "Kenyal",
+      "Oleh-oleh"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbL8r6b2n83kyjUkE7u6JhaGapQvpkRCFwXpUp-8p63g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq_nfbbMSYV3P6uVCvcwRntLNtOmYkddNgmTfsNz3nkw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCaW46q-1x6LB2VHl1jAjbMQTIO5Gg_4V9a0uA-DY8UA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpNgboTFceAfb8yx4F_mZbPNbbuSG-MUJZGAUdBBSNJw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnNc1DTzHPPBM6FQd8egeVWqNqTsj6gOVCC_3xtuRpQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_culture_001",
+    "name": "Keraton Yogyakarta",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Pusat budaya dan sejarah Kesultanan Yogyakarta.",
+    "description": "Kompleks keraton yang memperlihatkan arsitektur, koleksi, seni, dan tradisi Jawa.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Keraton",
+      "Gamelan",
+      "Tradisi Jawa",
+      "Museum"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpE-wXj6p1g4y25W0-b-4l2sR1hNq1c9u2_i28w&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_culture_002",
+    "name": "Museum Sonobudoyo",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Museum yang menyimpan koleksi budaya Jawa dan Nusantara.",
+    "description": "Museum dengan koleksi seni, keris, wayang, topeng, dan berbagai benda budaya.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Wayang",
+      "Keris",
+      "Topeng",
+      "Sejarah"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_culture_003",
+    "name": "Museum Ullen Sentalu",
+    "location": "Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Museum budaya Jawa dengan koleksi dan kisah keluarga kerajaan Mataram.",
+    "description": "Museum yang menghadirkan narasi budaya Jawa melalui koleksi seni, sejarah, dan kehidupan bangsawan.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Sleman, DI Yogyakarta",
+    "highlights": [
+      "Budaya Jawa",
+      "Seni",
+      "Sejarah",
+      "Koleksi kerajaan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_culture_004",
+    "name": "Desa Wisata Kasongan",
+    "location": "Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Sentra kerajinan gerabah yang memperlihatkan tradisi kriya masyarakat lokal.",
+    "description": "Kawasan kerajinan yang dikenal dengan produksi gerabah dan berbagai produk dekorasi berbahan tanah liat.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Bantul, DI Yogyakarta",
+    "highlights": [
+      "Gerabah",
+      "Kriya",
+      "Workshop",
+      "Kerajinan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_culture_005",
+    "name": "Desa Wisata Nglanggeran",
+    "location": "Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Desa wisata yang memadukan alam, budaya, dan aktivitas masyarakat lokal.",
+    "description": "Desa wisata dengan pengalaman budaya dan kehidupan masyarakat di sekitar kawasan Gunung Api Purba.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "Desa wisata",
+      "Budaya lokal",
+      "Gunung Api Purba"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_culture_006",
+    "name": "Sendratari Ramayana",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Pertunjukan seni yang menggabungkan tari, musik, dan kisah Ramayana.",
+    "description": "Pertunjukan budaya yang menghadirkan cerita Ramayana melalui tari dan musik tradisional.",
+    "ticketPrice": 150000,
+    "ticketPriceLabel": "Mulai Rp150.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Tari Jawa",
+      "Ramayana",
+      "Gamelan",
+      "Pertunjukan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_culture_007",
+    "name": "Wayang Kulit Yogyakarta",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Seni pertunjukan tradisional dengan wayang kulit dan iringan gamelan.",
+    "description": "Pengalaman budaya untuk mengenal seni pedalangan dan kisah pewayangan Jawa.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Wayang",
+      "Gamelan",
+      "Pedalangan",
+      "Budaya Jawa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_local_experience_001",
+    "name": "Jalan Malioboro",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan pedestrian ikonik untuk berjalan kaki, belanja, kuliner, dan menikmati suasana kota.",
+    "description": "Malioboro menjadi ruang publik utama Yogyakarta dengan aktivitas belanja, kuliner, seni jalanan, dan suasana malam.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Pedestrian",
+      "Belanja",
+      "Kuliner",
+      "Street photography"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjXm7UI7vj3qW18YoqfvIDielzvLoztj1JqCeW_E9BQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjXm7UI7vj3qW18YoqfvIDielzvLoztj1JqCeW_E9BQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjXm7UI7vj3qW18YoqfvIDielzvLoztj1JqCeW_E9BQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjXm7UI7vj3qW18YoqfvIDielzvLoztj1JqCeW_E9BQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjXm7UI7vj3qW18YoqfvIDielzvLoztj1JqCeW_E9BQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": true,
+      "asset": "assets/images/360/yogyakarta/Jalan Malioboro 360.jpg",
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_local_experience_002",
+    "name": "Pasar Beringharjo",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Pasar tradisional untuk berburu batik, jajanan, rempah, dan berbagai produk lokal.",
+    "description": "Pasar Beringharjo menawarkan pengalaman berbelanja produk lokal dan berinteraksi dengan suasana pasar tradisional.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Batik",
+      "Jajanan",
+      "Pasar tradisional",
+      "Belanja"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgG-Im-EZDC0jAcXiEigcOSo8MPLuaYfWQllItOGoH3w&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgG-Im-EZDC0jAcXiEigcOSo8MPLuaYfWQllItOGoH3w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgG-Im-EZDC0jAcXiEigcOSo8MPLuaYfWQllItOGoH3w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgG-Im-EZDC0jAcXiEigcOSo8MPLuaYfWQllItOGoH3w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgG-Im-EZDC0jAcXiEigcOSo8MPLuaYfWQllItOGoH3w&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_local_experience_003",
+    "name": "Batik Workshop",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Pengalaman belajar membuat motif batik bersama pengrajin lokal.",
+    "description": "Pengunjung dapat mengenal proses membatik dari membuat pola hingga mencanting dan mewarnai kain.",
+    "ticketPrice": 75000,
+    "ticketPriceLabel": "Mulai Rp75.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Membatik",
+      "Kriya",
+      "Pengrajin lokal",
+      "Workshop"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SeHHbbb3mgTZEimzv5ME1ULkMAO-p0HIJp8kI1k1nQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SeHHbbb3mgTZEimzv5ME1ULkMAO-p0HIJp8kI1k1nQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SeHHbbb3mgTZEimzv5ME1ULkMAO-p0HIJp8kI1k1nQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SeHHbbb3mgTZEimzv5ME1ULkMAO-p0HIJp8kI1k1nQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7SeHHbbb3mgTZEimzv5ME1ULkMAO-p0HIJp8kI1k1nQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_local_experience_004",
+    "name": "Jeep Merapi Tour",
+    "location": "Cangkringan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Menjelajahi kawasan Merapi menggunakan jeep sambil melihat lanskap vulkanik.",
+    "description": "Aktivitas wisata petualangan untuk menjelajahi kawasan lereng Merapi dan melihat berbagai jejak erupsi.",
+    "ticketPrice": 350000,
+    "ticketPriceLabel": "Mulai Rp350.000 / orang",
+    "address": "Cangkringan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Jeep",
+      "Merapi",
+      "Petualangan",
+      "Lava"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2yE38IZChS35pR5anVYzfZZT5s08m8nF0O8togTZ1w&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2yE38IZChS35pR5anVYzfZZT5s08m8nF0O8togTZ1w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2yE38IZChS35pR5anVYzfZZT5s08m8nF0O8togTZ1w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2yE38IZChS35pR5anVYzfZZT5s08m8nF0O8togTZ1w&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW2yE38IZChS35pR5anVYzfZZT5s08m8nF0O8togTZ1w&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_local_experience_005",
+    "name": "Gumuk Pasir Parangkusumo",
+    "location": "Kretek, Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Hamparan gumuk pasir yang unik untuk sandboarding dan fotografi.",
+    "description": "Kawasan gumuk pasir dekat pantai selatan yang menawarkan pengalaman sandboarding dan panorama unik.",
+    "ticketPrice": 100000,
+    "ticketPriceLabel": "Mulai Rp100.000 / orang",
+    "address": "Kretek, Bantul, DI Yogyakarta",
+    "highlights": [
+      "Sandboarding",
+      "Gumuk pasir",
+      "Fotografi"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqyOWpn7PUtrIMTuONfYCoNmy1dKnguIBB2khT8fzYQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqyOWpn7PUtrIMTuONfYCoNmy1dKnguIBB2khT8fzYQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqyOWpn7PUtrIMTuONfYCoNmy1dKnguIBB2khT8fzYQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqyOWpn7PUtrIMTuONfYCoNmy1dKnguIBB2khT8fzYQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPqyOWpn7PUtrIMTuONfYCoNmy1dKnguIBB2khT8fzYQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_local_experience_006",
+    "name": "Belanja Oleh-oleh Jogja",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Pengalaman berburu oleh-oleh seperti bakpia, batik, kerajinan, dan makanan tradisional.",
+    "description": "Aktivitas belanja yang membantu pengunjung membawa pulang produk khas Yogyakarta.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Bakpia",
+      "Batik",
+      "Kerajinan",
+      "Kuliner"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDA0pYygNrsLn1w0n1YbB_LoQitwF26khfE9YvyFsJvw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDA0pYygNrsLn1w0n1YbB_LoQitwF26khfE9YvyFsJvw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDA0pYygNrsLn1w0n1YbB_LoQitwF26khfE9YvyFsJvw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDA0pYygNrsLn1w0n1YbB_LoQitwF26khfE9YvyFsJvw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDA0pYygNrsLn1w0n1YbB_LoQitwF26khfE9YvyFsJvw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_local_experience_007",
+    "name": "Workshop Gerabah Kasongan",
+    "location": "Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "local_experience",
+    "category": "Aktivitas Lokal",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Mencoba membuat kerajinan gerabah bersama pengrajin lokal di Kasongan.",
+    "description": "Pengunjung dapat merasakan proses membuat gerabah secara langsung dan membawa pulang hasil karya.",
+    "ticketPrice": 75000,
+    "ticketPriceLabel": "Mulai Rp75.000 / orang",
+    "address": "Bantul, DI Yogyakarta",
+    "highlights": [
+      "Gerabah",
+      "Workshop",
+      "Kriya",
+      "Pengalaman lokal"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  },
+  {
+    "id": "jogja_heritage_008",
+    "name": "Museum Benteng Vredeburg",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "heritage",
+    "category": "Sejarah",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Benteng bersejarah di pusat Yogyakarta yang kini menjadi museum perjuangan.",
+    "description": "Museum di kawasan Malioboro yang menghadirkan sejarah perjuangan Indonesia melalui diorama dan koleksi.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Benteng",
+      "Museum",
+      "Sejarah",
+      "Malioboro"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_aEMiJNfIRfiSvgDh3rlZ3vWDmiSqjmJhSSqVCHDz2g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    }
+  }
+]

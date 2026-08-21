@@ -1,0 +1,330 @@
+[
+  {
+    "id": "jogja_culture_001",
+    "name": "Keraton Yogyakarta",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Pusat budaya dan sejarah Kesultanan Yogyakarta.",
+    "description": "Kompleks keraton yang memperlihatkan arsitektur, koleksi, seni, dan tradisi Jawa.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Keraton",
+      "Gamelan",
+      "Tradisi Jawa",
+      "Museum"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCpE-wXj6p1g4y25W0-b-4l2sR1hNq1c9u2_i28w&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyKr0dKj0sVIfnjBsJzN8yeTJLZfe11hL0CPSZiij0VA&s"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jogja_culture_002",
+    "name": "Museum Sonobudoyo",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Museum yang menyimpan koleksi budaya Jawa dan Nusantara.",
+    "description": "Museum dengan koleksi seni, keris, wayang, topeng, dan berbagai benda budaya.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Wayang",
+      "Keris",
+      "Topeng",
+      "Sejarah"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzCOVzbmxYBbG5lnQhbPvj3gBisLIZFBSGWt_L3JVXmA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jogja_culture_003",
+    "name": "Museum Ullen Sentalu",
+    "location": "Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Museum budaya Jawa dengan koleksi dan kisah keluarga kerajaan Mataram.",
+    "description": "Museum yang menghadirkan narasi budaya Jawa melalui koleksi seni, sejarah, dan kehidupan bangsawan.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Sleman, DI Yogyakarta",
+    "highlights": [
+      "Budaya Jawa",
+      "Seni",
+      "Sejarah",
+      "Koleksi kerajaan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYOmbmI3wTGB9ECj9Dp-9s1T-7BUVcDgYKSQ8h17GQqg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jogja_culture_004",
+    "name": "Desa Wisata Kasongan",
+    "location": "Bantul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Sentra kerajinan gerabah yang memperlihatkan tradisi kriya masyarakat lokal.",
+    "description": "Kawasan kerajinan yang dikenal dengan produksi gerabah dan berbagai produk dekorasi berbahan tanah liat.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Bantul, DI Yogyakarta",
+    "highlights": [
+      "Gerabah",
+      "Kriya",
+      "Workshop",
+      "Kerajinan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoCv4MRUEtztFxVas1pgVVsSODE3s6Q67ZDpAmGPpigA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Bantul",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jogja_culture_005",
+    "name": "Desa Wisata Nglanggeran",
+    "location": "Gunungkidul, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Desa wisata yang memadukan alam, budaya, dan aktivitas masyarakat lokal.",
+    "description": "Desa wisata dengan pengalaman budaya dan kehidupan masyarakat di sekitar kawasan Gunung Api Purba.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Gunungkidul, DI Yogyakarta",
+    "highlights": [
+      "Desa wisata",
+      "Budaya lokal",
+      "Gunung Api Purba"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVF0nLbup6uMVj79doSPiZtVNbucfIek7o4cQANxRzKQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Gunungkidul",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jogja_culture_006",
+    "name": "Sendratari Ramayana",
+    "location": "Prambanan, Sleman, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Pertunjukan seni yang menggabungkan tari, musik, dan kisah Ramayana.",
+    "description": "Pertunjukan budaya yang menghadirkan cerita Ramayana melalui tari dan musik tradisional.",
+    "ticketPrice": 150000,
+    "ticketPriceLabel": "Mulai Rp150.000 / orang",
+    "address": "Prambanan, Sleman, DI Yogyakarta",
+    "highlights": [
+      "Tari Jawa",
+      "Ramayana",
+      "Gamelan",
+      "Pertunjukan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6MC8z02orlQwkIyXGX_bd-kpegVsbDioMMoOzvE95Kw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jogja_culture_007",
+    "name": "Wayang Kulit Yogyakarta",
+    "location": "Kota Yogyakarta, DI Yogyakarta",
+    "province": "DI Yogyakarta",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Seni pertunjukan tradisional dengan wayang kulit dan iringan gamelan.",
+    "description": "Pengalaman budaya untuk mengenal seni pedalangan dan kisah pewayangan Jawa.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Kota Yogyakarta, DI Yogyakarta",
+    "highlights": [
+      "Wayang",
+      "Gamelan",
+      "Pedalangan",
+      "Budaya Jawa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc9lpeH2gqGQTLs9v406v3rEoWBU7kaw-ClbVk5MI5Wg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
+  }
+]

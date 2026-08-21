@@ -55,6 +55,7 @@ dependencies:
   geolocator: ^14.0.3
   json_annotation: ^4.12.0
   freezed_annotation: ^3.0.0
+  panorama_viewer: ^2.0.7
 
 dev_dependencies:
   flutter_test:
@@ -91,10 +92,22 @@ flutter:
         - asset: assets/fonts/Poppins-Light.ttf
         - asset: assets/fonts/Poppins-ExtraLight.ttf
         - asset: assets/fonts/Poppins-Thin.ttf
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/roboto-slab/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/roboto-slab/RobotoSlab-Medium.ttf
+        - asset: assets/fonts/roboto-slab/RobotoSlab-SemiBold.ttf
+        - asset: assets/fonts/roboto-slab/RobotoSlab-Bold.ttf
+          
   assets:
     - assets/animations/
     - assets/images/
     - assets/icons/
+    - assets/data/
+    - assets/data/yogyakarta/
+    - assets/data/jawa_tengah/
+    - assets/images/360/yogyakarta/
+    - assets/images/360/jawa_tengah/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

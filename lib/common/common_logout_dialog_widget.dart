@@ -18,7 +18,7 @@ class LogoutConfirmationDialog extends StatelessWidget {
     return AlertDialog(
       backgroundColor: Theme.of(context).cardTheme.color,
       title: Center(
-        child: SvgPicture.asset(IconsThemes.iconsWarning),
+        child: SvgPicture.asset(IconsThemes.iconWarning),
       ),
       content: Column(
         mainAxisSize: MainAxisSize.min,

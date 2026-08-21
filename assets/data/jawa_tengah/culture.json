@@ -1,0 +1,324 @@
+[
+  {
+    "id": "jateng_culture_001",
+    "name": "Kampung Batik Laweyan",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan batik bersejarah dengan rumah tradisional dan sentra pengrajin.",
+    "description": "Pengunjung dapat mengenal sejarah batik dan aktivitas pengrajin di kawasan Laweyan.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Batik",
+      "Rumah tradisional",
+      "Kriya"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrZhaotb3stOFlecznioQx12Kxg_Z78RamWkCnmlgKBw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-oo3z5DrKXJ3yinR104gkGHv4gY9eG80lxdem1RHzJA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_culture_002",
+    "name": "Keraton Surakarta",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Pusat sejarah dan budaya Kasunanan Surakarta.",
+    "description": "Kompleks keraton yang menyimpan koleksi, tradisi, dan arsitektur budaya Jawa.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Keraton",
+      "Gamelan",
+      "Budaya Jawa"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC0BfX4xBgwW9-BZ60lju5JZiXNvy1xoR-rYqo-OkWGg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4PTgYX9nH8w_1P3V3pj3PsG0t3c6IVuKVGm6sXbgOA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_culture_003",
+    "name": "Museum Kereta Api Ambarawa",
+    "location": "Ambarawa, Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Museum perkeretaapian dengan koleksi lokomotif dan sejarah kereta api.",
+    "description": "Museum yang menampilkan berbagai lokomotif tua dan sejarah transportasi kereta api.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Ambarawa, Semarang, Jawa Tengah",
+    "highlights": [
+      "Lokomotif",
+      "Sejarah",
+      "Kereta"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT5f2OnfRLJ-2fmeIp1mV1irzwx2wK19X5VWrfbEoThw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT2zkR_ie4tiiwJ767Uh3ir-gbyoR9bq5ge7O1K6q8Yg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_culture_004",
+    "name": "Desa Wisata Samiran",
+    "location": "Boyolali, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Desa wisata di lereng Merbabu dengan pengalaman kehidupan masyarakat pedesaan.",
+    "description": "Pengunjung dapat menikmati suasana desa, pertanian, dan panorama pegunungan.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Boyolali, Jawa Tengah",
+    "highlights": [
+      "Desa wisata",
+      "Pertanian",
+      "Merbabu"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpQhyLMD5V0XNYN3d3JDQF2qjvLz39gdUNc3CVkYTJg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAUdvb-58yWPTouH0f3J2dO_erro2d_21bg69SEfFI4g&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_culture_005",
+    "name": "Wayang Orang Sriwedari",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Seni pertunjukan tradisional Jawa yang mengangkat cerita pewayangan.",
+    "description": "Pertunjukan wayang orang memadukan tari, dialog, musik, dan cerita tradisional.",
+    "ticketPrice": 50000,
+    "ticketPriceLabel": "Mulai Rp50.000 / orang",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Wayang orang",
+      "Tari",
+      "Gamelan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTawQg4m4W0rgqa0gRAn9djl5ZFTmxQgvBpbaXEOeCrtw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_culture_006",
+    "name": "Kampung Batik Kauman",
+    "location": "Surakarta, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan batik tradisional di sekitar pusat budaya Kota Surakarta.",
+    "description": "Kampung yang dikenal dengan rumah batik dan aktivitas pengrajin lokal.",
+    "ticketPrice": 0,
+    "ticketPriceLabel": "Gratis",
+    "address": "Surakarta, Jawa Tengah",
+    "highlights": [
+      "Batik",
+      "Pengrajin",
+      "Tradisi"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5Tcddi6QVXwtkryqG2--VAH38UFsj3CtXoxvRNwqGjQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_culture_007",
+    "name": "Desa Wisata Kandri",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "culture",
+    "category": "Budaya",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Desa wisata dengan aktivitas budaya, kerajinan, dan kehidupan masyarakat lokal.",
+    "description": "Kawasan desa wisata yang menawarkan pengalaman interaksi dengan masyarakat dan kegiatan budaya.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Desa wisata",
+      "Budaya",
+      "Kerajinan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQLpRYz6l4kMaiZk7zE8ciHBGtqT24T5YDhsz2dRKawQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  }
+]

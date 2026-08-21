@@ -1,0 +1,331 @@
+[
+  {
+    "id": "jateng_destination_001",
+    "name": "Karimun Jawa",
+    "location": "Jepara, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.8,
+    "reviewCount": 1000,
+    "shortDescription": "Kepulauan tropis dengan laut jernih, pantai putih, dan pulau-pulau kecil.",
+    "description": "Kawasan kepulauan dengan aktivitas snorkeling, island hopping, wisata pantai, dan menikmati sunset.",
+    "ticketPrice": 5000,
+    "ticketPriceLabel": "Mulai Rp5.000 / orang",
+    "address": "Jepara, Jawa Tengah",
+    "highlights": [
+      "Snorkeling",
+      "Island hopping",
+      "Pantai",
+      "Sunset"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7gy4lhEHfJ_5L0hmn0RdLkyNWuCUUKS8nyMRuuHs6Xw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG1Me0LcyLXzqh5kg__nk1FiO8Z8iVitCjDkprueeKVcNa6WNuORrl3Kiy&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3QYNCDIX5ffgLGzFGqSkiOOSqRXCgFjFWO28smFVjlA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPnSPURYLy5SjcWl0A24_z5sZQbQka3wele9Uw9-_iRg&s=10",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd0hNZsOwUu7N-kku0DKi9MdAyUVI3Sq0gffrFoAUmRLa9lhQ2pCb0-2goeAO7VHR5wausQZWFubyWUZ21cmibdyW8HZsaahriGH2VCxQJvjcIBEpkBtNFHdjGyXDaAZSP-x90mPhZgsBPCAHW_Q6q_SYMVfnQDIRfIi4JKJie1oT13JPV3PETimG73tM/s1600/tvk1.JPG"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_destination_007",
+    "name": "Telaga Menjer",
+    "location": "Wonosobo, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Telaga pegunungan dengan suasana tenang dan panorama hijau.",
+    "description": "Telaga alami di kawasan pegunungan yang cocok untuk menikmati suasana alam.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Wonosobo, Jawa Tengah",
+    "highlights": [
+      "Telaga",
+      "Pegunungan",
+      "Perahu",
+      "Alam"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt49RJq6Iod1RkxJvvRFx-hg_Z02w5u78HXHKySTWleQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_destination_002",
+    "name": "Dieng Plateau",
+    "location": "Wonosobo, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Dataran tinggi sejuk dengan telaga, kawah, dan lanskap pegunungan.",
+    "description": "Kawasan pegunungan yang populer dengan Telaga Warna, Kawah Sikidang, dan panorama sunrise.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Wonosobo, Jawa Tengah",
+    "highlights": [
+      "Telaga Warna",
+      "Kawah",
+      "Sunrise",
+      "Pegunungan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnW2vVDPyjgd5SgAk6Yc0r37Bb7a5_kouMTPXjsm6yQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvV_5bOtU1jiP8v3Spv7oHpQzjAip3xmri6J3c0-Id4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2g3kHCH26vkWt6f4nqSobFSVg04E0iLkS3TPBdHGZhg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuOlvAH3CK_daWq7xuXX7jJCVjEXbF4JrHDSrfORYflQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSysf5si-8lEGDlz2YYoZiCU1a_mi5yI5HyedhG21PamA&s"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_destination_003",
+    "name": "Umbul Ponggok",
+    "location": "Klaten, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Mata air jernih untuk berenang dan menikmati aktivitas bawah air.",
+    "description": "Mata air alami yang terkenal dengan kejernihan air dan suasana pedesaan.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Klaten, Jawa Tengah",
+    "highlights": [
+      "Air jernih",
+      "Berenang",
+      "Underwater",
+      "Pedesaan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WHQ7UzJNwHV75zKhJuMU58gWkekGz2FCIYFRQnztIA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_destination_004",
+    "name": "Baturaden",
+    "location": "Banyumas, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.6,
+    "reviewCount": 1000,
+    "shortDescription": "Kawasan wisata kaki Gunung Slamet dengan udara sejuk dan panorama alam.",
+    "description": "Destinasi pegunungan dengan air terjun, pemandian, dan suasana hutan.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Banyumas, Jawa Tengah",
+    "highlights": [
+      "Gunung Slamet",
+      "Air terjun",
+      "Pemandian",
+      "Hutan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROyOqbr021hFjhYgkkbPGci5Uac1wTxJXXRvd4BGCaqw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_destination_005",
+    "name": "Dataran Tinggi Ketep",
+    "location": "Magelang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Panorama Gunung Merapi dan Merbabu dari kawasan dataran tinggi.",
+    "description": "Kawasan gardu pandang yang cocok untuk menikmati panorama dua gunung dan udara pegunungan.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Magelang, Jawa Tengah",
+    "highlights": [
+      "Merapi",
+      "Merbabu",
+      "Panorama",
+      "Sunrise"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekFKNTpv6_LKLO2rguj8mWXZTr_JQYGVnHKUGYn-DFg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_destination_006",
+    "name": "Pantai Menganti",
+    "location": "Kebumen, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "destination",
+    "category": "Destinasi",
+    "rating": 4.7,
+    "reviewCount": 1000,
+    "shortDescription": "Pantai dengan perbukitan hijau dan garis pantai yang indah.",
+    "description": "Pantai selatan Kebumen dengan perpaduan pasir, tebing, dan perbukitan hijau.",
+    "ticketPrice": 20000,
+    "ticketPriceLabel": "Mulai Rp20.000 / orang",
+    "address": "Kebumen, Jawa Tengah",
+    "highlights": [
+      "Pantai",
+      "Tebing",
+      "Bukit",
+      "Sunset"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs1Kw6BEMjTgrbQv1C8iEqv3_9CC3COaeskfjjp0T_kg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  }
+]

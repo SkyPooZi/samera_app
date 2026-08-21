@@ -1,0 +1,319 @@
+[
+  {
+    "id": "jateng_cuisine_001",
+    "name": "Lumpia Semarang",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Kuliner ikonik Semarang dengan isian rebung dan pilihan pelengkap.",
+    "description": "Lumpia menjadi salah satu kuliner dan oleh-oleh paling dikenal dari Semarang.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Rebung",
+      "Oleh-oleh"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuoF7IAe688oo9xP2xZK_FOirr5Cr4rFrXX7AGpfTs3g&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQaXb1kuaiIk3bGN-eLTf-l4KIzWa8etPzBR-aG9amXg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCqe35n3gHDaVeU_L8zHw3s9FHpT6on2gAZlgIwoVEnQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgAN2PNKzpAdk_1j5SG1Y_2AjiW-9Nff7MO_uIhFZ4A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2UQOk3qlEY2mLY9fCWuCvlXil_IJpr2OYOPnMUQfvZw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_cuisine_002",
+    "name": "Soto Kudus",
+    "location": "Kudus, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Soto khas Kudus dengan kuah gurih dan suwiran daging.",
+    "description": "Soto Kudus merupakan kuliner khas dengan penyajian dalam mangkuk kecil.",
+    "ticketPrice": 12000,
+    "ticketPriceLabel": "Mulai Rp12.000 / orang",
+    "address": "Kudus, Jawa Tengah",
+    "highlights": [
+      "Kuah gurih",
+      "Ayam",
+      "Kerbau"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52dCYLcDsdaQx-8a00HkzDwLLERYUsca82fkIEooalw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTngCMoyJzqBonw3Z0Kl6CxxpSjp98NSM1bkPDTARCEnQ&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_cuisine_003",
+    "name": "Tahu Gimbal",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Tahu dengan gimbal udang, sayuran, dan saus kacang.",
+    "description": "Hidangan khas Semarang dengan perpaduan gurih dan manis.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Gimbal udang",
+      "Saus kacang"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvvIMN0ZMNP_eVA-Nk9Ep4vM9OU3lytRz00MJqqJizdQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH-1iIUrIXSVAwxkIuueCxwSXkfTSjKhRGKpcHreFkTg&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_cuisine_004",
+    "name": "Nasi Gandul",
+    "location": "Pati, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Nasi dengan kuah gurih berbumbu dan potongan daging.",
+    "description": "Kuliner khas Pati yang cocok dinikmati sebagai makanan utama.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Pati, Jawa Tengah",
+    "highlights": [
+      "Daging",
+      "Kuah gurih"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdydznhpAf2NvUHEgKcUHgZX-w3Txx9KcwCUlH8RfEmg&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPKXnBbdKLfUz6hHOwivkSKzW9N5pNIawsA9Y5Ncbstw&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_cuisine_005",
+    "name": "Garang Asem",
+    "location": "Kudus, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Olahan ayam berbumbu dengan rasa gurih dan segar.",
+    "description": "Ayam dimasak bersama bumbu dan belimbing wuluh lalu dibungkus daun pisang.",
+    "ticketPrice": 18000,
+    "ticketPriceLabel": "Mulai Rp18.000 / orang",
+    "address": "Kudus, Jawa Tengah",
+    "highlights": [
+      "Ayam",
+      "Belimbing wuluh"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHGqS2ym_uLdHRhLlBkAWfKehxzpPXk3iG53ihZcIDxQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLX7MPDSfY189xa-FWzWan3MRaVbyAU97pUaTQxqFung&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_cuisine_006",
+    "name": "Jenang Kudus",
+    "location": "Kudus, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Jajanan manis tradisional yang populer sebagai oleh-oleh.",
+    "description": "Jenang menjadi salah satu produk kuliner khas Kudus.",
+    "ticketPrice": 15000,
+    "ticketPriceLabel": "Mulai Rp15.000 / orang",
+    "address": "Kudus, Jawa Tengah",
+    "highlights": [
+      "Oleh-oleh",
+      "Tradisional"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN5JAR3NXheDIF6lKqb0Vcbt76ROcgusC_0MRAHxc6ug&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  },
+  {
+    "id": "jateng_cuisine_007",
+    "name": "Tahu Petis",
+    "location": "Semarang, Jawa Tengah",
+    "province": "Jawa Tengah",
+    "categoryId": "cuisine",
+    "category": "Kuliner",
+    "rating": 4.5,
+    "reviewCount": 1000,
+    "shortDescription": "Tahu goreng dengan sambal petis khas Jawa.",
+    "description": "Camilan sederhana yang populer sebagai bagian dari kuliner Semarang.",
+    "ticketPrice": 10000,
+    "ticketPriceLabel": "Mulai Rp10.000 / orang",
+    "address": "Semarang, Jawa Tengah",
+    "highlights": [
+      "Tahu",
+      "Petis",
+      "Camilan"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10",
+    "gallery": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl_XmH4L1DRGk-BVLGNvziKvwDYN_RmfaD61qlADEf0A&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIqI64khSrbPE6x7nXJX_63fX8Y3CO5JoWcjE7XB6wA&s=10"
+    ],
+    "panorama360": {
+      "enabled": false,
+      "asset": null,
+      "label": "360° Tour"
+    },
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
+  }
+]

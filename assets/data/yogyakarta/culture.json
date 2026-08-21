@@ -5,7 +5,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Pusat budaya dan sejarah Kesultanan Yogyakarta.",
@@ -31,7 +31,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_culture_002",
@@ -39,7 +52,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Museum yang menyimpan koleksi budaya Jawa dan Nusantara.",
@@ -65,7 +78,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_culture_003",
@@ -73,7 +99,7 @@
     "location": "Sleman, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.8,
     "reviewCount": 1000,
     "shortDescription": "Museum budaya Jawa dengan koleksi dan kisah keluarga kerajaan Mataram.",
@@ -99,7 +125,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_culture_004",
@@ -107,7 +146,7 @@
     "location": "Bantul, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Sentra kerajinan gerabah yang memperlihatkan tradisi kriya masyarakat lokal.",
@@ -133,7 +172,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Bantul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_culture_005",
@@ -141,7 +193,7 @@
     "location": "Gunungkidul, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Desa wisata yang memadukan alam, budaya, dan aktivitas masyarakat lokal.",
@@ -166,7 +218,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Gunungkidul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_culture_006",
@@ -174,7 +239,7 @@
     "location": "Prambanan, Sleman, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.8,
     "reviewCount": 1000,
     "shortDescription": "Pertunjukan seni yang menggabungkan tari, musik, dan kisah Ramayana.",
@@ -200,7 +265,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_culture_007",
@@ -208,7 +286,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Seni pertunjukan tradisional dengan wayang kulit dan iringan gamelan.",
@@ -234,6 +312,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

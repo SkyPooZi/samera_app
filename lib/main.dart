@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:samera_app/features/auth/presentation/screens/splash/splash_screen.dart';
 import 'config/bloc_observer.dart';
 import 'config/bloc_provider.dart';
 import 'config/router.dart';

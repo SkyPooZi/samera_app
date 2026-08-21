@@ -5,7 +5,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Kuliner khas Yogyakarta berbahan nangka muda dengan cita rasa manis gurih.",
@@ -31,7 +31,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "evening",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "16:00",
+    "closingTime": "23:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_cuisine_002",
@@ -39,7 +52,7 @@
     "location": "Bantul, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Sate kambing khas Yogyakarta yang dibakar menggunakan jeruji besi.",
@@ -64,7 +77,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "evening",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "16:00",
+    "closingTime": "23:00",
+    "city": "Bantul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_cuisine_003",
@@ -72,7 +98,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Mi tradisional dengan bumbu Jawa yang populer sebagai kuliner malam.",
@@ -98,7 +124,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_cuisine_004",
@@ -106,7 +145,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Oleh-oleh khas Yogyakarta berupa kue kecil dengan beragam isian.",
@@ -131,7 +170,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_cuisine_005",
@@ -139,7 +191,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Kuliner pedas dengan potongan daging dan cabai melimpah.",
@@ -164,7 +216,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_cuisine_006",
@@ -172,7 +237,7 @@
     "location": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Jajanan tradisional kecil dengan kulit hijau dan isian kelapa manis.",
@@ -197,7 +262,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_cuisine_007",
@@ -205,7 +283,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Kue tradisional kenyal berbahan tepung ketan yang sering dijadikan oleh-oleh.",
@@ -230,6 +308,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

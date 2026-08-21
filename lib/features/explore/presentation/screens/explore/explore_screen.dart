@@ -9,7 +9,6 @@ import '../../../../../common/common_destination_card.dart';
 
 import '../../../domain/entities/region_entity.dart';
 import '../../bloc/explore/explore_bloc.dart';
-import '../../bloc/explore/explore_event.dart';
 import '../../bloc/explore/explore_state.dart';
 import '../../widgets/explore/explore_categories_section.dart';
 import '../../widgets/explore/explore_header_section.dart';

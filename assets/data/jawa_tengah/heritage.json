@@ -5,7 +5,7 @@
     "location": "Magelang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.8,
     "reviewCount": 1000,
     "shortDescription": "Candi Buddha monumental dengan stupa dan relief.",
@@ -31,7 +31,20 @@
       "asset": "assets/images/360/jawa_tengah/Candi Borobudur 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Magelang",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_heritage_002",
@@ -39,7 +52,7 @@
     "location": "Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Bangunan bersejarah dengan arsitektur kolonial khas Semarang.",
@@ -64,7 +77,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_heritage_003",
@@ -72,7 +98,7 @@
     "location": "Bandungan, Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Kompleks candi Hindu di lereng Gunung Ungaran.",
@@ -97,7 +123,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_heritage_004",
@@ -105,7 +144,7 @@
     "location": "Karanganyar, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Candi unik di lereng Lawu dengan bentuk arsitektur yang khas.",
@@ -130,7 +169,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_heritage_005",
@@ -138,7 +190,7 @@
     "location": "Karanganyar, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Kompleks candi bertingkat dengan panorama perkebunan di lereng Lawu.",
@@ -164,7 +216,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_heritage_006",
@@ -172,7 +237,7 @@
     "location": "Demak, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Masjid bersejarah yang berkaitan erat dengan perkembangan Islam di Jawa.",
@@ -197,7 +262,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_heritage_007",
@@ -205,7 +283,7 @@
     "location": "Sragen, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Situs dan museum penting untuk mempelajari manusia purba.",
@@ -231,6 +309,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

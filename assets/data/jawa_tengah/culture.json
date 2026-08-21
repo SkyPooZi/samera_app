@@ -5,7 +5,7 @@
     "location": "Surakarta, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Kawasan batik bersejarah dengan rumah tradisional dan sentra pengrajin.",
@@ -30,7 +30,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_culture_002",
@@ -38,7 +51,7 @@
     "location": "Surakarta, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Pusat sejarah dan budaya Kasunanan Surakarta.",
@@ -63,7 +76,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_culture_003",
@@ -71,7 +97,7 @@
     "location": "Ambarawa, Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Museum perkeretaapian dengan koleksi lokomotif dan sejarah kereta api.",
@@ -96,7 +122,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_culture_004",
@@ -104,7 +143,7 @@
     "location": "Boyolali, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Desa wisata di lereng Merbabu dengan pengalaman kehidupan masyarakat pedesaan.",
@@ -129,7 +168,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_culture_005",
@@ -137,7 +189,7 @@
     "location": "Surakarta, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Seni pertunjukan tradisional Jawa yang mengangkat cerita pewayangan.",
@@ -162,7 +214,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_culture_006",
@@ -170,7 +235,7 @@
     "location": "Surakarta, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Kawasan batik tradisional di sekitar pusat budaya Kota Surakarta.",
@@ -195,7 +260,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_culture_007",
@@ -203,7 +281,7 @@
     "location": "Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "culture",
-    "category": "Culture",
+    "category": "Budaya",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Desa wisata dengan aktivitas budaya, kerajinan, dan kehidupan masyarakat lokal.",
@@ -228,6 +306,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "culture",
+      "art",
+      "tradition"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

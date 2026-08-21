@@ -37,7 +37,6 @@ class ExploreLocalDataSourceImpl implements ExploreLocalDataSource {
     ];
 
     List<DestinationModel> allDestinations = [];
-    int successFiles = 0;
 
     for (String path in paths) {
       try {
@@ -59,7 +58,6 @@ class ExploreLocalDataSourceImpl implements ExploreLocalDataSource {
         }
 
         allDestinations.addAll(currentFileItems);
-        successFiles++;
       } catch (e) {
         continue;
       }

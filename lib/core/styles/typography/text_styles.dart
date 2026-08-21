@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-figmaFontSize(int fontSize) {
+double figmaFontSize(int fontSize) {
   return fontSize * 1.1;
 }
 

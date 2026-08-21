@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:samera_app/core/styles/typography/text_styles.dart';
+import 'package:samera_app/core/styles/colors/colors.dart';
 
 class ExploreDetailStatItem extends StatelessWidget {
   final IconData icon;
@@ -17,11 +18,11 @@ class ExploreDetailStatItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Icon(icon, color: Colors.white, size: 20),
+        Icon(icon, color: ColorsResources.colorsPrimary, size: 20),
         const SizedBox(height: 4),
-        Text(count, style: tsBodyMediumSemiBold(Colors.white)),
+        Text(count, style: tsBodyMediumSemiBold(ColorsResources.colorsPrimary)),
         const SizedBox(height: 2),
-        Text(label, style: tsLabelLargeMedium(Colors.grey[300]!)),
+        Text(label, style: tsLabelLargeMedium(Colors.grey[600]!)),
       ],
     );
   }

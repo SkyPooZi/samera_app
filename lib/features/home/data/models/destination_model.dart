@@ -24,6 +24,14 @@ class DestinationModel extends DestinationEntity {
     super.panorama360,
     required super.isFavorite,
     required super.isRecommended,
+    required super.estimatedVisitDuration,
+    required super.estimatedFoodCost,
+    required super.recommendedTime,
+    required super.interests,
+    required super.openingTime,
+    required super.closingTime,
+    required super.latitude,
+    required super.longitude,
   });
 
   factory DestinationModel.fromJson(Map<String, dynamic> json) {
@@ -51,6 +59,50 @@ class DestinationModel extends DestinationEntity {
           : null,
       isFavorite: json['isFavorite'] ?? false,
       isRecommended: json['isRecommended'] ?? false,
+      estimatedVisitDuration: json['estimatedVisitDuration'] ?? 60,
+      estimatedFoodCost: json['estimatedFoodCost'] ?? 0,
+      recommendedTime: json['recommendedTime'] ?? 'morning',
+      interests: (json['interests'] as List<dynamic>?)?.map((e) => e.toString()).toList() ?? [],
+      openingTime: json['openingTime'] ?? '08:00',
+      closingTime: json['closingTime'] ?? '17:00',
+      latitude: (json['latitude'] ?? -7.8000).toDouble(),
+      longitude: (json['longitude'] ?? 110.3600).toDouble(),
     );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'location': location,
+      'province': province,
+      'category': category,
+      'categoryId': categoryId,
+      'image': image,
+      'regionId': regionId,
+      'city': city,
+      'rating': rating,
+      'reviewCount': reviewCount,
+      'shortDescription': shortDescription,
+      'description': description,
+      'ticketPrice': ticketPrice,
+      'ticketPriceLabel': ticketPriceLabel,
+      'address': address,
+      'highlights': highlights,
+      'gallery': gallery,
+      'panorama360': panorama360 != null
+          ? (panorama360 as Panorama360Model).toJson()
+          : null,
+      'isFavorite': isFavorite,
+      'isRecommended': isRecommended,
+      'estimatedVisitDuration': estimatedVisitDuration,
+      'estimatedFoodCost': estimatedFoodCost,
+      'recommendedTime': recommendedTime,
+      'interests': interests,
+      'openingTime': openingTime,
+      'closingTime': closingTime,
+      'latitude': latitude,
+      'longitude': longitude,
+    };
   }
 }

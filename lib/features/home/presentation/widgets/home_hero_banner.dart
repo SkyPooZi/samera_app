@@ -105,7 +105,7 @@ class HomeHeroBanner extends StatelessWidget {
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Text('Jelajahi Sekarang', style: tsLabelLargeSemiBold(Colors.white)),
+                        Text('Jelajahi Selengkapnya', style: tsLabelLargeSemiBold(Colors.white)),
                         const SizedBox(width: 4),
                         const Icon(Icons.arrow_forward_rounded, size: 16, color: Colors.white),
                       ],

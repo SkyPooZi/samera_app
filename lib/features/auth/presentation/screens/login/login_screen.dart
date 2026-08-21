@@ -6,15 +6,12 @@ import '../../../../../core/helper/validate_helper.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
 import '../../../../../core/styles/images/images.dart';
 import '../../../../../core/styles/icons/icons.dart';
-import '../../../../home/presentation/screens/home_screen.dart';
 import '../../widgets/login/auth_button.dart';
 import '../../widgets/login/auth_card_container.dart';
 import '../../widgets/login/auth_social_button.dart';
 import '../../widgets/login/auth_text_field.dart';
 import 'package:go_router/go_router.dart';
 import '../../../../../config/router.dart';
-import '../forgot_password/forgot_password_screen.dart';
-import '../register/register_screen.dart';
 import 'package:samera_app/core/styles/colors/colors.dart';
 
 class LoginScreen extends StatefulWidget {

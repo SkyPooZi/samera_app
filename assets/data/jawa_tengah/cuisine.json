@@ -5,7 +5,7 @@
     "location": "Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Kuliner ikonik Semarang dengan isian rebung dan pilihan pelengkap.",
@@ -29,7 +29,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_cuisine_002",
@@ -37,7 +50,7 @@
     "location": "Kudus, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Soto khas Kudus dengan kuah gurih dan suwiran daging.",
@@ -62,7 +75,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_cuisine_003",
@@ -70,7 +96,7 @@
     "location": "Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Tahu dengan gimbal udang, sayuran, dan saus kacang.",
@@ -94,7 +120,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_cuisine_004",
@@ -102,7 +141,7 @@
     "location": "Pati, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Nasi dengan kuah gurih berbumbu dan potongan daging.",
@@ -126,7 +165,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_cuisine_005",
@@ -134,7 +186,7 @@
     "location": "Kudus, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Olahan ayam berbumbu dengan rasa gurih dan segar.",
@@ -158,7 +210,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_cuisine_006",
@@ -166,7 +231,7 @@
     "location": "Kudus, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Jajanan manis tradisional yang populer sebagai oleh-oleh.",
@@ -190,7 +255,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_cuisine_007",
@@ -198,7 +276,7 @@
     "location": "Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "cuisine",
-    "category": "Cuisine",
+    "category": "Kuliner",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Tahu goreng dengan sambal petis khas Jawa.",
@@ -223,6 +301,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 60,
+    "estimatedFoodCost": 35000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "cuisine",
+      "culinary",
+      "food"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

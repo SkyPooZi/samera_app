@@ -8,8 +8,9 @@ class CommonDestinationCard extends StatelessWidget {
   final String title;
   final String location;
   final double rating;
-  final VoidCallback onTap;
-  final VoidCallback onFavoriteTap;
+  final VoidCallback? onTap;
+  final VoidCallback? onFavoriteTap;
+  final EdgeInsetsGeometry? margin;
 
   const CommonDestinationCard({
     super.key,
@@ -17,8 +18,9 @@ class CommonDestinationCard extends StatelessWidget {
     required this.title,
     required this.location,
     required this.rating,
-    required this.onTap,
-    required this.onFavoriteTap,
+    this.onTap,
+    this.onFavoriteTap,
+    this.margin,
   });
 
   @override
@@ -28,7 +30,7 @@ class CommonDestinationCard extends StatelessWidget {
       onTap: onTap,
       child: Container(
         width: size.width * 0.4,
-        margin: const EdgeInsets.only(left: 24.0),
+        margin: margin ?? const EdgeInsets.only(left: 24.0),
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(15.0),
           image: DecorationImage(

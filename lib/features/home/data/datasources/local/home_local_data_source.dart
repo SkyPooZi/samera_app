@@ -23,10 +23,8 @@ class HomeLocalDataSourceImpl implements HomeLocalDataSource {
     ];
 
     List<DestinationModel> allDestinations = [];
-    int successFiles = 0;
 
     for (String path in paths) {
-      print('[HomeLocalDataSource] Reading: $path');
       try {
         final String jsonString = await rootBundle.loadString(path);
         final dynamic jsonData = json.decode(jsonString);
@@ -43,39 +41,17 @@ class HomeLocalDataSourceImpl implements HomeLocalDataSource {
         for (final item in rawItems) {
           final destination = DestinationModel.fromJson(item as Map<String, dynamic>);
           
-          print(
-            '[HomeLocalDataSource] '
-            '${destination.name} | '
-            'category=${destination.category} | '
-            'isRecommended=${destination.isRecommended}'
-          );
-          
+
           currentFileItems.add(destination);
         }
 
         allDestinations.addAll(currentFileItems);
-        successFiles++;
-        print('[HomeLocalDataSource] Parsed: ${currentFileItems.length} items');
 
-      } catch (e, stackTrace) {
-        print('[HomeLocalDataSource] ERROR: Failed to parse $path: $e');
-        print(stackTrace);
+      } catch (e) {
         continue;
       }
-      print('');
     }
-
-    print('[HomeLocalDataSource] Before filter: ${allDestinations.length}');
-    print(
-      '[HomeLocalDataSource] '
-      'Recommended before take: '
-      '${allDestinations.where((item) => item.isRecommended).length}'
-    );
-
-    final recommendations = allDestinations.where((item) => item.isRecommended).toList();
-    print('[HomeLocalDataSource] Total successful files: $successFiles/10');
-    print('[HomeLocalDataSource] Total items: ${allDestinations.length}');
-    print('[HomeLocalDataSource] Recommended items: ${recommendations.length}');
+    final recommendations = allDestinations.where((item) => item.panorama360 != null && item.panorama360!.enabled).toList();
     
     return recommendations;
   }

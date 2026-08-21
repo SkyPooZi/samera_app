@@ -18,6 +18,7 @@ import '../features/explore/presentation/screens/all_regions/all_regions_screen.
 import '../features/explore/domain/entities/region_entity.dart';
 import '../features/trip_planner/presentation/screens/trip_planner/trip_planner_screen.dart';
 import '../features/trip_planner/presentation/screens/trip_plan/trip_plan_screen.dart';
+import '../features/quest/presentation/screen/quest_screen.dart';
 
 class Routes {
   static const String splash = 'splash';
@@ -37,6 +38,7 @@ class Routes {
   static const String allRegions = 'all_regions';
   static const String tripPlanner = 'trip_planner_screen';
   static const String tripPlan = 'trip_plan_screen';
+  static const String quest = 'quest_screen';
 }
 
 CustomTransitionPage _buildSmoothTransitionPage({
@@ -241,6 +243,17 @@ class AppRouter {
             context: context,
             state: state,
             child: const TripPlanScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.quest,
+        path: '/quest',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const QuestScreen(),
           );
         },
       ),

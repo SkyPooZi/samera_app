@@ -23,6 +23,11 @@ import '../features/explore/presentation/bloc/explore/explore_bloc.dart';
 import '../features/explore/presentation/bloc/explore/explore_event.dart';
 import '../features/explore/domain/usecases/get_destinations_by_category.dart';
 import '../features/explore/presentation/bloc/category_destination/category_destination_bloc.dart';
+import '../features/trip_planner/presentation/bloc/trip_planner/trip_planner_bloc.dart';
+import '../features/trip_planner/domain/usecases/generate_trip_plan.dart';
+import '../features/trip_planner/domain/usecases/save_trip_plan.dart';
+import '../features/trip_planner/data/repositories/trip_planner_repository_impl.dart';
+import '../features/trip_planner/data/datasources/local/trip_planner_local_data_source.dart';
 
 class AppProviders {
   final providers = [
@@ -103,6 +108,16 @@ class AppProviders {
         );
         return CategoryDestinationBloc(
           getDestinationsByCategory: GetDestinationsByCategory(repository),
+        );
+      },
+    ),
+    BlocProvider<TripPlannerBloc>(
+      create: (context) {
+        final localDataSource = TripPlannerLocalDataSourceImpl();
+        final repository = TripPlannerRepositoryImpl(localDataSource: localDataSource);
+        return TripPlannerBloc(
+          generateTripPlan: GenerateTripPlan(repository),
+          saveTripPlanUseCase: SaveTripPlan(repository),
         );
       },
     ),

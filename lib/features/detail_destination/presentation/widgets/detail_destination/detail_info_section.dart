@@ -27,6 +27,7 @@ class DetailInfoSection extends StatelessWidget {
         ),
         const SizedBox(height: 12),
         Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Icon(
               Icons.location_on_outlined,
@@ -34,9 +35,11 @@ class DetailInfoSection extends StatelessWidget {
               size: 20,
             ),
             const SizedBox(width: 4),
-            Text(
-              location,
-              style: tsBodyMediumRegular(ColorsResources.colorsGrey),
+            Expanded(
+              child: Text(
+                location,
+                style: tsBodyMediumRegular(ColorsResources.colorsGrey),
+              ),
             ),
           ],
         ),

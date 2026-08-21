@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:samera_app/core/styles/colors/colors.dart';
 import 'package:samera_app/core/styles/typography/text_styles.dart';
 
 import '../../../domain/entities/region_entity.dart';

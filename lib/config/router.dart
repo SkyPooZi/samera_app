@@ -16,6 +16,8 @@ import '../features/detail_destination/presentation/screens/gallery/gallery_scre
 import '../features/explore/presentation/screens/category_destination/category_destination_screen.dart';
 import '../features/explore/presentation/screens/all_regions/all_regions_screen.dart';
 import '../features/explore/domain/entities/region_entity.dart';
+import '../features/trip_planner/presentation/screens/trip_planner/trip_planner_screen.dart';
+import '../features/trip_planner/presentation/screens/trip_plan/trip_plan_screen.dart';
 
 class Routes {
   static const String splash = 'splash';
@@ -33,6 +35,8 @@ class Routes {
   static const String panorama360 = 'panorama_360_screen';
   static const String gallery = 'gallery_screen';
   static const String allRegions = 'all_regions';
+  static const String tripPlanner = 'trip_planner_screen';
+  static const String tripPlan = 'trip_plan_screen';
 }
 
 CustomTransitionPage _buildSmoothTransitionPage({
@@ -63,7 +67,7 @@ CustomTransitionPage _buildSmoothTransitionPage({
 }
 
 class AppRouter {
-  get router => GoRouter(
+  GoRouter get router => GoRouter(
     initialLocation: '/splash',
     routes: [
       GoRoute(
@@ -215,6 +219,28 @@ class AppRouter {
             context: context,
             state: state,
             child: AllRegionsScreen(regions: regions),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.tripPlanner,
+        path: '/trip-planner',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const TripPlannerScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.tripPlan,
+        path: '/trip-plan',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const TripPlanScreen(),
           );
         },
       ),

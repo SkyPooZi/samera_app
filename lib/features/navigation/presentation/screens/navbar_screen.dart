@@ -7,6 +7,7 @@ import 'package:samera_app/core/styles/typography/text_styles.dart';
 import '../bloc/navbar_cubit.dart';
 import '../../../home/presentation/screens/home_screen.dart';
 import '../../../explore/presentation/screens/explore/explore_screen.dart';
+import '../../../trip_planner/presentation/screens/trip_planner/trip_planner_screen.dart';
 
 class NavbarScreen extends StatefulWidget {
   final int? index;
@@ -21,7 +22,7 @@ class _NavbarScreenState extends State<NavbarScreen> {
   final List<Widget> pages = [
     const HomeScreen(),
     const ExploreScreen(),
-    const Scaffold(body: Center(child: Text("Trip Planner"))),
+    const TripPlannerScreen(),
     const Scaffold(body: Center(child: Text("Quest"))),
     const Scaffold(body: Center(child: Text("Account"))),
   ];

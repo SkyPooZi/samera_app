@@ -25,7 +25,7 @@ class TripStatItem extends StatelessWidget {
         Container(
           padding: EdgeInsets.all(width * 0.02),
           decoration: BoxDecoration(
-            color: iconColor.withOpacity(0.1),
+            color: iconColor.withValues(alpha: 0.1),
             shape: BoxShape.circle,
           ),
           child: Icon(icon, size: width * 0.05, color: iconColor),

@@ -5,7 +5,7 @@
     "location": "Prambanan, Sleman, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.8,
     "reviewCount": 1000,
     "shortDescription": "Kompleks candi Hindu monumental dengan bangunan utama yang menjulang.",
@@ -31,7 +31,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_heritage_003",
@@ -39,7 +52,7 @@
     "location": "Prambanan, Sleman, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Kompleks situs kuno di atas perbukitan dengan panorama luas dan gerbang ikonik.",
@@ -65,7 +78,20 @@
       "asset": "assets/images/360/yogyakarta/Candi Ratu Boko 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_heritage_004",
@@ -73,7 +99,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Monumen ikonik Yogyakarta yang menjadi salah satu landmark pusat kota.",
@@ -98,7 +124,20 @@
       "asset": "assets/images/360/yogyakarta/Tugu Jogja 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_heritage_005",
@@ -106,7 +145,7 @@
     "location": "Kraton, Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Kompleks bekas taman kerajaan dengan lorong dan bangunan bersejarah yang unik.",
@@ -132,7 +171,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_heritage_006",
@@ -140,7 +192,7 @@
     "location": "Kotagede, Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Kawasan bersejarah yang menyimpan jejak Kerajaan Mataram Islam dan arsitektur tradisional.",
@@ -166,7 +218,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_heritage_007",
@@ -174,7 +239,7 @@
     "location": "Prambanan, Sleman, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Candi di perbukitan dengan panorama luas dan pemandangan matahari terbenam.",
@@ -200,7 +265,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_heritage_008",
@@ -208,7 +286,7 @@
     "location": "Kota Yogyakarta, DI Yogyakarta",
     "province": "DI Yogyakarta",
     "categoryId": "heritage",
-    "category": "Heritage",
+    "category": "Sejarah",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Benteng bersejarah di pusat Yogyakarta yang kini menjadi museum perjuangan.",
@@ -234,6 +312,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "heritage",
+      "history",
+      "culture"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

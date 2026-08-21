@@ -6,7 +6,7 @@ class TripPreferenceCard extends StatelessWidget {
   final Color iconBackgroundColor;
   final Color iconColor;
   final String title;
-  final String value;
+  final String? value;
   final VoidCallback onTap;
 
   const TripPreferenceCard({
@@ -34,10 +34,10 @@ class TripPreferenceCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: Colors.grey.withOpacity(0.15)),
+          border: Border.all(color: Colors.grey.withValues(alpha: 0.15)),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.03),
+              color: Colors.black.withValues(alpha: 0.03),
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),
@@ -58,8 +58,12 @@ class TripPreferenceCard extends StatelessWidget {
             SizedBox(width: width * 0.04), // gives minimum spacing
             Expanded(
               child: Text(
-                value,
-                style: tsBodyMediumSemiBold(Colors.grey[600]!),
+                (value != null && value!.isNotEmpty) ? value! : '-',
+                style: tsBodyMediumSemiBold(
+                  (value != null && value!.isNotEmpty)
+                      ? Colors.grey[800]!
+                      : Colors.grey[400]!,
+                ),
                 textAlign: TextAlign.right,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,

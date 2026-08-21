@@ -20,11 +20,11 @@ class DetailActionBar extends StatelessWidget {
         right: size.width * 0.06,
       ),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(progress),
+        color: Colors.white.withValues(alpha: progress),
         boxShadow: progress > 0.5
             ? [
                 BoxShadow(
-                  color: Colors.black.withOpacity(0.05 * progress),
+                  color: Colors.black.withValues(alpha: 0.05 * progress),
                   blurRadius: 4,
                   offset: const Offset(0, 2),
                 )
@@ -40,7 +40,7 @@ class DetailActionBar extends StatelessWidget {
             child: CircleAvatar(
               backgroundColor: Color.lerp(
                 ColorsResources.colorsPrimary,
-                Colors.white.withOpacity(0.0), // transparent when scrolled
+                Colors.white.withValues(alpha: 0.0), // transparent when scrolled
                 progress,
               ),
               radius: 20,
@@ -61,7 +61,7 @@ class DetailActionBar extends StatelessWidget {
               CircleAvatar(
                 backgroundColor: Color.lerp(
                   ColorsResources.colorsPrimary,
-                  Colors.white.withOpacity(0.0), // transparent when scrolled
+                  Colors.white.withValues(alpha: 0.0), // transparent when scrolled
                   progress,
                 ),
                 radius: 20,
@@ -79,7 +79,7 @@ class DetailActionBar extends StatelessWidget {
               CircleAvatar(
                 backgroundColor: Color.lerp(
                   ColorsResources.colorsPrimary,
-                  Colors.white.withOpacity(0.0), // transparent when scrolled
+                  Colors.white.withValues(alpha: 0.0), // transparent when scrolled
                   progress,
                 ),
                 radius: 20,

@@ -9,4 +9,5 @@ class ImagesThemes {
   static const String imgMaps = 'assets/images/maps-image.png';
   static const String imgBgDailyQuest = 'assets/images/bg-daily-quest.jpg';
   static const String imgBgHome = 'assets/images/bg-home-asset.jpg';
+  static const String imgRobotFace = 'assets/images/robot-face-asset.png';
 }

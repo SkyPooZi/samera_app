@@ -68,6 +68,8 @@ class HomeAdventureMenuCard extends StatelessWidget {
                           const SizedBox(height: 4),
                           Text(
                             subtitle,
+                            maxLines: 3,
+                            overflow: TextOverflow.ellipsis,
                             style: tsLabelLargeMedium(
                               ColorsResources.colorsBlackLight,
                             ),

@@ -8,28 +8,28 @@
   },
   {
     "id": "heritage",
-    "name": "Heritage",
+    "name": "Sejarah",
     "icon": "account_balance",
     "description": "Candi, bangunan, situs, dan peninggalan sejarah.",
     "color": "#FFF1DC"
   },
   {
     "id": "cuisine",
-    "name": "Cuisine",
+    "name": "Kuliner",
     "icon": "restaurant",
     "description": "Kuliner khas dan pengalaman menikmati makanan lokal.",
     "color": "#EAF8DD"
   },
   {
     "id": "culture",
-    "name": "Culture",
+    "name": "Budaya",
     "icon": "theater_comedy",
     "description": "Seni, tradisi, museum, dan warisan budaya.",
     "color": "#EEE3FF"
   },
   {
     "id": "local_experience",
-    "name": "Local Experience",
+    "name": "Aktivitas Lokal",
     "icon": "shopping_bag",
     "description": "Aktivitas dan pengalaman khas masyarakat lokal.",
     "color": "#FFE5EC"

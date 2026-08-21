@@ -5,6 +5,6 @@ class ExploreDetailDivider extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(height: 30, width: 1, color: Colors.grey[600]);
+    return Container(height: 30, width: 1, color: Colors.grey[300]);
   }
 }

@@ -31,7 +31,20 @@
       "asset": "assets/images/360/yogyakarta/Wisata Lava Merapi dan Batu Alien 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Sleman",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_destination_002",
@@ -65,7 +78,20 @@
       "asset": "assets/images/360/yogyakarta/Hutan Pinus Pengger 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Bantul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_destination_003",
@@ -99,7 +125,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Bantul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_destination_004",
@@ -133,7 +172,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Yogyakarta",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_destination_005",
@@ -167,7 +219,20 @@
       "asset": "assets/images/360/yogyakarta/Goa Jomblang 360.jpg",
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Gunungkidul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_destination_006",
@@ -201,7 +266,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "afternoon",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Gunungkidul",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jogja_destination_007",
@@ -235,6 +313,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 120,
+    "estimatedFoodCost": 0,
+    "recommendedTime": "morning",
+    "interests": [
+      "nature",
+      "adventure",
+      "relaxation"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Gunungkidul",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

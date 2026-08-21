@@ -175,7 +175,7 @@ class _FullscreenGalleryViewerState extends State<FullscreenGalleryViewer> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 CircleAvatar(
-                  backgroundColor: Colors.black.withOpacity(0.5),
+                  backgroundColor: Colors.black.withValues(alpha: 0.5),
                   radius: 20,
                   child: IconButton(
                     icon: const Icon(Icons.arrow_back, color: Colors.white, size: 20),
@@ -185,7 +185,7 @@ class _FullscreenGalleryViewerState extends State<FullscreenGalleryViewer> {
                 Container(
                   padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                   decoration: BoxDecoration(
-                    color: Colors.black.withOpacity(0.5),
+                    color: Colors.black.withValues(alpha: 0.5),
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: Text(

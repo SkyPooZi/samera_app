@@ -5,7 +5,7 @@
     "location": "Semarang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Menjelajahi kawasan kota lama dengan bangunan bersejarah dan ruang publik.",
@@ -31,15 +31,28 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_local_experience_002",
     "name": "Pasar Gede Solo",
-    "location": "Surakarta, Jawa Tengah",
+    "location": "Solo, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Berburu makanan dan produk lokal di pasar tradisional yang ramai.",
@@ -64,15 +77,28 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_local_experience_003",
     "name": "Workshop Batik Solo",
-    "location": "Surakarta, Jawa Tengah",
+    "location": "Solo, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Mencoba proses membatik bersama pengrajin lokal.",
@@ -97,7 +123,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_local_experience_004",
@@ -105,7 +144,7 @@
     "location": "Boyolali, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.7,
     "reviewCount": 1000,
     "shortDescription": "Menjelajahi kawasan Merapi dengan jeep dan menikmati lanskap vulkanik.",
@@ -130,7 +169,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_local_experience_005",
@@ -138,7 +190,7 @@
     "location": "Magelang, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Mengenal kehidupan desa di sekitar kawasan Borobudur melalui aktivitas lokal.",
@@ -163,7 +215,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": true
+    "isRecommended": true,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Magelang",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_local_experience_006",
@@ -171,7 +236,7 @@
     "location": "Sukoharjo, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.5,
     "reviewCount": 1000,
     "shortDescription": "Mengenal tradisi jamu dan produk herbal lokal.",
@@ -196,7 +261,20 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   },
   {
     "id": "jateng_local_experience_007",
@@ -204,7 +282,7 @@
     "location": "Klaten, Jawa Tengah",
     "province": "Jawa Tengah",
     "categoryId": "local_experience",
-    "category": "Local Experience",
+    "category": "Aktivitas Lokal",
     "rating": 4.6,
     "reviewCount": 1000,
     "shortDescription": "Mencoba kerajinan gerabah dan berinteraksi dengan pengrajin lokal.",
@@ -229,6 +307,19 @@
       "asset": null,
       "label": "360° Tour"
     },
-    "isRecommended": false
+    "isRecommended": false,
+    "estimatedVisitDuration": 180,
+    "estimatedFoodCost": 25000,
+    "recommendedTime": "morning",
+    "interests": [
+      "experience",
+      "local",
+      "activity"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "17:00",
+    "city": "Jawa Tengah",
+    "latitude": -7.8,
+    "longitude": 110.36
   }
 ]

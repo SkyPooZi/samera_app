@@ -55,7 +55,7 @@ class CommonTextFormField extends StatelessWidget {
           decoration: BoxDecoration(
             borderRadius: const BorderRadius.all(Radius.circular(10)),
             boxShadow: [
-              if (shadow != null) shadow!,
+              ?shadow,
             ],
           ),
           child: BlocBuilder<TextFieldCubit, TextFieldState>(
@@ -69,8 +69,7 @@ class CommonTextFormField extends StatelessWidget {
                 obscureText: obsecureText == false ? false : state.isInvisible,
                 controller: controller,
                 inputFormatters: [
-                  if (filteringTextInputFormatter != null)
-                    filteringTextInputFormatter!,
+                  ?filteringTextInputFormatter,
                 ],
                 onChanged: onChanged,
                 decoration: InputDecoration(

@@ -1,6 +1,6 @@
 import '../../../domain/entities/trip_plan_entity.dart';
 
-enum TripPlannerStatus { initial, loading, loaded, saving, saved, error }
+enum TripPlannerStatus { initial, loading, loaded, saving, saved, error, deleting, deleted }
 
 class TripPlannerState {
   final String budget;

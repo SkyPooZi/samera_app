@@ -137,10 +137,10 @@ class TripPlannerRepositoryImpl implements TripPlannerRepository {
              totalDestinationCost += itemCost;
              visitedIds.add(dest.id);
              
-             print('[TripPlanner] Destination: \${dest.name}');
-             print('[TripPlanner] Ticket price/person: \${dest.ticketPrice}');
-             print('[TripPlanner] People: \${preference.numberOfPeople}');
-             print('[TripPlanner] Estimated cost: \$itemCost');
+             print('[TripPlanner] Destination: ${dest.name}');
+             print('[TripPlanner] Ticket price/person: ${dest.ticketPrice}');
+             print('[TripPlanner] People: ${preference.numberOfPeople}');
+             print('[TripPlanner] Estimated cost: $itemCost');
 
              currentMinutes = endTimeMinutes + 30; // 30 menit buffer perjalanan
           }
@@ -153,13 +153,17 @@ class TripPlannerRepositoryImpl implements TripPlannerRepository {
     }
 
     print('[TripPlanner] ===== COST CALCULATION =====');
-    print('[TripPlanner] People: \${preference.numberOfPeople}');
-    print('[TripPlanner] Transportation cost: \$transportCost');
-    print('[TripPlanner] Destination ticket cost: \$totalDestinationCost');
-    print('[TripPlanner] Total estimated budget: \$currentCost');
+    print('[TripPlanner] People: ${preference.numberOfPeople}');
+    print('[TripPlanner] Transportation cost: $transportCost');
+    print('[TripPlanner] Destination ticket cost: $totalDestinationCost');
+    print('[TripPlanner] Total estimated budget: $currentCost');
+
+    final newTripId = 'trip_${DateTime.now().millisecondsSinceEpoch}';
+    print('[TripPlanner] ===== GENERATE NEW TRIP PLAN =====');
+    print('[TripPlanner] Generated Trip ID: $newTripId');
 
     return TripPlanEntity(
-      id: 'trip_\${DateTime.now().millisecondsSinceEpoch}',
+      id: newTripId,
       city: preference.favoriteCity ?? '',
       numberOfPeople: preference.numberOfPeople,
       budget: preference.budget,

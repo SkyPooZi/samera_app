@@ -25,6 +25,7 @@ class TripPlannerScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: BlocConsumer<TripPlannerBloc, TripPlannerState>(
+        listenWhen: (previous, current) => previous.status != current.status,
         listener: (context, state) {
           if (state.status == TripPlannerStatus.loaded) {
 
@@ -162,8 +163,8 @@ class TripPlannerScreen extends StatelessWidget {
                         value: state.duration.isNotEmpty ? state.duration : '-',
                         onTap: () => showTripInputDialog(
                           context,
-                          title: 'Atur Durasi',
-                          placeholder: 'contoh: 3',
+                          title: 'Atur Durasi Hari',
+                          placeholder: 'contoh: 3 (Cukup tulis angka saja)',
                           isNumeric: true,
                           onSave: (val) => context.read<TripPlannerBloc>().add(
                             UpdateTripPreference(duration: val),

@@ -237,6 +237,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
                                   title: destination.name,
                                   location: destination.category,
                                   rating: destination.rating,
+                                  id: destination.id,
                                   imageUrl: destination.image,
                                   onTap: () {
                                     context.pushNamed(
@@ -244,7 +245,6 @@ class _ExploreScreenState extends State<ExploreScreen> {
                                       extra: destination,
                                     );
                                   },
-                                  onFavoriteTap: () {},
                                 );
                               },
                             ),

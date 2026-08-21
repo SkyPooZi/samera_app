@@ -82,6 +82,7 @@ class _CategoryDestinationScreenState extends State<CategoryDestinationScreen> {
                     title: destination.name,
                     location: destination.category,
                     rating: destination.rating,
+                    id: destination.id,
                     imageUrl: destination.image,
                     onTap: () {
                       context.pushNamed(
@@ -89,7 +90,6 @@ class _CategoryDestinationScreenState extends State<CategoryDestinationScreen> {
                         extra: destination,
                       );
                     },
-                    onFavoriteTap: () {},
                   ),
                 );
               },

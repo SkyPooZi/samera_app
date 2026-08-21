@@ -201,6 +201,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         title: destination.name,
                                         location: destination.category,
                                         rating: destination.rating,
+                                        id: destination.id,
                                         imageUrl: destination.image,
                                         onTap: () {
                                           context.pushNamed(
@@ -208,7 +209,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                             extra: destination,
                                           );
                                         },
-                                        onFavoriteTap: () {},
                                       );
                                     },
                                   );

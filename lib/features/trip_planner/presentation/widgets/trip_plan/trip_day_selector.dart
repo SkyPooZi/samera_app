@@ -26,7 +26,7 @@ class TripDaySelector extends StatelessWidget {
           int day = index + 1;
           return Padding(
             padding: EdgeInsets.only(right: index == totalDays - 1 ? 0 : width * 0.04),
-            child: _buildDayTab('Day $day', day, width),
+            child: _buildDayTab('Hari $day', day, width),
           );
         }),
       ),

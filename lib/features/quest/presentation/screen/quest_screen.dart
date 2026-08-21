@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 
 import '../../../../core/styles/typography/text_styles.dart';
 import '../widgets/active_quest_card.dart';
@@ -6,6 +7,11 @@ import '../widgets/quest_header_card.dart';
 
 class QuestScreen extends StatelessWidget {
   const QuestScreen({super.key});
+
+  Future<void> _openCamera() async {
+    final picker = ImagePicker();
+    await picker.pickImage(source: ImageSource.camera);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -44,32 +50,34 @@ class QuestScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.only(bottom: screenHeight * 0.02),
-                  child: const ActiveQuestCard(
+                  child: ActiveQuestCard(
                     title: 'Heritage Quest',
                     description:
                         'Jelajahi sejarah & warisan budaya di kraton Yogyakarta.',
                     progressText: '2 / 3 Task',
                     progressValue: 2 / 3,
                     icon: Icons.account_balance,
-                    backgroundColor: Color(0xFFEBE7FA),
-                    progressColor: Color(0xFF6B4EE6),
-                    iconColor: Color(0xFF6C4BDD),
+                    backgroundColor: const Color(0xFFEBE7FA),
+                    progressColor: const Color(0xFF6B4EE6),
+                    iconColor: const Color(0xFF6C4BDD),
                     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSptTGAq8DVGsT3u5e6afP-b4g_LOAWP84vFfSXFog1MZUo5a-oXf_XjpY&s=10',
+                    onTap: _openCamera,
                   ),
                 ),
                 Padding(
                   padding: EdgeInsets.only(bottom: screenHeight * 0.12),
-                  child: const ActiveQuestCard(
+                  child: ActiveQuestCard(
                     title: 'Batik Quest',
                     description:
                         'Kenali seni batik & coba membuat motif khas Yogyakarta.',
                     progressText: '2 / 4 Task',
                     progressValue: 2 / 4,
                     icon: Icons.color_lens,
-                    backgroundColor: Color(0xFFFDF0DD),
-                    progressColor: Color(0xFFF07C33),
-                    iconColor: Color(0xFFF07C33),
+                    backgroundColor: const Color(0xFFFDF0DD),
+                    progressColor: const Color(0xFFF07C33),
+                    iconColor: const Color(0xFFF07C33),
                     imageUrl: 'https://images.unsplash.com/photo-1616125162686-770bf85622b9?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                    onTap: _openCamera,
                   ),
                 ),
               ],

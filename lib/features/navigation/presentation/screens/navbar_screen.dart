@@ -8,6 +8,7 @@ import '../bloc/navbar_cubit.dart';
 import '../../../home/presentation/screens/home_screen.dart';
 import '../../../explore/presentation/screens/explore/explore_screen.dart';
 import '../../../trip_planner/presentation/screens/trip_planner/trip_planner_screen.dart';
+import '../../../quest/presentation/screen/quest_screen.dart';
 
 class NavbarScreen extends StatefulWidget {
   final int? index;
@@ -23,7 +24,7 @@ class _NavbarScreenState extends State<NavbarScreen> {
     const HomeScreen(),
     const ExploreScreen(),
     const TripPlannerScreen(),
-    const Scaffold(body: Center(child: Text("Quest"))),
+    const QuestScreen(),
     const Scaffold(body: Center(child: Text("Account"))),
   ];
 

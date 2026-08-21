@@ -16,9 +16,17 @@ import '../features/detail_destination/presentation/screens/gallery/gallery_scre
 import '../features/explore/presentation/screens/category_destination/category_destination_screen.dart';
 import '../features/explore/presentation/screens/all_regions/all_regions_screen.dart';
 import '../features/explore/domain/entities/region_entity.dart';
+import '../features/trip_planner/domain/entities/trip_plan_entity.dart';
 import '../features/trip_planner/presentation/screens/trip_planner/trip_planner_screen.dart';
 import '../features/trip_planner/presentation/screens/trip_plan/trip_plan_screen.dart';
 import '../features/quest/presentation/screen/quest_screen.dart';
+import '../features/account/presentation/screen/saved_trip_plans/saved_trip_plans_screen.dart';
+import '../features/settings/presentation/screens/setting/setting_screen.dart';
+import '../features/settings/presentation/screens/account/account_setting_screen.dart';
+import '../features/settings/presentation/screens/privacy/privacy_policy_screen.dart';
+import '../features/settings/presentation/screens/privacy/policy_detail_screen.dart';
+import '../features/settings/presentation/screens/about/about_us_screen.dart';
+import '../features/favorite/presentation/screens/favorite_screen.dart';
 
 class Routes {
   static const String splash = 'splash';
@@ -39,6 +47,13 @@ class Routes {
   static const String tripPlanner = 'trip_planner_screen';
   static const String tripPlan = 'trip_plan_screen';
   static const String quest = 'quest_screen';
+  static const String savedTripPlans = 'saved_trip_plans_screen';
+  static const String setting = 'setting_screen';
+  static const String accountSetting = 'account_setting_screen';
+  static const String privacyPolicy = 'privacy_policy_screen';
+  static const String policyDetail = 'policy_detail_screen';
+  static const String aboutUs = 'about_us_screen';
+  static const String favorite = 'favorite_screen';
 }
 
 CustomTransitionPage _buildSmoothTransitionPage({
@@ -239,10 +254,11 @@ class AppRouter {
         name: Routes.tripPlan,
         path: '/trip-plan',
         pageBuilder: (context, state) {
+          final plan = state.extra as TripPlanEntity?;
           return _buildSmoothTransitionPage(
             context: context,
             state: state,
-            child: const TripPlanScreen(),
+            child: TripPlanScreen(viewPlan: plan),
           );
         },
       ),
@@ -254,6 +270,89 @@ class AppRouter {
             context: context,
             state: state,
             child: const QuestScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.savedTripPlans,
+        path: '/account/saved-trips',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const SavedTripPlansScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.setting,
+        path: '/setting',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const SettingScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.accountSetting,
+        path: '/setting/account',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const AccountSettingScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.privacyPolicy,
+        path: '/setting/privacy',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const PrivacyPolicyScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.policyDetail,
+        path: '/setting/privacy/detail',
+        pageBuilder: (context, state) {
+          final args = state.extra as Map<String, dynamic>;
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: PolicyDetailScreen(
+              title: args['title'],
+              subtitle: args['subtitle'],
+              sections: args['sections'],
+              lastUpdated: args['lastUpdated'],
+            ),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.aboutUs,
+        path: '/setting/about',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const AboutUsScreen(),
+          );
+        },
+      ),
+      GoRoute(
+        name: Routes.favorite,
+        path: '/favorite',
+        pageBuilder: (context, state) {
+          return _buildSmoothTransitionPage(
+            context: context,
+            state: state,
+            child: const FavoriteScreen(),
           );
         },
       ),

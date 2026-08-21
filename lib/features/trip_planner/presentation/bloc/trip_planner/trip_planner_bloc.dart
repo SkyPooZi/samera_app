@@ -4,15 +4,18 @@ import 'trip_planner_event.dart';
 import 'trip_planner_state.dart';
 import '../../../domain/usecases/generate_trip_plan.dart';
 import '../../../domain/usecases/save_trip_plan.dart';
+import '../../../domain/usecases/delete_trip_plan.dart';
 import '../../../domain/exceptions/trip_planner_exceptions.dart';
 
 class TripPlannerBloc extends Bloc<TripPlannerEvent, TripPlannerState> {
   final GenerateTripPlan generateTripPlan;
   final SaveTripPlan saveTripPlanUseCase;
+  final DeleteTripPlan deleteTripPlanUseCase;
 
   TripPlannerBloc({
     required this.generateTripPlan,
     required this.saveTripPlanUseCase,
+    required this.deleteTripPlanUseCase,
   }) : super(const TripPlannerState()) {
     on<UpdateTripPreference>((event, emit) {
       emit(state.copyWith(
@@ -62,6 +65,16 @@ class TripPlannerBloc extends Bloc<TripPlannerEvent, TripPlannerState> {
 
     on<ChangeSelectedDayEvent>((event, emit) {
       emit(state.copyWith(selectedDay: event.day));
+    });
+
+    on<DeleteTripPlanEvent>((event, emit) async {
+      emit(state.copyWith(status: TripPlannerStatus.deleting));
+      try {
+        await deleteTripPlanUseCase(event.tripPlanId);
+        emit(state.copyWith(status: TripPlannerStatus.deleted));
+      } catch (e) {
+        emit(state.copyWith(status: TripPlannerStatus.error, errorMessage: e.toString()));
+      }
     });
   }
 }

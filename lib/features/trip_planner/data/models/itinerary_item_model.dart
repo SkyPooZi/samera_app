@@ -14,13 +14,23 @@ class ItineraryItemModel extends ItineraryItemEntity {
 
   factory ItineraryItemModel.fromJson(Map<String, dynamic> json) {
     return ItineraryItemModel(
-      destination: DestinationModel.fromJson(json['destination'] as Map<String, dynamic>),
-      day: json['day'] as int,
-      startTime: json['startTime'] as String,
-      endTime: json['endTime'] as String,
-      visitDuration: json['visitDuration'] as int,
-      estimatedCost: (json['estimatedCost'] as num).toDouble(),
-      order: json['order'] as int,
+      destination: json['destination'] != null
+          ? DestinationModel.fromJson(json['destination'] as Map<String, dynamic>)
+          : const DestinationModel(
+              id: '', name: '', location: '', province: '', category: '', categoryId: '',
+              image: '', regionId: '', city: '', rating: 0, reviewCount: 0,
+              shortDescription: '', description: '', ticketPrice: 0, ticketPriceLabel: '',
+              address: '', highlights: [], gallery: [], isFavorite: false,
+              isRecommended: false, estimatedVisitDuration: 0, estimatedFoodCost: 0,
+              recommendedTime: '', interests: [], openingTime: '', closingTime: '',
+              latitude: 0, longitude: 0,
+            ),
+      day: json['day'] as int? ?? 1,
+      startTime: json['startTime']?.toString() ?? '',
+      endTime: json['endTime']?.toString() ?? '',
+      visitDuration: json['visitDuration'] as int? ?? 0,
+      estimatedCost: (json['estimatedCost'] as num?)?.toDouble() ?? 0.0,
+      order: json['order'] as int? ?? 0,
     );
   }
 

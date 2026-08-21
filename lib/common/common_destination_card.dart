@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:samera_app/features/favorite/presentation/bloc/favorite/favorite_cubit.dart';
+import 'package:samera_app/features/favorite/presentation/bloc/favorite/favorite_state.dart';
 
 import '../core/styles/typography/text_styles.dart';
 import '../core/styles/colors/colors.dart';
@@ -8,6 +11,7 @@ class CommonDestinationCard extends StatelessWidget {
   final String title;
   final String location;
   final double rating;
+  final String id;
   final VoidCallback? onTap;
   final VoidCallback? onFavoriteTap;
   final EdgeInsetsGeometry? margin;
@@ -18,6 +22,7 @@ class CommonDestinationCard extends StatelessWidget {
     required this.title,
     required this.location,
     required this.rating,
+    required this.id,
     this.onTap,
     this.onFavoriteTap,
     this.margin,
@@ -54,20 +59,27 @@ class CommonDestinationCard extends StatelessWidget {
             children: [
               Align(
                 alignment: Alignment.topRight,
-                child: GestureDetector(
-                  onTap: onFavoriteTap,
-                  child: Container(
-                    padding: const EdgeInsets.all(6.0),
-                    decoration: const BoxDecoration(
-                      color: ColorsResources.colorsPrimary,
-                      shape: BoxShape.circle,
-                    ),
-                    child: Icon(
-                      Icons.favorite_border,
-                      color: Colors.white,
-                      size: size.width * 0.04,
-                    ),
-                  ),
+                child: BlocBuilder<FavoriteCubit, FavoriteState>(
+                  builder: (context, state) {
+                    final isFavorite = state.favoriteIds.contains(id);
+                    return GestureDetector(
+                      onTap: () {
+                        context.read<FavoriteCubit>().toggleFavorite(id);
+                      },
+                      child: Container(
+                        padding: const EdgeInsets.all(6.0),
+                        decoration: const BoxDecoration(
+                          color: ColorsResources.colorsPrimary,
+                          shape: BoxShape.circle,
+                        ),
+                        child: Icon(
+                          isFavorite ? Icons.favorite : Icons.favorite_border,
+                          color: isFavorite ? Colors.red : Colors.white,
+                          size: size.width * 0.04,
+                        ),
+                      ),
+                    );
+                  }
                 ),
               ),
               Column(

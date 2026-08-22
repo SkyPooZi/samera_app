@@ -10,6 +10,8 @@ import '../../../../../common/common_destination_card.dart';
 import '../../../domain/entities/region_entity.dart';
 import '../../bloc/explore/explore_bloc.dart';
 import '../../bloc/explore/explore_state.dart';
+import '../../../../account/presentation/bloc/account/account_bloc.dart';
+import '../../../../account/presentation/bloc/account/account_state.dart';
 import '../../widgets/explore/explore_categories_section.dart';
 import '../../widgets/explore/explore_header_section.dart';
 import '../../widgets/explore/explore_search_bar.dart';
@@ -80,9 +82,17 @@ class _ExploreScreenState extends State<ExploreScreen> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          'Selamat Pagi, Skypo 👋',
-                          style: tsBodyMediumMedium(Colors.white),
+                        BlocBuilder<AccountBloc, AccountState>(
+                          builder: (context, state) {
+                            String username = 'SkyPoo';
+                            if (state is AccountLoaded) {
+                              username = state.username ?? 'SkyPoo';
+                            }
+                            return Text(
+                              'Selamat Pagi, $username 👋',
+                              style: tsBodyMediumMedium(Colors.white),
+                            );
+                          },
                         ),
                         const SizedBox(height: 8),
                         Text(

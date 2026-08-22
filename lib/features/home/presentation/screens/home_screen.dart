@@ -10,6 +10,9 @@ import '../../../navigation/presentation/bloc/navbar_cubit.dart';
 import '../bloc/home_bloc.dart';
 import '../bloc/home_state.dart';
 
+import '../../../account/presentation/bloc/account/account_bloc.dart';
+import '../../../account/presentation/bloc/account/account_state.dart';
+
 import '../../../../common/common_section_title.dart';
 import '../../../../common/common_destination_card.dart';
 import '../widgets/home_profile_header.dart';
@@ -65,10 +68,18 @@ class _HomeScreenState extends State<HomeScreen> {
                     children: [
                       Padding(
                         padding: EdgeInsets.only(bottom: size.height * 0.05),
-                        child: const HomeProfileHeader(
-                          name: 'Skypo',
-                          subtitle: 'Siap untuk petualangan selanjutnya?',
-                          profileImageUrl: 'https://i.pravatar.cc/150?img=11',
+                        child: BlocBuilder<AccountBloc, AccountState>(
+                          builder: (context, state) {
+                            String username = 'SkyPoo';
+                            if (state is AccountLoaded) {
+                              username = state.username ?? 'SkyPoo';
+                            }
+                            return HomeProfileHeader(
+                              name: username,
+                              subtitle: 'Siap untuk petualangan selanjutnya?',
+                              profileImageUrl: 'https://i.pravatar.cc/150?img=11',
+                            );
+                          },
                         ),
                       ),
                       Padding(

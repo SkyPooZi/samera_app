@@ -3,12 +3,17 @@ import 'package:flutter/material.dart';
 import '../../../../../core/styles/typography/text_styles.dart';
 import 'package:samera_app/core/styles/colors/colors.dart';
 
+import 'package:flutter/services.dart';
+
 class AuthTextField extends StatefulWidget {
   final String label;
   final String hint;
   final IconData icon;
   final bool isPassword;
   final TextEditingController controller;
+  final int? maxLength;
+  final List<TextInputFormatter>? inputFormatters;
+  final ValueChanged<String>? onChanged;
 
   const AuthTextField({
     super.key,
@@ -17,6 +22,9 @@ class AuthTextField extends StatefulWidget {
     required this.icon,
     this.isPassword = false,
     required this.controller,
+    this.maxLength,
+    this.inputFormatters,
+    this.onChanged,
   });
 
   @override
@@ -68,12 +76,16 @@ class _AuthTextFieldState extends State<AuthTextField> {
                   height: size.height * 0.035,
                   child: TextField(
                     controller: widget.controller,
+                    maxLength: widget.maxLength,
+                    inputFormatters: widget.inputFormatters,
+                    onChanged: widget.onChanged,
                     obscureText: widget.isPassword
                         ? !_isPasswordVisible
                         : false,
                     style: tsBodySmallMedium(Colors.black87), // Hardcoded style
                     decoration: InputDecoration(
                       hintText: widget.hint,
+                      counterText: "", // Hide default counter
                       hintStyle: tsBodySmallMedium(
                         Colors.grey.shade400,
                       ), // Hardcoded style
@@ -104,6 +116,19 @@ class _AuthTextFieldState extends State<AuthTextField> {
                   size: size.width * 0.045,
                 ),
               ),
+            )
+          else if (widget.maxLength != null)
+            AnimatedBuilder(
+              animation: widget.controller,
+              builder: (context, _) {
+                return Padding(
+                  padding: EdgeInsets.only(right: size.width * 0.01),
+                  child: Text(
+                    "${widget.controller.text.length}/${widget.maxLength}",
+                    style: tsBodySmallMedium(Colors.grey.shade400),
+                  ),
+                );
+              },
             ),
         ],
       ),

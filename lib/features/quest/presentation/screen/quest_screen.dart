@@ -4,6 +4,9 @@ import 'package:image_picker/image_picker.dart';
 import '../../../../core/styles/typography/text_styles.dart';
 import '../widgets/active_quest_card.dart';
 import '../widgets/quest_header_card.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import '../../../account/presentation/bloc/account/account_bloc.dart';
+import '../../../account/presentation/bloc/account/account_state.dart';
 
 class QuestScreen extends StatelessWidget {
   const QuestScreen({super.key});
@@ -32,13 +35,21 @@ class QuestScreen extends StatelessWidget {
                     top: screenHeight * 0.03,
                     bottom: screenHeight * 0.03,
                   ),
-                  child: const QuestHeaderCard(
-                    userName: 'Skypo',
-                    levelText: 'Level 12 • Explorer',
-                    xpProgress: 2450 / 3000,
-                    currentXp: '2.450',
-                    targetXp: '3.000',
-                    destinationCount: '2.450',
+                  child: BlocBuilder<AccountBloc, AccountState>(
+                    builder: (context, state) {
+                      String username = 'SkyPoo';
+                      if (state is AccountLoaded) {
+                        username = state.username ?? 'SkyPoo';
+                      }
+                      return QuestHeaderCard(
+                        userName: username,
+                        levelText: 'Level 12 • Explorer',
+                        xpProgress: 2450 / 3000,
+                        currentXp: '2.450',
+                        targetXp: '3.000',
+                        destinationCount: '2.450',
+                      );
+                    },
                   ),
                 ),
                 Padding(
